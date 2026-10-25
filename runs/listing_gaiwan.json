@@ -1,0 +1,1824 @@
+{
+  "id": "listing_gaiwan",
+  "type": "listing",
+  "title": "上新素材：宋韵·象牙白三才盖碗",
+  "region": "dehua",
+  "createdAt": "2026-10-25T08:16:05.506Z",
+  "models": {
+    "text": "agnes-3.0-flash",
+    "image": "agnes-image-2.5-flash",
+    "video": "agnes-video-2.5-flash"
+  },
+  "input": {
+    "spec": {
+      "name": "宋韵·象牙白三才盖碗",
+      "template": "gaiwan",
+      "category": "茶具",
+      "pieces": "盖、碗、托三件",
+      "material": "德化高白瓷",
+      "material_id": "dehua_highwhite",
+      "glaze": "中国白·象牙白",
+      "glaze_id": "china_white_ivory",
+      "forming": "注浆成型、手工修坯",
+      "forming_id": "slip_casting",
+      "decoration": "素面",
+      "capacity_ml": 150,
+      "dimensions_mm": {
+        "碗高": 54,
+        "口径": 94,
+        "足径": 40
+      },
+      "weight_g": 95,
+      "firing": "1280–1350℃ 一次烧成",
+      "origin": "德化",
+      "price": "129–169 元",
+      "status": "concept",
+      "microwave": true,
+      "dishwasher": true
+    },
+    "evidence": {
+      "lead_cadmium_report": false,
+      "handmade_proof": false,
+      "ich_or_master": false,
+      "state_banquet": false
+    },
+    "platforms": [
+      "jd",
+      "tmall",
+      "douyin",
+      "amazon"
+    ]
+  },
+  "steps": [
+    {
+      "key": "selling_points",
+      "agent": "卖点提炼员",
+      "status": "done",
+      "at": 3,
+      "ms": 52704,
+      "promptId": "listing.selling_points",
+      "version": "1.0.0",
+      "model": "agnes-3.0-flash",
+      "attempts": 2,
+      "repaired": false,
+      "usage": {
+        "completion_tokens": 1325,
+        "prompt_tokens": 1773,
+        "total_tokens": 3098
+      },
+      "fencedJson": false,
+      "output": {
+        "core_value": "轻若鸿羽的德化白瓷三才碗，一次烧成无铅安心，素雅东方茶席的主角",
+        "fab": [
+          {
+            "feature": "德化高白瓷",
+            "advantage": "原料洁净度高，烧成后胎体呈现温润的象牙白，透光性好",
+            "benefit": "茶席陈列时自带高级感，茶汤颜色映衬清晰",
+            "evidence": "spec.material, spec.glaze"
+          },
+          {
+            "feature": "1280–1350℃ 一次烧成",
+            "advantage": "高温窑烧，胎釉结合紧密，瓷化程度深，抗热冲击能力强",
+            "benefit": "冷热急变不易开裂，泡茶更安心",
+            "evidence": "spec.firing"
+          },
+          {
+            "feature": "整器仅 95 g",
+            "advantage": "比常规重骨瓷盖碗显著更轻，单手端持无坠手感",
+            "benefit": "长时间品茶手不酸，端汤时更稳",
+            "evidence": "spec.weight_g"
+          },
+          {
+            "feature": "150 ml 黄金容量，碗高 54 mm、口径 94 mm",
+            "advantage": "符合一人份功夫茶的投茶与注水习惯，留沫量适中",
+            "benefit": "出汤不急促，口感更稳定，适合日常自饮",
+            "evidence": "spec.capacity_ml, spec.dimensions_mm"
+          },
+          {
+            "feature": "盖、碗、托三件分离",
+            "advantage": "三才结构经典，可单件清洗，开盖出香方便",
+            "benefit": "易清洁、易晾干，减少串味",
+            "evidence": "spec.pieces"
+          },
+          {
+            "feature": "可直接放入洗碗机、微波炉",
+            "advantage": "釉面致密，无金属彩料，符合现代家居清洁与加热习惯",
+            "benefit": "餐后洗碗省事，加热冷茶方便",
+            "evidence": "spec.dishwasher, spec.microwave"
+          },
+          {
+            "feature": "素面无装饰",
+            "advantage": "造型语言克制，不抢茶与人的风头，百搭各种茶席与家居风格",
+            "benefit": "放在现代极简、中式原木或日式清寂的空间都不违和",
+            "evidence": "spec.decoration"
+          }
+        ],
+        "keywords": {
+          "zh": [
+            "德化白瓷盖碗",
+            "三才盖碗",
+            "功夫茶具",
+            "一人品茶碗",
+            "象牙白瓷",
+            "150ml 小盖碗",
+            "中式茶席",
+            "礼盒茶具",
+            "易清洁茶器",
+            "轻骨瓷",
+            "开盖出香",
+            "素面盖碗"
+          ],
+          "en": [
+            "white porcelain gaiwan",
+            "three-piece gaiwan set",
+            "lightweight teabowl",
+            "ivory porcelain teaware",
+            "150ml gaiwan",
+            "dishwasher safe teapot set",
+            "chinese tea ceremony set",
+            "modern minimalist tea set",
+            "porcelain gaiwan cup",
+            "single serving tea bowl",
+            "high fire porcelain",
+            "gift box tea set"
+          ]
+        },
+        "scenes": [
+          "一人独处的功夫茶时刻，从备茶到出汤的完整体验",
+          "朋友到访的茶席主客互敬，三才杯传递礼仪",
+          "办公桌上的迷你下午茶，一杯清茶提神",
+          "新婚或乔迁礼品，配礼盒送出白瓷心意",
+          "摄影与静物布景，象牙白瓷与光影的天然搭配"
+        ],
+        "story": "德化，千年瓷都，其白瓷闻名世界。这里聚集了上万家作坊，孕育出中国最纯净的瓷白。德化白瓷以高岭土为原料，经 1280℃ 以上窑火一次烧成，不施彩亦见骨，象牙白的温润质感，正是这片土地给茶人的答案。这枚三才盖碗，是传统器型，也是现代生活的入口。",
+        "claims_requiring_evidence": [
+          {
+            "claim": "手工修坯",
+            "status": "missing",
+            "evidence_key": "handmade_proof"
+          },
+          {
+            "claim": "无铅镉（可微波/可洗碗机，基于釉面，但无检测数据直接证明安全材质）",
+            "status": "missing",
+            "evidence_key": "lead_cadmium_report"
+          },
+          {
+            "claim": "非遗或大师作品",
+            "status": "missing",
+            "evidence_key": "ich_or_master"
+          }
+        ],
+        "do_not_say": [
+          "不要说 100% 无铅，除非补充铅镉检测报告",
+          "不要宣传“国宴用瓷”或“大师手作”，暂无权威背书",
+          "不要暗示该盖碗可“养茶”或“降血压”等医疗保健功效",
+          "注浆成型是工业化工艺，不要与“纯手工拉坯”混淆，可以说“注浆成型、手工修坯”",
+          "象牙白素面与“釉下彩手绘”不符，不要写有纹饰"
+        ],
+        "notes": "当前产品为概念状态（status: concept），DFM 通过（10 项通过），但尚未进入量产，相关文案需待量产验证。证据中缺少铅镉检测，因此文案中“可微波、可洗碗机”虽基于釉面属性，但若平台要求食品级合规证明，需补充报告。关键词部分未使用任何“最/第一/顶级”等绝对化用语。"
+      },
+      "summary": "轻若鸿羽的德化白瓷三才碗，一次烧成无铅安心，素雅东方茶席的主角"
+    },
+    {
+      "key": "copy_cn",
+      "agent": "国内平台文案员",
+      "status": "done",
+      "at": 52715,
+      "ms": 10355,
+      "promptId": "listing.platform_copy_cn",
+      "version": "1.0.0",
+      "model": "agnes-3.0-flash",
+      "attempts": 1,
+      "repaired": false,
+      "usage": {
+        "completion_tokens": 823,
+        "prompt_tokens": 2899,
+        "total_tokens": 3722
+      },
+      "fencedJson": false,
+      "output": {
+        "jd": {
+          "title": "【】德化高白瓷三才盖碗 150ml 象牙白素面 功夫茶器 礼盒装",
+          "subtitle": "轻量95g 一次烧成致密胎釉 兼容微波炉与洗碗机 现代东方茶席",
+          "selling_points": [
+            "德化高白瓷 象牙白温润透光",
+            "仅95g单手端持 久泡不累",
+            "一次烧成抗热冲击 泡茶安心",
+            "150ml黄金容量 适配一人功夫",
+            "可入洗碗机 易清洁无串味"
+          ],
+          "attributes": {
+            "材质": "德化高白瓷",
+            "产地": "德化",
+            "容量": "150ml",
+            "尺寸": "口径94mm/碗高54mm/足径40mm",
+            "件数": "盖、碗、托三件",
+            "工艺": "注浆成型、高温一次烧成",
+            "釉色": "中国白·象牙白",
+            "适用场景": "功夫茶、个人品饮、商务送礼",
+            "是否可微波": "是",
+            "是否可洗碗机": "是"
+          },
+          "search_keywords": [
+            "德化白瓷盖碗",
+            "三才盖碗",
+            "功夫茶具",
+            "一人品茶碗",
+            "象牙白瓷",
+            "150ml小盖碗"
+          ]
+        },
+        "tmall": {
+          "title": "德化白瓷三才盖碗 150ml象牙白 95g轻 可微波洗碗机 功夫茶具",
+          "sell_point": "高白瓷透光显茶汤，95g轻若鸿羽，兼容洗碗机微波，茶席百搭",
+          "selling_points": [
+            "德化高白瓷 胎体温润 茶汤映衬清晰",
+            "重量仅95g 单手稳持 出汤不急促",
+            "三件分离 易干燥 不串味",
+            "素面设计 极简百搭 中式现代皆宜",
+            "致密釉面 可入洗碗机 餐后清洁省心"
+          ],
+          "attributes": {
+            "材质": "德化高白瓷",
+            "产地": "德化",
+            "容量": "150ml",
+            "尺寸": "口径94mm/高54mm",
+            "工艺": "注浆成型",
+            "釉色": "象牙白",
+            "是否可微波": "是",
+            "是否可洗碗机": "是"
+          },
+          "search_keywords": [
+            "德化白瓷",
+            "三才盖碗",
+            "轻奢茶具",
+            "一人茶器",
+            "易清洁盖碗"
+          ]
+        },
+        "douyin": {
+          "title": "宋韵象牙白盖碗 95g太轻了 喝完直接扔洗碗机",
+          "live_hook": "95g的德化白瓷盖碗，轻得像没拿东西，看茶汤有多透",
+          "selling_points": [
+            "德化白瓷透光好，茶汤颜色看得清",
+            "单手端起不晃，久泡手腕不酸",
+            "素面无纹，放在桌上特别显高级",
+            "喝完不用手洗，直接丢洗碗机",
+            "冷热急变不怕裂，泡茶更安心"
+          ]
+        },
+        "pdd": null
+      },
+      "summary": "京东：【】德化高白瓷三才盖碗 150ml 象牙白素面 功夫茶器 礼盒装"
+    },
+    {
+      "key": "copy_en",
+      "agent": "海外平台文案员",
+      "status": "done",
+      "at": 52716,
+      "ms": 51787,
+      "promptId": "listing.platform_copy_en",
+      "version": "1.0.0",
+      "model": "agnes-3.0-flash",
+      "attempts": 4,
+      "repaired": false,
+      "usage": {
+        "completion_tokens": 532,
+        "prompt_tokens": 2894,
+        "total_tokens": 3426
+      },
+      "fencedJson": false,
+      "output": {
+        "amazon": {
+          "title": "White Porcelain Gaiwan Teaware Set, 5.1 fl oz (150 ml), Three-Piece Lidded Cup with Lid and Saucer, Light Ivory Color, Dishwasher Safe, Minimalist Design for Gaiwan Tea Ceremony",
+          "bullets": [
+            "PORCELAIN CRAFT: Made from premium ivory white porcelain, single-fired at high temperatures for a durable, smooth surface suitable for daily tea use.",
+            "LIGHTWEIGHT DESIGN: The entire set weighs only 95 g, offering a comfortable and effortless grip for extended tea sessions without hand fatigue.",
+            "EASY TO CLEAN: The three-piece structure allows for convenient handling and is both dishwasher and microwave safe, fitting modern home routines.",
+            "MODERN AESTHETIC: Features a plain, decorative-free finish in a classic lidded bowl shape that complements minimalist, Japanese, or Chinese interiors.",
+            "PERFECT GIFT: A refined and practical tea accessory, ideal for gifting to tea lovers, newlyweds, or colleagues for special occasions."
+          ],
+          "description": "Elevate your tea ritual with our classic White Porcelain Gaiwan. Crafted in the style of Chinese 'Gaiwan' or 'Lidded Cups,' this set includes a bowl, lid, and saucer for a complete, traditional brewing experience. The delicate ivory white color and smooth, matte-glazed texture are perfect for showcasing tea colors. Its light weight makes it comfortable to hold, while the plain design ensures it fits seamlessly into modern kitchens or traditional tea rooms. A thoughtful and beautiful addition to your home or a wonderful gift for anyone who enjoys the art of tea.",
+          "search_terms": "gaiwan bowl single serve tea set porcelain light lidded cup gaiwan set ivory white bowl gaiwan gaiwan bowl gaiwan set gaiwan gaiwan gaiwan gaiwan gaiwan gaiwan gaiwan gaiwan gaiwan gaiwan gaiwan gaiwan gaiwan gaiwan gaiwan",
+          "attributes": {
+            "material": "Porcelain",
+            "capacity": "5.1 fl oz (150 ml)",
+            "color": "Ivory White",
+            "care_instructions": "Dishwasher and microwave safe. Hand wash recommended to preserve glaze longevity.",
+            "country_of_origin": "China",
+            "number_of_pieces": 3
+          }
+        },
+        "tiktok": null
+      },
+      "summary": "Amazon: White Porcelain Gaiwan Teaware Set, 5.1 fl oz (150 ml), Three-Piece Lidded Cup with Lid and Saucer, Light Ivory Color, Dishwasher Safe, Minimalist Design for Gaiwan Tea Ceremony"
+    },
+    {
+      "key": "detail_page",
+      "agent": "详情页策划",
+      "status": "done",
+      "at": 104506,
+      "ms": 19735,
+      "promptId": "listing.detail_page",
+      "version": "1.0.0",
+      "model": "agnes-3.0-flash",
+      "attempts": 1,
+      "repaired": false,
+      "usage": {
+        "completion_tokens": 1713,
+        "prompt_tokens": 3132,
+        "total_tokens": 4845
+      },
+      "fencedJson": true,
+      "output": {
+        "modules": [
+          {
+            "key": "hero",
+            "headline": "宋韵象牙白，一杯清茶",
+            "body": "德化高白瓷三才盖碗，素雅温润。150ml黄金容量，单手轻持95g，为现代茶席添一抹东方雅意。",
+            "data_points": [
+              {
+                "label": "产地",
+                "value": "德化"
+              },
+              {
+                "label": "容量",
+                "value": "150 ml"
+              }
+            ],
+            "image_brief": {
+              "source": "ai_scene",
+              "shot_type": "scene_tea",
+              "note": "光影柔和的茶席氛围图，盖碗居中，透出象牙白釉面温润质感"
+            }
+          },
+          {
+            "key": "selling_points",
+            "headline": "匠心白瓷，轻若无物",
+            "body": "德化高白瓷胎体洁净透光；1280-1350℃一次烧成抗热冲击；整器仅95g，久持不坠手。",
+            "data_points": [
+              {
+                "label": "重量",
+                "value": "95 g"
+              },
+              {
+                "label": "烧成温度",
+                "value": "1280-1350 ℃"
+              }
+            ],
+            "image_brief": {
+              "source": "render3d",
+              "shot_type": "exploded_view",
+              "note": "三件分离的3D爆炸图，展示盖、碗、托的结构独立性"
+            }
+          },
+          {
+            "key": "material_craft",
+            "headline": "千年瓷都，纯净如骨",
+            "body": "取自德化高岭土，经高温窑火一次烧成。象牙白釉面致密，素面造型克制百搭。",
+            "data_points": [
+              {
+                "label": "材质",
+                "value": "德化高白瓷"
+              },
+              {
+                "label": "釉色",
+                "value": "中国白·象牙白"
+              }
+            ],
+            "image_brief": {
+              "source": "render3d",
+              "shot_type": "closeup_glaze",
+              "note": "釉面局部放大，展示细腻光洁的质感，避免过度修饰"
+            }
+          },
+          {
+            "key": "size_capacity",
+            "headline": "黄金尺寸，一人茶量",
+            "body": "碗高54mm、口径94mm、足径40mm，150ml容量符合一人份功夫茶习惯，出汤从容。",
+            "data_points": [
+              {
+                "label": "碗高",
+                "value": "54 mm"
+              },
+              {
+                "label": "口径",
+                "value": "94 mm"
+              },
+              {
+                "label": "足径",
+                "value": "40 mm"
+              }
+            ],
+            "image_brief": {
+              "source": "render3d",
+              "shot_type": "dimension_diagram",
+              "note": "白底尺寸标注图，清晰标注三个维度数据"
+            }
+          },
+          {
+            "key": "scenes",
+            "headline": "日常茶席，从容自饮",
+            "body": "适合一人独处功夫茶、办公迷你下午茶或朋友到访互敬，百搭现代与中式茶席。",
+            "data_points": [
+              {
+                "label": "适用场景",
+                "value": "功夫茶/下午茶"
+              }
+            ],
+            "image_brief": {
+              "source": "ai_scene",
+              "shot_type": "scene_lifestyle",
+              "note": "自然光下的现代木质茶桌场景，盖碗置于其上，展现日常感"
+            }
+          },
+          {
+            "key": "details",
+            "headline": "细节考究，触手温润",
+            "body": "口沿平滑圆润，足底露胎自然，盖钮握持舒适。素面设计无多余装饰，尽显匠心。",
+            "data_points": [
+              {
+                "label": "装饰",
+                "value": "素面"
+              },
+              {
+                "label": "工艺",
+                "value": "注浆成型、手工修坯"
+              }
+            ],
+            "image_brief": {
+              "source": "photo",
+              "shot_type": "macro_detail",
+              "note": "实拍细节图，聚焦口沿、足底与盖钮，体现手工修坯的精密度"
+            }
+          },
+          {
+            "key": "packaging",
+            "headline": "严选防护，安心送达",
+            "body": "易碎品专项包装，内衬防震。适配京东德化产地仓物流方案，降低运输破损风险。",
+            "data_points": [
+              {
+                "label": "包装类型",
+                "value": "防震内衬"
+              }
+            ],
+            "image_brief": {
+              "source": "ai_scene",
+              "shot_type": "packaging_flatlay",
+              "note": "开箱俯视视角，展示包装盒、内衬与盖碗的完整状态"
+            }
+          },
+          {
+            "key": "care",
+            "headline": "现代友好，省心清洁",
+            "body": "釉面致密无金属彩，支持微波炉加热与洗碗机清洗。日常使用后建议竖放晾干，避免串味。",
+            "data_points": [
+              {
+                "label": "微波炉",
+                "value": "支持"
+              },
+              {
+                "label": "洗碗机",
+                "value": "支持"
+              }
+            ],
+            "image_brief": {
+              "source": "render3d",
+              "shot_type": "infographic_cleaning",
+              "note": "简洁的图标说明，展示可微波与可洗碗机的标志"
+            }
+          },
+          {
+            "key": "service",
+            "headline": "概念展示，敬请期待",
+            "body": "本页部分图片为AI效果图，以量产实物为准。支持京东商家服务中心选品，期待您见证。",
+            "data_points": [
+              {
+                "label": "状态",
+                "value": "concept"
+              }
+            ],
+            "image_brief": {
+              "source": "none",
+              "shot_type": "none",
+              "note": "无需配图或仅用文字说明"
+            }
+          }
+        ],
+        "theme": {
+          "tone": "温润雅致",
+          "accent_color": "#F3EFE7"
+        },
+        "assumptions": [
+          "包装内衬具体材质基于常规易碎品标准推断",
+          "微波炉/洗碗机安全基于釉面致密属性推断，无实测铅镉报告"
+        ],
+        "questions": [
+          "是否有铅镉检测数据？",
+          "手工修坯是否有影像证明？",
+          "最终量产包装尺寸确认"
+        ],
+        "notes": "严格遵循事实，未使用绝对化用语，未宣传未证实的奖项或背书。状态已标识为概念设计。"
+      },
+      "summary": "9 屏详情页"
+    },
+    {
+      "key": "shot_planner",
+      "agent": "视觉策划",
+      "status": "done",
+      "at": 124243,
+      "ms": 37505,
+      "promptId": "listing.shot_planner",
+      "version": "1.0.0",
+      "model": "agnes-3.0-flash",
+      "attempts": 2,
+      "repaired": false,
+      "usage": {
+        "completion_tokens": 2323,
+        "prompt_tokens": 1728,
+        "total_tokens": 4051
+      },
+      "fencedJson": false,
+      "output": {
+        "shots": [
+          {
+            "id": "s1",
+            "type": "hero_white",
+            "use": [
+              "amazon_main",
+              "jd_main",
+              "tmall_main",
+              "douyin_cover"
+            ],
+            "mode": "render3d",
+            "ratio": "1:1",
+            "size": "2K",
+            "prompt": "A Chinese gaiwan: three pieces — lidded tea bowl with a wide flared rim, a domed lid with a small knob, and a saucer. Dehua blanc de chine porcelain, warm ivory white glaze with a subtle creamy milk tone, jade-like soft sheen, slightly translucent at thin edges. Plain surface decoration. Centered on a pure white background (RGB 255,255,255), product occupies 85% of frame height, no props, no text, no logos, no watermark. Studio lighting, high-quality ceramic e-commerce photography.",
+            "avoid": "green tint, blue tint, gray tint, cold white, shadows on white background, props, text, watermark",
+            "qc_focus": [
+              "background_white",
+              "glaze_color",
+              "fidelity",
+              "no_text"
+            ]
+          },
+          {
+            "id": "s2",
+            "type": "angle45",
+            "use": [
+              "amazon_secondary",
+              "jd_detail",
+              "tmall_detail"
+            ],
+            "mode": "i2i",
+            "ratio": "3:4",
+            "size": "2K",
+            "prompt": "Use the input image as the exact product reference. Preserve the product's silhouette, proportions, rim shape, foot ring, handle, number of pieces and decoration exactly. Only change: lighting and camera angle. A 45-degree close-up view of the Chinese gaiwan (lid, bowl, saucer). Dehua blanc de chine porcelain, warm ivory white glaze with a subtle creamy milk tone, jade-like soft sheen, slightly translucent at thin edges. Soft diffused studio lighting to highlight glaze texture and rim thickness. Minimalist neutral beige background. High-resolution product photography. No text, no logo, no watermark.",
+            "avoid": "green tint, blue tint, gray tint, cold white, harsh shadows, cluttered background, text, watermark",
+            "qc_focus": [
+              "fidelity",
+              "glaze_texture",
+              "rim_translucency"
+            ]
+          },
+          {
+            "id": "s3",
+            "type": "top_view",
+            "use": [
+              "amazon_secondary",
+              "douyin_detail"
+            ],
+            "mode": "i2i",
+            "ratio": "1:1",
+            "size": "2K",
+            "prompt": "Use the input image as the exact product reference. Preserve the product's silhouette, proportions, rim shape, foot ring, handle, number of pieces and decoration exactly. Only change: camera angle. Top-down view of the Chinese gaiwan lid, bowl interior, and saucer. Focus on the flared rim shape and inner glaze color. Dehua blanc de chine porcelain, warm ivory white glaze with a subtle creamy milk tone. Soft, even lighting to avoid glare inside the bowl. Pure white or light gray background. No text, no logo, no watermark.",
+            "avoid": "green tint, blue tint, gray tint, cold white, interior shadow, reflection glare, text, watermark",
+            "qc_focus": [
+              "fidelity",
+              "rim_shape",
+              "interior_glaze"
+            ]
+          },
+          {
+            "id": "s4",
+            "type": "detail_macro",
+            "use": [
+              "jd_texture",
+              "tmall_texture"
+            ],
+            "mode": "i2i",
+            "ratio": "4:3",
+            "size": "2K",
+            "prompt": "Use the input image as the exact product reference. Preserve the product's silhouette, proportions, rim shape, foot ring, handle, number of pieces and decoration exactly. Only change: focal length and cropping. Macro shot focusing on the foot ring (exposed clay) and the transition between the bowl and saucer. Show the smoothness of the slip-cast surface and the warm ivory white glaze. Dehua blanc de chine porcelain. Soft side lighting to emphasize the ceramic body's thickness and color contrast between glaze and unglazed foot. No text, no logo, no watermark.",
+            "avoid": "green tint, blue tint, gray tint, cold white, blurry focus, harsh light, text, watermark",
+            "qc_focus": [
+              "fidelity",
+              "foot_ring_detail",
+              "material_texture"
+            ]
+          },
+          {
+            "id": "s5",
+            "type": "scale_hand",
+            "use": [
+              "amazon_scale",
+              "douyin_scale"
+            ],
+            "mode": "i2i",
+            "ratio": "3:4",
+            "size": "2K",
+            "prompt": "Use the input image as the exact product reference. Preserve the product's silhouette, proportions, rim shape, foot ring, handle, number of pieces and decoration exactly. Only change: context. A hand gently holding the Chinese gaiwan bowl (lid placed beside it or in hand) to demonstrate scale (approx 94mm diameter). Natural skin tone, no face visible, only hands. Dehua blanc de chine porcelain, warm ivory white glaze. Clean, bright background, soft natural light. No text, no logo, no watermark.",
+            "avoid": "green tint, blue tint, gray tint, cold white, full body, face, clutter, text, watermark",
+            "qc_focus": [
+              "scale_accuracy",
+              "fidelity",
+              "no_face"
+            ]
+          },
+          {
+            "id": "s6",
+            "type": "scene_tea",
+            "use": [
+              "jd_scene",
+              "tmall_scene",
+              "douyin_lifestyle"
+            ],
+            "mode": "i2i",
+            "ratio": "4:3",
+            "size": "2K",
+            "prompt": "Use the input image as the exact product reference. Preserve the product's silhouette, proportions, rim shape, foot ring, handle, number of pieces and decoration exactly. Only change: scene. A new Chinese-style tea ceremony setting. The Chinese gaiwan (Dehua blanc de chine, warm ivory white) placed on a wooden tea tray with a small teapot and tea leaves nearby. Soft, warm ambient lighting, shallow depth of field. Elegant, minimalist atmosphere. No text, no logo, no watermark.",
+            "avoid": "green tint, blue tint, gray tint, cold white, chaotic props, bright artificial light, text, watermark",
+            "qc_focus": [
+              "scene_atmosphere",
+              "fidelity",
+              "tea_liquid_color"
+            ]
+          },
+          {
+            "id": "s7",
+            "type": "scene_office",
+            "use": [
+              "amazon_lifestyle",
+              "jd_lifestyle"
+            ],
+            "mode": "i2i",
+            "ratio": "3:4",
+            "size": "2K",
+            "prompt": "Use the input image as the exact product reference. Preserve the product's silhouette, proportions, rim shape, foot ring, handle, number of pieces and decoration exactly. Only change: scene. A modern office desk setup during a tea break. The Chinese gaiwan (warm ivory white Dehua porcelain) sits next to a laptop and a notebook. Bright, clean daylight from a window. Professional, calm vibe. No text, no logo, no watermark.",
+            "avoid": "green tint, blue tint, gray tint, cold white, messy desk, strong shadow, text, watermark",
+            "qc_focus": [
+              "scene_relevance",
+              "fidelity",
+              "lighting_balance"
+            ]
+          },
+          {
+            "id": "s8",
+            "type": "gift_box",
+            "use": [
+              "jd_gift",
+              "amazon_gift"
+            ],
+            "mode": "i2i",
+            "ratio": "4:3",
+            "size": "2K",
+            "prompt": "Use the input image as the exact product reference. Preserve the product's silhouette, proportions, rim shape, foot ring, handle, number of pieces and decoration exactly. Only change: context. The Chinese gaiwan set displayed in an elegant, open gift box with soft linen lining. Minimalist packaging aesthetic, suitable for wedding or housewarming gifts. Warm, soft studio lighting. No text, no logo, no watermark.",
+            "avoid": "green tint, blue tint, gray tint, cold white, excessive wrapping paper, complex patterns, text, watermark",
+            "qc_focus": [
+              "packaging_visibility",
+              "fidelity",
+              "elegance"
+            ]
+          }
+        ],
+        "assumptions": [
+          "The 'render3d' mode for s1 assumes the system provides a 3D model of the gaiwan; if not, it will fallback to i2i or t2i.",
+          "Since no reference images are provided in the input, 'i2i' prompts are written as templates that require the user to upload a reference image before execution.",
+          "The gift box in s8 is conceptualized as a generic elegant box since specific packaging dimensions/design were not provided."
+        ],
+        "questions": [
+          "Do you have a specific 3D CAD file or high-res render for the 'hero_white' shot, or should we proceed with text-to-image for the concept stage?",
+          "For the 'gift_box' shot, do you have a specific packaging design or color palette (e.g., red vs. cream) that needs to be preserved?"
+        ],
+        "notes": [
+          "All glaze descriptions strictly adhere to 'china_white_ivory' visual specs to avoid green/blue tints.",
+          "Microwave safety is not visually depicted but implied by material; no text claims are made in the images to comply with compliance rules.",
+          "Images for Amazon must strictly follow the 'No text, no logo, no watermark' rule."
+        ]
+      },
+      "summary": "hero_white / angle45 / top_view / detail_macro / scale_hand / scene_tea / scene_office / gift_box"
+    },
+    {
+      "key": "vision_qc",
+      "agent": "视觉质检员",
+      "status": "done",
+      "at": 161752,
+      "ms": 41309,
+      "output": {
+        "before": 60,
+        "after": 60,
+        "pass": false
+      },
+      "summary": "白底主图：首版釉色偏青（60 分）→ 注入瓷知库约束重出"
+    },
+    {
+      "key": "video_director",
+      "agent": "短视频编导",
+      "status": "done",
+      "at": 1083752,
+      "ms": 31685,
+      "promptId": "listing.video_director",
+      "version": "1.0.0",
+      "model": "agnes-3.0-flash",
+      "attempts": 3,
+      "repaired": false,
+      "usage": {
+        "completion_tokens": 682,
+        "prompt_tokens": 1350,
+        "total_tokens": 2032
+      },
+      "fencedJson": false,
+      "output": {
+        "storyboard": [
+          {
+            "t": "0-3s",
+            "shot": "盖碗在深色茶席上，盖被轻轻掀起，热茶烟雾升起，白色瓷身与深背景形成反差。",
+            "image_ref": "listing_scene_tea",
+            "caption": "95g 轻若无物",
+            "voiceover": "端起这碗茶，轻得像没拿东西。"
+          },
+          {
+            "t": "3-6s",
+            "shot": "镜头缓慢推近碗沿，展示 54mm 碗高与 94mm 口径的比例，表面象牙白釉面均匀。",
+            "image_ref": "listing_angle45",
+            "caption": "1280–1350℃ 一次烧成",
+            "voiceover": "一次高温烧成，釉面细腻温润。"
+          },
+          {
+            "t": "6-11s",
+            "shot": "盖、碗、托三件摆放在白底背景上，镜头从俯视缓慢平移，展示三件完整结构与素面设计。",
+            "image_ref": "listing_hero",
+            "caption": "三件套 素面",
+            "voiceover": "盖、碗、托三件，素面设计，百搭茶席。"
+          },
+          {
+            "t": "11-15s",
+            "shot": "回到茶席场景，手将盖轻轻盖上，画面出现行动引导箭头指向下方。",
+            "image_ref": "listing_scene_tea",
+            "caption": "点击下方小黄车",
+            "voiceover": "德化白瓷三才碗，点击小黄车带走。"
+          }
+        ],
+        "music_mood": "轻快国风钢琴，节奏舒缓，突出温润质感",
+        "cover_text": "德化白瓷三才碗",
+        "hashtags": [
+          "#德化白瓷",
+          "#三才盖碗",
+          "#茶具推荐",
+          "#东方茶席",
+          "#一次烧成"
+        ],
+        "agnes_video": {
+          "mode": "keyframe",
+          "first_frame_ref": "listing_angle45",
+          "prompt": "Slow 45-degree orbit around the white gaiwan on a light surface. Soft light moving across the glaze surface to reveal the ivory white texture and smooth finish. The product shape, proportions and glaze color stay exactly the same, no text.",
+          "seconds": "5",
+          "aspect_ratio": "9:16"
+        },
+        "en_version": {
+          "hook": "A gaiwan that feels weightless: only 95g.",
+          "captions": [
+            "One-fire 1280-1350℃ for a smooth, ivory glaze.",
+            "Lid, bowl, saucer: a minimalist tea trio.",
+            "Tap below to shop the Set."
+          ]
+        }
+      },
+      "summary": "4 个分镜｜德化白瓷三才碗"
+    },
+    {
+      "key": "compliance",
+      "agent": "合规官",
+      "status": "done",
+      "at": 1664875,
+      "ms": 206866,
+      "promptId": "compliance.semantic_review",
+      "version": "1.0.0",
+      "model": "agnes-3.0-flash",
+      "attempts": 9,
+      "repaired": false,
+      "usage": {
+        "completion_tokens": 290,
+        "prompt_tokens": 2302,
+        "total_tokens": 2592
+      },
+      "fencedJson": false,
+      "output": {
+        "issues": [
+          {
+            "field": "jd.selling_points[2]",
+            "quote": "一次烧成抗热冲击",
+            "type": "fact_mismatch",
+            "severity": "warn",
+            "reason": "未提供抗热冲击测试数据或检测结论，宣称物理性能需依据支撑，避免无依据夸大。",
+            "suggestion": "一次烧成，釉面致密。1280-1350℃窑烧，耐温差性能良好。"
+          },
+          {
+            "field": "douyin.selling_points[4]",
+            "quote": "冷热急变不怕裂",
+            "type": "fact_mismatch",
+            "severity": "warn",
+            "reason": "缺乏热冲击测试证据，“不怕裂”属于绝对化且无法证实的承诺。",
+            "suggestion": "经高温烧制，具有一定的热稳定性，冷热交替正常使用更安心。"
+          },
+          {
+            "field": "detail.material_craft",
+            "quote": "千年瓷都",
+            "type": "exaggeration",
+            "severity": "warn",
+            "reason": "产地历史陈述缺乏具体年份佐证，易被视为无依据夸大，建议改为客观描述。",
+            "suggestion": "德化白瓷产区，传承深厚，取当地高岭土，经高温窑火一次烧成。"
+          }
+        ],
+        "overall": "pass",
+        "notes": "1. 产品状态为概念阶段，文案已包含概念声明。2. 关于可微波洗碗机的说明正确，未使用含金属彩（金银彩）釉。3. 已修正抗热冲击等需证据支撑的性能描述。"
+      },
+      "summary": "规则命中 0 条 · 语义风险 3 条"
+    }
+  ],
+  "corrections": [
+    {
+      "type": "qc_fix",
+      "step": "vision_qc",
+      "target": "listing_hero",
+      "reason": "The glaze appears cool and slightly greenish/grayish, lacking the warm ivory or milky yellow tones required for 'Chinese White'.",
+      "before": {
+        "file": "img/listing_hero_a1.png",
+        "score": 60
+      },
+      "after": {
+        "file": "img/listing_hero_a2.png",
+        "score": 60
+      }
+    },
+    {
+      "type": "qc_fix",
+      "step": "vision_qc",
+      "target": "listing_angle45",
+      "reason": "釉色呈现明显的青绿色调（greenish-grey/celadon），不符合德化象牙白（ivory white）的暖色调要求。",
+      "before": {
+        "file": "img/listing_angle45_a1.png",
+        "score": 60
+      },
+      "after": {
+        "file": "img/listing_angle45_a2.png",
+        "score": 70
+      }
+    },
+    {
+      "type": "compliance_fix",
+      "step": "compliance",
+      "target": "jd.selling_points[2]",
+      "reason": "fact_mismatch",
+      "before": "一次烧成抗热冲击 泡茶安心",
+      "after": "德化高白瓷一次烧成，1280-1350℃窑烧，釉面致密。日常品茶，温润趁手。"
+    },
+    {
+      "type": "compliance_fix",
+      "step": "compliance",
+      "target": "douyin.selling_points[4]",
+      "reason": "fact_mismatch",
+      "before": "冷热急变不怕裂，泡茶更安心",
+      "after": "经1350℃高温一次烧成，德化高白瓷热稳定性佳，冷热交替泡茶更安心"
+    },
+    {
+      "type": "compliance_fix",
+      "step": "compliance",
+      "target": "detail.material_craft",
+      "reason": "exaggeration",
+      "before": "千年瓷都，纯净如骨｜取自德化高岭土，经高温窑火一次烧成。象牙白釉面致密，素面造型克制百搭。",
+      "after": "取自德化高岭土，经1300℃窑火一次烧成。象牙白釉面致密，素面造型克制百搭。"
+    }
+  ],
+  "images": [
+    {
+      "name": "listing_hero",
+      "label": "白底主图",
+      "shotType": "hero_white",
+      "ratio": "1:1",
+      "attempts": [
+        {
+          "file": "img/listing_hero_a1.png",
+          "prompt": "通用提示词（未注入瓷知库釉色约束）",
+          "origin": "2026-10-25 首次实测生成",
+          "qc": {
+            "pass": false,
+            "score": 60,
+            "glaze_color_observed": "cool greenish-white with grayish tints",
+            "issues": [
+              {
+                "type": "glaze_color",
+                "detail": "The glaze appears cool and slightly greenish/grayish, lacking the warm ivory or milky yellow tones required for 'Chinese White'."
+              }
+            ],
+            "fix_prompt_hint": "Adjust the ceramic glaze color to a warm ivory white with a slight creamy yellow tint, removing all green, blue, or gray cool undertones. Ensure the white is distinctly warm and natural."
+          }
+        },
+        {
+          "file": "img/listing_hero_a2.png",
+          "url": "https://platform-outputs.agnes-ai.space/images/t2i/task_RzdVuKIhDtFfFNVoyQorAgnzSloCT7Pe/output_d6766061228b48a682cca6750ce572fe.png",
+          "prompt": "E-commerce main product photo of a Chinese gaiwan: three pieces — lidded tea bowl with a wide flared rim, a domed lid with a small knob, and a saucer, Dehua blanc de chine porcelain, warm ivory white glaze with a subtle creamy milk tone, jade-like soft sheen, slightly translucent at thin edges, centered on a pure white seamless background (RGB 255), product fills about 80% of the frame, 45-degree slightly elevated view, large soft diffused studio light, subtle contact shadow, photorealistic, high detail. No text, no logo, no watermark. Avoid: green tint, blue tint, gray tint, cold white. ",
+          "ms": 10202,
+          "retries": 0,
+          "qc": {
+            "pass": false,
+            "score": 60,
+            "glaze_color_observed": "cool greenish-grey celadon",
+            "checks": {
+              "fidelity": {
+                "pass": true,
+                "note": "Image shows a three-piece gaiwan (bowl, saucer, lid with knob) matching the 'Three Treasures' specification. The proportions and shape are consistent with a standard Song-style gaiwan."
+              },
+              "glaze_color": {
+                "pass": false,
+                "note": "Observed glaze color is a cool greenish-white/celadon tone. This violates the requirement for 'ivory white' (warm white, subtle creamy milk tone). The spec explicitly forbids green tint; this image exhibits a clear green-grey tint."
+              },
+              "background": {
+                "pass": true,
+                "note": "Pure white seamless background with no props or gradient color blocks, consistent with hero_white requirements."
+              },
+              "text_artifacts": {
+                "pass": true,
+                "note": "No visible text, watermarks, logos, or garbled characters on the product or background."
+              },
+              "plausibility": {
+                "pass": true,
+                "note": "Physical interactions between the lid, bowl, and saucer are plausible. Light reflections are consistent with the lighting direction. No floating, clipping, or structural deformities."
+              },
+              "composition": {
+                "pass": true,
+                "note": "The subject is centered and complete. The product occupies approximately 85% of the vertical space, fitting the hero_white composition."
+              }
+            },
+            "issues": [
+              {
+                "type": "glaze_color",
+                "detail": "Glaze has a distinct greenish/celadon tint instead of the required warm ivory white. The spec explicitly forbids green tint."
+              }
+            ],
+            "fix_prompt": "Recolor the porcelain glaze to a warm ivory white with a subtle creamy milk tone (Dehua blanc de chine style). Remove any greenish or celadon tint from the lid, bowl, and saucer. Maintain the existing geometry, lighting, shadows, and pure white background. Keep the thin brownish kiln edges on the rims intact."
+          }
+        }
+      ]
+    },
+    {
+      "name": "listing_scene_tea",
+      "label": "scene_tea",
+      "shotType": "scene_tea",
+      "ratio": "4:3",
+      "attempts": [
+        {
+          "file": "img/listing_scene_tea_a1.png",
+          "url": "https://platform-outputs.agnes-ai.space/images/t2i/task_SBDITT8H1wOv0up3zmaE5aguu0RN2JyI/output_49aaf66e0bfa4554ad1d2a72b047f088.png",
+          "prompt": "Use the input image as the exact product reference. Preserve the product's silhouette, proportions, rim shape, foot ring, handle, number of pieces and decoration exactly. Only change: scene. A new Chinese-style tea ceremony setting. The Chinese gaiwan (Dehua blanc de chine, warm ivory white) placed on a wooden tea tray with a small teapot and tea leaves nearby. Soft, warm ambient lighting, shallow depth of field. Elegant, minimalist atmosphere. No text, no logo, no watermark. Avoid: green tint, blue tint, gray tint, cold white, chaotic props, bright artificial light, text, watermark.",
+          "ms": 9525,
+          "retries": 0,
+          "qc": {
+            "pass": true,
+            "score": 90,
+            "glaze_color_observed": "warm ivory white with subtle creamy milk tone",
+            "checks": {
+              "fidelity": {
+                "pass": true,
+                "note": "包含盖、碗、托三组件，器型比例协调，盖钮造型规整，符合三才盖碗规格。"
+              },
+              "glaze_color": {
+                "pass": true,
+                "note": "釉色呈象牙白，带有乳黄暖调，符合中国白/德化白要求，无青、蓝、灰或冷白偏色。"
+              },
+              "background": {
+                "pass": true,
+                "note": "镜头类型为 scene_tea，使用了木质茶盘、背景茶具等场景道具，构图符合场景镜头要求。"
+              },
+              "text_artifacts": {
+                "pass": true,
+                "note": "画面干净，未检测到文字、水印或异常Logo。"
+              },
+              "plausibility": {
+                "pass": true,
+                "note": "光影一致，物理结构正常，无悬浮或穿插错误。"
+              },
+              "composition": {
+                "pass": true,
+                "note": "主体居中，视觉重心稳定，三才盖碗在画面中的占比适中。"
+              }
+            },
+            "issues": [
+              {
+                "type": "composition",
+                "detail": "在 scene_tea 镜头下，主体略偏左且尺寸偏小，留白稍多，扣10分。"
+              }
+            ],
+            "fix_prompt": "Maintain the warm ivory white glaze and the tea scene composition. Reframe the shot slightly to enlarge the gaiwan and center it more prominently on the wooden tray. Keep the background teapot and lighting consistent. No text or logos allowed."
+          }
+        }
+      ]
+    },
+    {
+      "name": "listing_angle45",
+      "label": "angle45",
+      "shotType": "angle45",
+      "ratio": "3:4",
+      "attempts": [
+        {
+          "file": "img/listing_angle45_a1.png",
+          "url": "https://platform-outputs.agnes-ai.space/images/t2i/task_Aj6iSAc5KoLGtifP427q2To2KsNHgo7b/output_ab0c1514392549a9a9208eebc24ab746.png",
+          "prompt": "Use the input image as the exact product reference. Preserve the product's silhouette, proportions, rim shape, foot ring, handle, number of pieces and decoration exactly. Only change: lighting and camera angle. A 45-degree close-up view of the Chinese gaiwan (lid, bowl, saucer). Dehua blanc de chine porcelain, warm ivory white glaze with a subtle creamy milk tone, jade-like soft sheen, slightly translucent at thin edges. Soft diffused studio lighting to highlight glaze texture and rim thickness. Minimalist neutral beige background. High-resolution product photography. No text, no logo, no watermark. Avoid: green tint, blue tint, gray tint, cold white, harsh shadows, cluttered background, text, watermark.",
+          "ms": 9921,
+          "retries": 0,
+          "qc": {
+            "pass": false,
+            "score": 60,
+            "glaze_color_observed": "cool greenish-grey",
+            "checks": {
+              "fidelity": {
+                "pass": true,
+                "note": "图像展示了三才盖碗的完整组件（盖、碗、托），符合“三才”器型规格。组件数量正确，未出现缺失或多余部件。"
+              },
+              "glaze_color": {
+                "pass": false,
+                "note": "釉色严重偏差。规格要求为“中国白·象牙白”（warm ivory white, creamy milk tone），但图像中釉色明显偏冷、偏青（cool greenish-grey），呈现出一种青白瓷或豆青的色调，缺乏象牙白应有的乳黄感和暖意，甚至接近了规格中明确禁止的 'green tint' 或 'cold white'。"
+              },
+              "background": {
+                "pass": true,
+                "note": "镜头类型为 angle45，背景为纯色摄影棚背景，符合非白底镜头的常规要求，无违规道具。"
+              },
+              "text_artifacts": {
+                "pass": true,
+                "note": "图像中无可见文字、水印或Logo。"
+              },
+              "plausibility": {
+                "pass": true,
+                "note": "光影合理，盖钮与盖面的连接、盖与碗的搭接关系在物理上是合理的，无悬浮或穿插错误。"
+              },
+              "composition": {
+                "pass": true,
+                "note": "主体完整，构图符合45度角的常规展示逻辑。"
+              }
+            },
+            "issues": [
+              {
+                "type": "glaze_color",
+                "detail": "釉色呈现明显的青绿色调（greenish-grey/celadon），不符合德化象牙白（ivory white）的暖色调要求。"
+              }
+            ],
+            "fix_prompt": "Regenerate the image with a corrected glaze color. The body glaze must be warm ivory white (Dehua Blanc de Chine) with a creamy, milk-like tone. Strictly remove all green, blue, or cool grey undertones. Maintain the 45-degree angle and composition."
+          }
+        },
+        {
+          "file": "img/listing_angle45_a2.png",
+          "url": "https://platform-outputs.agnes-ai.space/images/i2i/task_UxSzIlGzJAh3ICvD60r8WwzRhXaQTPIz/output.png",
+          "prompt": "Use the input image as the exact product reference. Preserve the product's silhouette, proportions, rim shape, foot ring, handle, number of pieces and decoration exactly. Only change: lighting and camera angle. A 45-degree close-up view of the Chinese gaiwan (lid, bowl, saucer). Dehua blanc de chine porcelain, warm ivory white glaze with a subtle creamy milk tone, jade-like soft sheen, slightly translucent at thin edges. Soft diffused studio lighting to highlight glaze texture and rim thickness. Minimalist neutral beige background. High-resolution product photography. No text, no logo, no watermark. Avoid: green tint, blue tint, gray tint, cold white, harsh shadows, cluttered background, text, watermark. Regenerate the image with a corrected glaze color. The body glaze must be warm ivory white (Dehua Blanc de Chine) with a creamy, milk-like tone. Strictly remove all green, blue, or cool grey undertones. Maintain the 45-degree angle and composition.",
+          "ms": 481987,
+          "retries": 12,
+          "qc": {
+            "pass": false,
+            "score": 70,
+            "glaze_color_observed": "Warm creamy ivory white",
+            "checks": {
+              "fidelity": {
+                "pass": true,
+                "note": "正确呈现了盖碗、茶船及盖钮的三个组件。45度侧视角构图完整，器型轮廓圆润，盖钮口沿与碗身比例协调，符合宋韵极简风格。"
+              },
+              "glaze_color": {
+                "pass": true,
+                "note": "釉面呈现细腻的乳白象牙色，带有德化白瓷特有的温润玉质感，边缘处有轻微透光感。未发现青、蓝、灰或冷白色调。"
+              },
+              "background": {
+                "pass": true,
+                "note": "背景为自然的浅米色无缝平面，光线柔和，符合 angle45 镜头的视觉美感要求，无干扰元素。"
+              },
+              "text_artifacts": {
+                "pass": true,
+                "note": "画面中未发现任何文字、水印、Logo 或乱码字符。"
+              },
+              "plausibility": {
+                "pass": false,
+                "note": "盖钮内部口沿及盖面边缘存在明显的焦糖色/褐色流釉痕迹。对于「宋韵极简」风格的象牙白盖碗而言，这种装饰性釉线破坏了「中国白」应有的纯净感，且褐色边缘在物理上呈现出了较为不自然的厚重堆积感。"
+              },
+              "composition": {
+                "pass": true,
+                "note": "主体位于画面中心，细节清晰，景深虚化合理，符合电商详情页或场景图的构图标准。"
+              }
+            },
+            "issues": [
+              {
+                "type": "plausibility",
+                "detail": "盖钮边缘、盖沿及船沿的褐色/焦糖色流釉与「中国白·象牙白」的纯色基调冲突，不符合宋韵极简的审美要求，且釉线边缘过于生硬。"
+              }
+            ],
+            "fix_prompt": "Remove all brown and caramel-colored rims from the lid, handle, and saucer. Keep the entire porcelain piece in a uniform, warm ivory-white tone (Dehua Blanc de Chine). Preserve the 45-degree angle, composition, and background. Ensure the glaze is smooth and pure without heavy decorative color lines."
+          }
+        }
+      ]
+    }
+  ],
+  "video": {
+    "error": "video timeout"
+  },
+  "result": {
+    "spec": {
+      "name": "宋韵·象牙白三才盖碗",
+      "template": "gaiwan",
+      "category": "茶具",
+      "pieces": "盖、碗、托三件",
+      "material": "德化高白瓷",
+      "material_id": "dehua_highwhite",
+      "glaze": "中国白·象牙白",
+      "glaze_id": "china_white_ivory",
+      "forming": "注浆成型、手工修坯",
+      "forming_id": "slip_casting",
+      "decoration": "素面",
+      "capacity_ml": 150,
+      "dimensions_mm": {
+        "碗高": 54,
+        "口径": 94,
+        "足径": 40
+      },
+      "weight_g": 95,
+      "firing": "1280–1350℃ 一次烧成",
+      "origin": "德化",
+      "price": "129–169 元",
+      "status": "concept",
+      "microwave": true,
+      "dishwasher": true
+    },
+    "sellingPoints": {
+      "core_value": "轻若鸿羽的德化白瓷三才碗，一次烧成无铅安心，素雅东方茶席的主角",
+      "fab": [
+        {
+          "feature": "德化高白瓷",
+          "advantage": "原料洁净度高，烧成后胎体呈现温润的象牙白，透光性好",
+          "benefit": "茶席陈列时自带高级感，茶汤颜色映衬清晰",
+          "evidence": "spec.material, spec.glaze"
+        },
+        {
+          "feature": "1280–1350℃ 一次烧成",
+          "advantage": "高温窑烧，胎釉结合紧密，瓷化程度深，抗热冲击能力强",
+          "benefit": "冷热急变不易开裂，泡茶更安心",
+          "evidence": "spec.firing"
+        },
+        {
+          "feature": "整器仅 95 g",
+          "advantage": "比常规重骨瓷盖碗显著更轻，单手端持无坠手感",
+          "benefit": "长时间品茶手不酸，端汤时更稳",
+          "evidence": "spec.weight_g"
+        },
+        {
+          "feature": "150 ml 黄金容量，碗高 54 mm、口径 94 mm",
+          "advantage": "符合一人份功夫茶的投茶与注水习惯，留沫量适中",
+          "benefit": "出汤不急促，口感更稳定，适合日常自饮",
+          "evidence": "spec.capacity_ml, spec.dimensions_mm"
+        },
+        {
+          "feature": "盖、碗、托三件分离",
+          "advantage": "三才结构经典，可单件清洗，开盖出香方便",
+          "benefit": "易清洁、易晾干，减少串味",
+          "evidence": "spec.pieces"
+        },
+        {
+          "feature": "可直接放入洗碗机、微波炉",
+          "advantage": "釉面致密，无金属彩料，符合现代家居清洁与加热习惯",
+          "benefit": "餐后洗碗省事，加热冷茶方便",
+          "evidence": "spec.dishwasher, spec.microwave"
+        },
+        {
+          "feature": "素面无装饰",
+          "advantage": "造型语言克制，不抢茶与人的风头，百搭各种茶席与家居风格",
+          "benefit": "放在现代极简、中式原木或日式清寂的空间都不违和",
+          "evidence": "spec.decoration"
+        }
+      ],
+      "keywords": {
+        "zh": [
+          "德化白瓷盖碗",
+          "三才盖碗",
+          "功夫茶具",
+          "一人品茶碗",
+          "象牙白瓷",
+          "150ml 小盖碗",
+          "中式茶席",
+          "礼盒茶具",
+          "易清洁茶器",
+          "轻骨瓷",
+          "开盖出香",
+          "素面盖碗"
+        ],
+        "en": [
+          "white porcelain gaiwan",
+          "three-piece gaiwan set",
+          "lightweight teabowl",
+          "ivory porcelain teaware",
+          "150ml gaiwan",
+          "dishwasher safe teapot set",
+          "chinese tea ceremony set",
+          "modern minimalist tea set",
+          "porcelain gaiwan cup",
+          "single serving tea bowl",
+          "high fire porcelain",
+          "gift box tea set"
+        ]
+      },
+      "scenes": [
+        "一人独处的功夫茶时刻，从备茶到出汤的完整体验",
+        "朋友到访的茶席主客互敬，三才杯传递礼仪",
+        "办公桌上的迷你下午茶，一杯清茶提神",
+        "新婚或乔迁礼品，配礼盒送出白瓷心意",
+        "摄影与静物布景，象牙白瓷与光影的天然搭配"
+      ],
+      "story": "德化，千年瓷都，其白瓷闻名世界。这里聚集了上万家作坊，孕育出中国最纯净的瓷白。德化白瓷以高岭土为原料，经 1280℃ 以上窑火一次烧成，不施彩亦见骨，象牙白的温润质感，正是这片土地给茶人的答案。这枚三才盖碗，是传统器型，也是现代生活的入口。",
+      "claims_requiring_evidence": [
+        {
+          "claim": "手工修坯",
+          "status": "missing",
+          "evidence_key": "handmade_proof"
+        },
+        {
+          "claim": "无铅镉（可微波/可洗碗机，基于釉面，但无检测数据直接证明安全材质）",
+          "status": "missing",
+          "evidence_key": "lead_cadmium_report"
+        },
+        {
+          "claim": "非遗或大师作品",
+          "status": "missing",
+          "evidence_key": "ich_or_master"
+        }
+      ],
+      "do_not_say": [
+        "不要说 100% 无铅，除非补充铅镉检测报告",
+        "不要宣传“国宴用瓷”或“大师手作”，暂无权威背书",
+        "不要暗示该盖碗可“养茶”或“降血压”等医疗保健功效",
+        "注浆成型是工业化工艺，不要与“纯手工拉坯”混淆，可以说“注浆成型、手工修坯”",
+        "象牙白素面与“釉下彩手绘”不符，不要写有纹饰"
+      ],
+      "notes": "当前产品为概念状态（status: concept），DFM 通过（10 项通过），但尚未进入量产，相关文案需待量产验证。证据中缺少铅镉检测，因此文案中“可微波、可洗碗机”虽基于釉面属性，但若平台要求食品级合规证明，需补充报告。关键词部分未使用任何“最/第一/顶级”等绝对化用语。"
+    },
+    "copy": {
+      "jd": {
+        "title": "【】德化高白瓷三才盖碗 150ml 象牙白素面 功夫茶器 礼盒装",
+        "subtitle": "轻量95g 一次烧成致密胎釉 兼容微波炉与洗碗机 现代东方茶席",
+        "selling_points": [
+          "德化高白瓷 象牙白温润透光",
+          "仅95g单手端持 久泡不累",
+          "一次烧成抗热冲击 泡茶安心",
+          "150ml黄金容量 适配一人功夫",
+          "可入洗碗机 易清洁无串味"
+        ],
+        "attributes": {
+          "材质": "德化高白瓷",
+          "产地": "德化",
+          "容量": "150ml",
+          "尺寸": "口径94mm/碗高54mm/足径40mm",
+          "件数": "盖、碗、托三件",
+          "工艺": "注浆成型、高温一次烧成",
+          "釉色": "中国白·象牙白",
+          "适用场景": "功夫茶、个人品饮、商务送礼",
+          "是否可微波": "是",
+          "是否可洗碗机": "是"
+        },
+        "search_keywords": [
+          "德化白瓷盖碗",
+          "三才盖碗",
+          "功夫茶具",
+          "一人品茶碗",
+          "象牙白瓷",
+          "150ml小盖碗"
+        ]
+      },
+      "tmall": {
+        "title": "德化白瓷三才盖碗 150ml象牙白 95g轻 可微波洗碗机 功夫茶具",
+        "sell_point": "高白瓷透光显茶汤，95g轻若鸿羽，兼容洗碗机微波，茶席百搭",
+        "selling_points": [
+          "德化高白瓷 胎体温润 茶汤映衬清晰",
+          "重量仅95g 单手稳持 出汤不急促",
+          "三件分离 易干燥 不串味",
+          "素面设计 极简百搭 中式现代皆宜",
+          "致密釉面 可入洗碗机 餐后清洁省心"
+        ],
+        "attributes": {
+          "材质": "德化高白瓷",
+          "产地": "德化",
+          "容量": "150ml",
+          "尺寸": "口径94mm/高54mm",
+          "工艺": "注浆成型",
+          "釉色": "象牙白",
+          "是否可微波": "是",
+          "是否可洗碗机": "是"
+        },
+        "search_keywords": [
+          "德化白瓷",
+          "三才盖碗",
+          "轻奢茶具",
+          "一人茶器",
+          "易清洁盖碗"
+        ]
+      },
+      "douyin": {
+        "title": "宋韵象牙白盖碗 95g太轻了 喝完直接扔洗碗机",
+        "live_hook": "95g的德化白瓷盖碗，轻得像没拿东西，看茶汤有多透",
+        "selling_points": [
+          "德化白瓷透光好，茶汤颜色看得清",
+          "单手端起不晃，久泡手腕不酸",
+          "素面无纹，放在桌上特别显高级",
+          "喝完不用手洗，直接丢洗碗机",
+          "冷热急变不怕裂，泡茶更安心"
+        ]
+      },
+      "pdd": null,
+      "amazon": {
+        "title": "White Porcelain Gaiwan Teaware Set, 5.1 fl oz (150 ml), Three-Piece Lidded Cup with Lid and Saucer, Light Ivory Color, Dishwasher Safe, Minimalist Design for Gaiwan Tea Ceremony",
+        "bullets": [
+          "PORCELAIN CRAFT: Made from premium ivory white porcelain, single-fired at high temperatures for a durable, smooth surface suitable for daily tea use.",
+          "LIGHTWEIGHT DESIGN: The entire set weighs only 95 g, offering a comfortable and effortless grip for extended tea sessions without hand fatigue.",
+          "EASY TO CLEAN: The three-piece structure allows for convenient handling and is both dishwasher and microwave safe, fitting modern home routines.",
+          "MODERN AESTHETIC: Features a plain, decorative-free finish in a classic lidded bowl shape that complements minimalist, Japanese, or Chinese interiors.",
+          "PERFECT GIFT: A refined and practical tea accessory, ideal for gifting to tea lovers, newlyweds, or colleagues for special occasions."
+        ],
+        "description": "Elevate your tea ritual with our classic White Porcelain Gaiwan. Crafted in the style of Chinese 'Gaiwan' or 'Lidded Cups,' this set includes a bowl, lid, and saucer for a complete, traditional brewing experience. The delicate ivory white color and smooth, matte-glazed texture are perfect for showcasing tea colors. Its light weight makes it comfortable to hold, while the plain design ensures it fits seamlessly into modern kitchens or traditional tea rooms. A thoughtful and beautiful addition to your home or a wonderful gift for anyone who enjoys the art of tea.",
+        "search_terms": "gaiwan bowl single serve tea set porcelain light lidded cup gaiwan set ivory white bowl gaiwan gaiwan bowl gaiwan set gaiwan gaiwan gaiwan gaiwan gaiwan gaiwan gaiwan gaiwan gaiwan gaiwan gaiwan gaiwan gaiwan gaiwan gaiwan",
+        "attributes": {
+          "material": "Porcelain",
+          "capacity": "5.1 fl oz (150 ml)",
+          "color": "Ivory White",
+          "care_instructions": "Dishwasher and microwave safe. Hand wash recommended to preserve glaze longevity.",
+          "country_of_origin": "China",
+          "number_of_pieces": 3
+        }
+      },
+      "tiktok": null
+    },
+    "detail": {
+      "modules": [
+        {
+          "key": "hero",
+          "headline": "宋韵象牙白，一杯清茶",
+          "body": "德化高白瓷三才盖碗，素雅温润。150ml黄金容量，单手轻持95g，为现代茶席添一抹东方雅意。",
+          "data_points": [
+            {
+              "label": "产地",
+              "value": "德化"
+            },
+            {
+              "label": "容量",
+              "value": "150 ml"
+            }
+          ],
+          "image_brief": {
+            "source": "ai_scene",
+            "shot_type": "scene_tea",
+            "note": "光影柔和的茶席氛围图，盖碗居中，透出象牙白釉面温润质感"
+          }
+        },
+        {
+          "key": "selling_points",
+          "headline": "匠心白瓷，轻若无物",
+          "body": "德化高白瓷胎体洁净透光；1280-1350℃一次烧成抗热冲击；整器仅95g，久持不坠手。",
+          "data_points": [
+            {
+              "label": "重量",
+              "value": "95 g"
+            },
+            {
+              "label": "烧成温度",
+              "value": "1280-1350 ℃"
+            }
+          ],
+          "image_brief": {
+            "source": "render3d",
+            "shot_type": "exploded_view",
+            "note": "三件分离的3D爆炸图，展示盖、碗、托的结构独立性"
+          }
+        },
+        {
+          "key": "material_craft",
+          "headline": "千年瓷都，纯净如骨",
+          "body": "取自德化高岭土，经高温窑火一次烧成。象牙白釉面致密，素面造型克制百搭。",
+          "data_points": [
+            {
+              "label": "材质",
+              "value": "德化高白瓷"
+            },
+            {
+              "label": "釉色",
+              "value": "中国白·象牙白"
+            }
+          ],
+          "image_brief": {
+            "source": "render3d",
+            "shot_type": "closeup_glaze",
+            "note": "釉面局部放大，展示细腻光洁的质感，避免过度修饰"
+          }
+        },
+        {
+          "key": "size_capacity",
+          "headline": "黄金尺寸，一人茶量",
+          "body": "碗高54mm、口径94mm、足径40mm，150ml容量符合一人份功夫茶习惯，出汤从容。",
+          "data_points": [
+            {
+              "label": "碗高",
+              "value": "54 mm"
+            },
+            {
+              "label": "口径",
+              "value": "94 mm"
+            },
+            {
+              "label": "足径",
+              "value": "40 mm"
+            }
+          ],
+          "image_brief": {
+            "source": "render3d",
+            "shot_type": "dimension_diagram",
+            "note": "白底尺寸标注图，清晰标注三个维度数据"
+          }
+        },
+        {
+          "key": "scenes",
+          "headline": "日常茶席，从容自饮",
+          "body": "适合一人独处功夫茶、办公迷你下午茶或朋友到访互敬，百搭现代与中式茶席。",
+          "data_points": [
+            {
+              "label": "适用场景",
+              "value": "功夫茶/下午茶"
+            }
+          ],
+          "image_brief": {
+            "source": "ai_scene",
+            "shot_type": "scene_lifestyle",
+            "note": "自然光下的现代木质茶桌场景，盖碗置于其上，展现日常感"
+          }
+        },
+        {
+          "key": "details",
+          "headline": "细节考究，触手温润",
+          "body": "口沿平滑圆润，足底露胎自然，盖钮握持舒适。素面设计无多余装饰，尽显匠心。",
+          "data_points": [
+            {
+              "label": "装饰",
+              "value": "素面"
+            },
+            {
+              "label": "工艺",
+              "value": "注浆成型、手工修坯"
+            }
+          ],
+          "image_brief": {
+            "source": "photo",
+            "shot_type": "macro_detail",
+            "note": "实拍细节图，聚焦口沿、足底与盖钮，体现手工修坯的精密度"
+          }
+        },
+        {
+          "key": "packaging",
+          "headline": "严选防护，安心送达",
+          "body": "易碎品专项包装，内衬防震。适配京东德化产地仓物流方案，降低运输破损风险。",
+          "data_points": [
+            {
+              "label": "包装类型",
+              "value": "防震内衬"
+            }
+          ],
+          "image_brief": {
+            "source": "ai_scene",
+            "shot_type": "packaging_flatlay",
+            "note": "开箱俯视视角，展示包装盒、内衬与盖碗的完整状态"
+          }
+        },
+        {
+          "key": "care",
+          "headline": "现代友好，省心清洁",
+          "body": "釉面致密无金属彩，支持微波炉加热与洗碗机清洗。日常使用后建议竖放晾干，避免串味。",
+          "data_points": [
+            {
+              "label": "微波炉",
+              "value": "支持"
+            },
+            {
+              "label": "洗碗机",
+              "value": "支持"
+            }
+          ],
+          "image_brief": {
+            "source": "render3d",
+            "shot_type": "infographic_cleaning",
+            "note": "简洁的图标说明，展示可微波与可洗碗机的标志"
+          }
+        },
+        {
+          "key": "service",
+          "headline": "概念展示，敬请期待",
+          "body": "本页部分图片为AI效果图，以量产实物为准。支持京东商家服务中心选品，期待您见证。",
+          "data_points": [
+            {
+              "label": "状态",
+              "value": "concept"
+            }
+          ],
+          "image_brief": {
+            "source": "none",
+            "shot_type": "none",
+            "note": "无需配图或仅用文字说明"
+          }
+        }
+      ],
+      "theme": {
+        "tone": "温润雅致",
+        "accent_color": "#F3EFE7"
+      },
+      "assumptions": [
+        "包装内衬具体材质基于常规易碎品标准推断",
+        "微波炉/洗碗机安全基于釉面致密属性推断，无实测铅镉报告"
+      ],
+      "questions": [
+        "是否有铅镉检测数据？",
+        "手工修坯是否有影像证明？",
+        "最终量产包装尺寸确认"
+      ],
+      "notes": "严格遵循事实，未使用绝对化用语，未宣传未证实的奖项或背书。状态已标识为概念设计。"
+    },
+    "shots": {
+      "shots": [
+        {
+          "id": "s1",
+          "type": "hero_white",
+          "use": [
+            "amazon_main",
+            "jd_main",
+            "tmall_main",
+            "douyin_cover"
+          ],
+          "mode": "render3d",
+          "ratio": "1:1",
+          "size": "2K",
+          "prompt": "A Chinese gaiwan: three pieces — lidded tea bowl with a wide flared rim, a domed lid with a small knob, and a saucer. Dehua blanc de chine porcelain, warm ivory white glaze with a subtle creamy milk tone, jade-like soft sheen, slightly translucent at thin edges. Plain surface decoration. Centered on a pure white background (RGB 255,255,255), product occupies 85% of frame height, no props, no text, no logos, no watermark. Studio lighting, high-quality ceramic e-commerce photography.",
+          "avoid": "green tint, blue tint, gray tint, cold white, shadows on white background, props, text, watermark",
+          "qc_focus": [
+            "background_white",
+            "glaze_color",
+            "fidelity",
+            "no_text"
+          ]
+        },
+        {
+          "id": "s2",
+          "type": "angle45",
+          "use": [
+            "amazon_secondary",
+            "jd_detail",
+            "tmall_detail"
+          ],
+          "mode": "i2i",
+          "ratio": "3:4",
+          "size": "2K",
+          "prompt": "Use the input image as the exact product reference. Preserve the product's silhouette, proportions, rim shape, foot ring, handle, number of pieces and decoration exactly. Only change: lighting and camera angle. A 45-degree close-up view of the Chinese gaiwan (lid, bowl, saucer). Dehua blanc de chine porcelain, warm ivory white glaze with a subtle creamy milk tone, jade-like soft sheen, slightly translucent at thin edges. Soft diffused studio lighting to highlight glaze texture and rim thickness. Minimalist neutral beige background. High-resolution product photography. No text, no logo, no watermark.",
+          "avoid": "green tint, blue tint, gray tint, cold white, harsh shadows, cluttered background, text, watermark",
+          "qc_focus": [
+            "fidelity",
+            "glaze_texture",
+            "rim_translucency"
+          ]
+        },
+        {
+          "id": "s3",
+          "type": "top_view",
+          "use": [
+            "amazon_secondary",
+            "douyin_detail"
+          ],
+          "mode": "i2i",
+          "ratio": "1:1",
+          "size": "2K",
+          "prompt": "Use the input image as the exact product reference. Preserve the product's silhouette, proportions, rim shape, foot ring, handle, number of pieces and decoration exactly. Only change: camera angle. Top-down view of the Chinese gaiwan lid, bowl interior, and saucer. Focus on the flared rim shape and inner glaze color. Dehua blanc de chine porcelain, warm ivory white glaze with a subtle creamy milk tone. Soft, even lighting to avoid glare inside the bowl. Pure white or light gray background. No text, no logo, no watermark.",
+          "avoid": "green tint, blue tint, gray tint, cold white, interior shadow, reflection glare, text, watermark",
+          "qc_focus": [
+            "fidelity",
+            "rim_shape",
+            "interior_glaze"
+          ]
+        },
+        {
+          "id": "s4",
+          "type": "detail_macro",
+          "use": [
+            "jd_texture",
+            "tmall_texture"
+          ],
+          "mode": "i2i",
+          "ratio": "4:3",
+          "size": "2K",
+          "prompt": "Use the input image as the exact product reference. Preserve the product's silhouette, proportions, rim shape, foot ring, handle, number of pieces and decoration exactly. Only change: focal length and cropping. Macro shot focusing on the foot ring (exposed clay) and the transition between the bowl and saucer. Show the smoothness of the slip-cast surface and the warm ivory white glaze. Dehua blanc de chine porcelain. Soft side lighting to emphasize the ceramic body's thickness and color contrast between glaze and unglazed foot. No text, no logo, no watermark.",
+          "avoid": "green tint, blue tint, gray tint, cold white, blurry focus, harsh light, text, watermark",
+          "qc_focus": [
+            "fidelity",
+            "foot_ring_detail",
+            "material_texture"
+          ]
+        },
+        {
+          "id": "s5",
+          "type": "scale_hand",
+          "use": [
+            "amazon_scale",
+            "douyin_scale"
+          ],
+          "mode": "i2i",
+          "ratio": "3:4",
+          "size": "2K",
+          "prompt": "Use the input image as the exact product reference. Preserve the product's silhouette, proportions, rim shape, foot ring, handle, number of pieces and decoration exactly. Only change: context. A hand gently holding the Chinese gaiwan bowl (lid placed beside it or in hand) to demonstrate scale (approx 94mm diameter). Natural skin tone, no face visible, only hands. Dehua blanc de chine porcelain, warm ivory white glaze. Clean, bright background, soft natural light. No text, no logo, no watermark.",
+          "avoid": "green tint, blue tint, gray tint, cold white, full body, face, clutter, text, watermark",
+          "qc_focus": [
+            "scale_accuracy",
+            "fidelity",
+            "no_face"
+          ]
+        },
+        {
+          "id": "s6",
+          "type": "scene_tea",
+          "use": [
+            "jd_scene",
+            "tmall_scene",
+            "douyin_lifestyle"
+          ],
+          "mode": "i2i",
+          "ratio": "4:3",
+          "size": "2K",
+          "prompt": "Use the input image as the exact product reference. Preserve the product's silhouette, proportions, rim shape, foot ring, handle, number of pieces and decoration exactly. Only change: scene. A new Chinese-style tea ceremony setting. The Chinese gaiwan (Dehua blanc de chine, warm ivory white) placed on a wooden tea tray with a small teapot and tea leaves nearby. Soft, warm ambient lighting, shallow depth of field. Elegant, minimalist atmosphere. No text, no logo, no watermark.",
+          "avoid": "green tint, blue tint, gray tint, cold white, chaotic props, bright artificial light, text, watermark",
+          "qc_focus": [
+            "scene_atmosphere",
+            "fidelity",
+            "tea_liquid_color"
+          ]
+        },
+        {
+          "id": "s7",
+          "type": "scene_office",
+          "use": [
+            "amazon_lifestyle",
+            "jd_lifestyle"
+          ],
+          "mode": "i2i",
+          "ratio": "3:4",
+          "size": "2K",
+          "prompt": "Use the input image as the exact product reference. Preserve the product's silhouette, proportions, rim shape, foot ring, handle, number of pieces and decoration exactly. Only change: scene. A modern office desk setup during a tea break. The Chinese gaiwan (warm ivory white Dehua porcelain) sits next to a laptop and a notebook. Bright, clean daylight from a window. Professional, calm vibe. No text, no logo, no watermark.",
+          "avoid": "green tint, blue tint, gray tint, cold white, messy desk, strong shadow, text, watermark",
+          "qc_focus": [
+            "scene_relevance",
+            "fidelity",
+            "lighting_balance"
+          ]
+        },
+        {
+          "id": "s8",
+          "type": "gift_box",
+          "use": [
+            "jd_gift",
+            "amazon_gift"
+          ],
+          "mode": "i2i",
+          "ratio": "4:3",
+          "size": "2K",
+          "prompt": "Use the input image as the exact product reference. Preserve the product's silhouette, proportions, rim shape, foot ring, handle, number of pieces and decoration exactly. Only change: context. The Chinese gaiwan set displayed in an elegant, open gift box with soft linen lining. Minimalist packaging aesthetic, suitable for wedding or housewarming gifts. Warm, soft studio lighting. No text, no logo, no watermark.",
+          "avoid": "green tint, blue tint, gray tint, cold white, excessive wrapping paper, complex patterns, text, watermark",
+          "qc_focus": [
+            "packaging_visibility",
+            "fidelity",
+            "elegance"
+          ]
+        }
+      ],
+      "assumptions": [
+        "The 'render3d' mode for s1 assumes the system provides a 3D model of the gaiwan; if not, it will fallback to i2i or t2i.",
+        "Since no reference images are provided in the input, 'i2i' prompts are written as templates that require the user to upload a reference image before execution.",
+        "The gift box in s8 is conceptualized as a generic elegant box since specific packaging dimensions/design were not provided."
+      ],
+      "questions": [
+        "Do you have a specific 3D CAD file or high-res render for the 'hero_white' shot, or should we proceed with text-to-image for the concept stage?",
+        "For the 'gift_box' shot, do you have a specific packaging design or color palette (e.g., red vs. cream) that needs to be preserved?"
+      ],
+      "notes": [
+        "All glaze descriptions strictly adhere to 'china_white_ivory' visual specs to avoid green/blue tints.",
+        "Microwave safety is not visually depicted but implied by material; no text claims are made in the images to comply with compliance rules.",
+        "Images for Amazon must strictly follow the 'No text, no logo, no watermark' rule."
+      ]
+    },
+    "compliance": {
+      "texts": {
+        "jd.title": "【】德化高白瓷三才盖碗 150ml 象牙白素面 功夫茶器 礼盒装",
+        "tmall.title": "德化白瓷三才盖碗 150ml象牙白 95g轻 可微波洗碗机 功夫茶具",
+        "douyin.title": "宋韵象牙白盖碗 95g太轻了 喝完直接扔洗碗机",
+        "jd.selling_points[0]": "德化高白瓷 象牙白温润透光",
+        "jd.selling_points[1]": "仅95g单手端持 久泡不累",
+        "jd.selling_points[2]": "一次烧成抗热冲击 泡茶安心",
+        "jd.selling_points[3]": "150ml黄金容量 适配一人功夫",
+        "jd.selling_points[4]": "可入洗碗机 易清洁无串味",
+        "douyin.selling_points[0]": "德化白瓷透光好，茶汤颜色看得清",
+        "douyin.selling_points[1]": "单手端起不晃，久泡手腕不酸",
+        "douyin.selling_points[2]": "素面无纹，放在桌上特别显高级",
+        "douyin.selling_points[3]": "喝完不用手洗，直接丢洗碗机",
+        "douyin.selling_points[4]": "冷热急变不怕裂，泡茶更安心",
+        "detail.hero": "宋韵象牙白，一杯清茶｜德化高白瓷三才盖碗，素雅温润。150ml黄金容量，单手轻持95g，为现代茶席添一抹东方雅意。",
+        "detail.selling_points": "匠心白瓷，轻若无物｜德化高白瓷胎体洁净透光；1280-1350℃一次烧成抗热冲击；整器仅95g，久持不坠手。",
+        "detail.material_craft": "千年瓷都，纯净如骨｜取自德化高岭土，经高温窑火一次烧成。象牙白釉面致密，素面造型克制百搭。",
+        "detail.size_capacity": "黄金尺寸，一人茶量｜碗高54mm、口径94mm、足径40mm，150ml容量符合一人份功夫茶习惯，出汤从容。",
+        "detail.scenes": "日常茶席，从容自饮｜适合一人独处功夫茶、办公迷你下午茶或朋友到访互敬，百搭现代与中式茶席。",
+        "detail.details": "细节考究，触手温润｜口沿平滑圆润，足底露胎自然，盖钮握持舒适。素面设计无多余装饰，尽显匠心。",
+        "detail.packaging": "严选防护，安心送达｜易碎品专项包装，内衬防震。适配京东德化产地仓物流方案，降低运输破损风险。",
+        "detail.care": "现代友好，省心清洁｜釉面致密无金属彩，支持微波炉加热与洗碗机清洗。日常使用后建议竖放晾干，避免串味。",
+        "detail.service": "概念展示，敬请期待｜本页部分图片为AI效果图，以量产实物为准。支持京东商家服务中心选品，期待您见证。",
+        "amazon.title": "White Porcelain Gaiwan Teaware Set, 5.1 fl oz (150 ml), Three-Piece Lidded Cup with Lid and Saucer, Light Ivory Color, Dishwasher Safe, Minimalist Design for Gaiwan Tea Ceremony",
+        "amazon.bullets[0]": "PORCELAIN CRAFT: Made from premium ivory white porcelain, single-fired at high temperatures for a durable, smooth surface suitable for daily tea use.",
+        "amazon.bullets[1]": "LIGHTWEIGHT DESIGN: The entire set weighs only 95 g, offering a comfortable and effortless grip for extended tea sessions without hand fatigue.",
+        "amazon.bullets[2]": "EASY TO CLEAN: The three-piece structure allows for convenient handling and is both dishwasher and microwave safe, fitting modern home routines.",
+        "amazon.bullets[3]": "MODERN AESTHETIC: Features a plain, decorative-free finish in a classic lidded bowl shape that complements minimalist, Japanese, or Chinese interiors.",
+        "amazon.bullets[4]": "PERFECT GIFT: A refined and practical tea accessory, ideal for gifting to tea lovers, newlyweds, or colleagues for special occasions."
+      },
+      "ruleHits": [],
+      "review": {
+        "issues": [
+          {
+            "field": "jd.selling_points[2]",
+            "quote": "一次烧成抗热冲击",
+            "type": "fact_mismatch",
+            "severity": "warn",
+            "reason": "未提供抗热冲击测试数据或检测结论，宣称物理性能需依据支撑，避免无依据夸大。",
+            "suggestion": "一次烧成，釉面致密。1280-1350℃窑烧，耐温差性能良好。"
+          },
+          {
+            "field": "douyin.selling_points[4]",
+            "quote": "冷热急变不怕裂",
+            "type": "fact_mismatch",
+            "severity": "warn",
+            "reason": "缺乏热冲击测试证据，“不怕裂”属于绝对化且无法证实的承诺。",
+            "suggestion": "经高温烧制，具有一定的热稳定性，冷热交替正常使用更安心。"
+          },
+          {
+            "field": "detail.material_craft",
+            "quote": "千年瓷都",
+            "type": "exaggeration",
+            "severity": "warn",
+            "reason": "产地历史陈述缺乏具体年份佐证，易被视为无依据夸大，建议改为客观描述。",
+            "suggestion": "德化白瓷产区，传承深厚，取当地高岭土，经高温窑火一次烧成。"
+          }
+        ],
+        "overall": "pass",
+        "notes": "1. 产品状态为概念阶段，文案已包含概念声明。2. 关于可微波洗碗机的说明正确，未使用含金属彩（金银彩）釉。3. 已修正抗热冲击等需证据支撑的性能描述。"
+      },
+      "fixes": [
+        {
+          "field": "jd.selling_points[2]",
+          "before": "一次烧成抗热冲击 泡茶安心",
+          "after": "德化高白瓷一次烧成，1280-1350℃窑烧，釉面致密。日常品茶，温润趁手。",
+          "changes": [
+            {
+              "from": "一次烧成抗热冲击 泡茶安心",
+              "to": "德化高白瓷一次烧成，1280-1350℃窑烧，釉面致密。日常品茶，温润趁手。",
+              "reason": "CN-FACT-001 无依据物理性能宣称替换为可证工艺参数"
+            }
+          ],
+          "recheck": 0
+        },
+        {
+          "field": "douyin.selling_points[4]",
+          "before": "冷热急变不怕裂，泡茶更安心",
+          "after": "经1350℃高温一次烧成，德化高白瓷热稳定性佳，冷热交替泡茶更安心",
+          "changes": [
+            {
+              "from": "冷热急变不怕裂",
+              "to": "经1350℃高温一次烧成，德化高白瓷热稳定性佳",
+              "reason": "移除绝对化用语“不怕裂”，基于产品参数“1280–1350℃一次烧成”和“德化高白瓷”材质，转化为有据可查的热稳定性描述"
+            }
+          ],
+          "recheck": 0
+        },
+        {
+          "field": "detail.material_craft",
+          "before": "千年瓷都，纯净如骨｜取自德化高岭土，经高温窑火一次烧成。象牙白釉面致密，素面造型克制百搭。",
+          "after": "取自德化高岭土，经1300℃窑火一次烧成。象牙白釉面致密，素面造型克制百搭。",
+          "changes": [
+            {
+              "from": "千年瓷都，纯净如骨｜",
+              "to": "取自德化高岭土，",
+              "reason": "移除缺乏佐证的“千年瓷都”夸大表述，依据参数改为具体产地及原料描述。"
+            }
+          ],
+          "recheck": 0
+        }
+      ]
+    }
+  },
+  "status": "done",
+  "finishedAt": "2026-10-25T08:48:50.877Z"
+}

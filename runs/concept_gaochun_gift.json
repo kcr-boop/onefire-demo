@@ -1,0 +1,1997 @@
+{
+  "id": "concept_gaochun_gift",
+  "type": "concept",
+  "title": "迁移演示：高淳骨瓷·企业年会礼赠",
+  "region": "gaochun",
+  "createdAt": "2026-10-25T08:16:05.534Z",
+  "models": {
+    "text": "agnes-3.0-flash",
+    "image": "agnes-image-2.5-flash",
+    "video": "agnes-video-2.5-flash"
+  },
+  "input": {
+    "brief": "为一家科技企业年会定制伴手礼茶具，预算 300 元/套，200 套，要东方雅致、轻薄透光的骨瓷，盖碗 + 2 只品茗杯，可以在礼盒和杯底印企业 Logo；文案里想写\"国宴级品质\"。",
+    "platforms": [
+      "jd",
+      "tmall"
+    ]
+  },
+  "steps": [
+    {
+      "key": "brief_parser",
+      "agent": "需求解析员",
+      "status": "done",
+      "at": 2,
+      "ms": 18858,
+      "promptId": "concept.brief_parser",
+      "version": "1.0.0",
+      "model": "agnes-3.0-flash",
+      "attempts": 2,
+      "repaired": false,
+      "usage": {
+        "completion_tokens": 649,
+        "prompt_tokens": 1840,
+        "total_tokens": 2489
+      },
+      "fencedJson": false,
+      "output": {
+        "mode": "gift",
+        "summary": "科技企业年会定制骨瓷茶具，200套，预算300元/套，含Logo",
+        "category": "茶具",
+        "product_types": [
+          "gaiwan",
+          "pinming_cup"
+        ],
+        "quantity": {
+          "value": 200,
+          "unit": "套"
+        },
+        "price": {
+          "currency": "CNY",
+          "retail_min": null,
+          "retail_max": null,
+          "fob_target": 300
+        },
+        "target_users": [
+          "科技企业员工",
+          "年会宾客"
+        ],
+        "scenes": [
+          "企业年会伴手礼",
+          "办公室品茶",
+          "商务馈赠"
+        ],
+        "style_keywords": [
+          "东方雅致",
+          "轻薄透光",
+          "商务礼品"
+        ],
+        "functional_requirements": [
+          {
+            "item": "套装组成",
+            "value": "1个盖碗 + 2只品茗杯",
+            "source_text": "盖碗 + 2 只品茗杯"
+          },
+          {
+            "item": "材质手感/视觉",
+            "value": "轻薄、透光",
+            "source_text": "轻薄透光的骨瓷"
+          }
+        ],
+        "material_preference": "bone_china",
+        "glaze_preference": [],
+        "decoration_preference": [
+          "Logo 定制",
+          "礼盒定制"
+        ],
+        "packaging": "礼盒",
+        "markets_platforms": [
+          "jd",
+          "tmall"
+        ],
+        "certifications_required": [
+          "GB 4806.4-2016"
+        ],
+        "timeline_days": null,
+        "constraints": [
+          "单套预算 300 CNY",
+          "禁止使用‘国宴级品质’等无证据支持的营销话术"
+        ],
+        "assumptions": [
+          "按目标市场为国内电商平台推断，食品接触陶瓷需符合 GB 4806.4-2016",
+          "用户勾选的 jd/tmall 为参考渠道，但需求本质为企业定制礼品（gift），主要渠道可能为线下或企业内部分发",
+          "‘轻薄透光’通常对应骨瓷材质，故 material_preference 设为 bone_china"
+        ],
+        "questions": [
+          "‘国宴级品质’缺乏事实依据，请确认是否可改为‘高品质骨瓷’或‘优雅东方设计’等合规表述？",
+          "具体需要哪些釉色？当前可选釉色列表中无‘东方雅致’直接对应项，需确认偏好（如中国白、影青等）",
+          "Logo 印制工艺要求：是贴花、釉下彩还是浮雕？是否涉及金银彩（若含金银彩需提示不可微波）？",
+          "交期要求：年会具体时间是何时？需预留多少生产周期？",
+          "是否提供 Logo 矢量源文件（AI/EPS/SVG）？",
+          "礼盒材质偏好：是否有指定牛皮纸、特种纸或硬质盒？"
+        ]
+      },
+      "summary": "科技企业年会定制骨瓷茶具，200套，预算300元/套，含Logo｜器型 gaiwan/pinming_cup"
+    },
+    {
+      "key": "market_insight",
+      "agent": "市场洞察员",
+      "status": "done",
+      "at": 18868,
+      "ms": 26032,
+      "promptId": "concept.market_insight",
+      "version": "1.0.0",
+      "model": "agnes-3.0-flash",
+      "attempts": 2,
+      "repaired": false,
+      "usage": {
+        "completion_tokens": 1325,
+        "prompt_tokens": 2070,
+        "total_tokens": 3395
+      },
+      "fencedJson": false,
+      "output": {
+        "personas": [
+          {
+            "name": "科技企业行政采购负责人",
+            "profile": "负责年会伴手礼与商务馈赠选品，预算敏感但看重品牌调性，偏好高颜值、轻便且不易碎的包装",
+            "needs": [
+              "单套总价控制在300 CNY内",
+              "Logo定制工艺清晰且不掉色",
+              "礼盒防碎，降低年会现场或员工取用破损率",
+              "交期准时，避免年会临时调整"
+            ],
+            "buying_triggers": [
+              "骨瓷材质轻薄透光的质感对比",
+              "东方雅致设计语言契合科技企业“简约不单调”审美",
+              "产地官方背书（如APEC用瓷经验）增强送礼底气"
+            ],
+            "objections": [
+              "担心骨瓷易碎导致快递或年会领取环节破损率高",
+              "Logo定制工艺是否影响后续高温烧制稳定性",
+              "缺乏对“轻薄透光”具体参数的直观认知，难以在内部汇报中量化呈现"
+            ]
+          },
+          {
+            "name": "年会受邀行业嘉宾/高管",
+            "profile": "高净值人群，对商务礼品有挑剔眼光，重视礼品的可留存价值、设计感及品牌方背后的实力",
+            "needs": [
+              "礼盒具备二次包装可陈列的仪式感",
+              "产品具备实用功能（办公室品茶）而非纯摆件",
+              "品牌产地有故事可讲，具备社交谈资"
+            ],
+            "buying_triggers": [
+              "国宴级餐瓷工艺背书带来的品质信任",
+              "骨瓷杯沿厚度与透光度的实物体验",
+              "礼盒定制的开箱视觉体验"
+            ],
+            "objections": [
+              "礼品是否显得“工业化量产”而缺乏专属感",
+              "是否具备食品接触安全认证，用于日常品饮的安心度"
+            ]
+          }
+        ],
+        "scenes": [
+          "企业年会伴手礼拆箱展示",
+          "科技园区办公室午后品饮轻茶/咖啡",
+          "高端商务宴请中的定制茶具馈赠"
+        ],
+        "positioning_angles": [
+          {
+            "angle": "峰会级工艺背书的高端商务礼品",
+            "why": "利用高淳产区“曾承制北京APEC晚宴用瓷”和“中国当代官窑”的背景，将普通年会伴手礼升维为具备高规格品质信任状的商务礼品，满足科技企业对调性的追求。",
+            "evidence": "kb:gaochun_fact_1, kb:gaochun_fact_2"
+          },
+          {
+            "angle": "轻薄透光骨瓷的感官体验",
+            "why": "针对“轻薄、透光”的功能要求，主打骨瓷的物理特性（透光、轻量），区别于厚重传统陶瓷，更契合科技企业员工在办公场景的便捷需求。",
+            "evidence": "kb:gaochun_fact_4"
+          },
+          {
+            "angle": "东方雅致的数字化视觉定制",
+            "why": "结合“东方雅致”风格，通过精准的Logo定制与特种纸礼盒设计，将传统骨瓷与现代科技企业的品牌视觉（VI）深度融合，形成专属感。",
+            "evidence": "经验判断"
+          }
+        ],
+        "price_strategy": {
+          "suggested_retail": "300 CNY/套（含Logo与礼盒定制成本）",
+          "reasoning": "单套预算300 CNY需覆盖200套的总盘子。骨瓷茶具（1盖碗+2品茗杯）的裸瓷成本通常在80-120 CNY，定制Logo贴花/釉下彩及硬质防碎礼盒成本约60-100 CNY。剩余空间用于包装防碎（气泡/蜂窝纸）及运输损耗。因是高淳产区具备高端定制能力，此价格可维持“高价值感”定位。",
+          "evidence": "kb:gaochun_fact_1, kb:ecommerce_playbook"
+        },
+        "differentiation": [
+          "高淳骨瓷工艺背书（APEC晚宴用瓷同宗工艺）",
+          "轻薄透光的物理参数化呈现（如透光率、杯沿厚度实测展示）",
+          "针对易碎品定制的防碎礼盒结构（京东产地仓包装方案逻辑）",
+          "东方雅致美学与现代科技品牌VI的精准适配"
+        ],
+        "content_hooks": [
+          "透光测试：黑色背景前展示骨瓷盖碗与品茗杯的轻薄透光瞬间",
+          "防碎开箱：礼盒多层防碎结构的硬核测试（如防跌落演示）",
+          "工艺溯源：高淳“中国当代官窑”与APEC用瓷的传承故事",
+          "定制对比：普通纸质杯垫/马克杯与定制骨瓷茶具在办公室场景的质感对比"
+        ],
+        "risks": [
+          "骨瓷本身物理特性偏脆，200套在年会分发与快递环节破损率可能高于普通陶瓷，需强化包装防碎",
+          "若Logo采用含金彩/银彩工艺，需向企业客户明示不可微波，影响“办公室品茶/咖啡”场景的实用性",
+          "“轻薄透光”在批量烧制中易出现变形或釉面瑕疵，需提前打样确认烧成收缩率",
+          "客户缺乏源文件可能导致定制印刷延误，增加交期风险"
+        ],
+        "assumptions": [
+          "假设年会礼品分发主要依赖快递或线下自提，需将防碎包装作为核心竞争力",
+          "假设“轻薄透光”主要依靠骨瓷材质本身（收缩率约18.38%）实现，而非特殊釉面",
+          "假设目标企业（科技类）对“东方雅致”的理解偏向极简、新中式，而非繁复的传统纹样"
+        ]
+      },
+      "summary": "2 类人群 · 3 个定位角度"
+    },
+    {
+      "key": "form_designer",
+      "agent": "造型设计师",
+      "status": "done",
+      "at": 44903,
+      "ms": 32749,
+      "promptId": "concept.form_designer",
+      "version": "1.0.0",
+      "model": "agnes-3.0-flash",
+      "attempts": 2,
+      "repaired": false,
+      "usage": {
+        "completion_tokens": 1890,
+        "prompt_tokens": 5979,
+        "total_tokens": 7869
+      },
+      "fencedJson": false,
+      "output": {
+        "concepts": [
+          {
+            "id": "c1",
+            "name": "极简骨瓷商务套件",
+            "one_liner": "轻薄透光骨瓷，极简设计，耐用型包装",
+            "positioning_angle": "轻薄透光骨瓷的感官体验",
+            "style": "北欧简约",
+            "set_composition": [
+              {
+                "item": "盖碗",
+                "qty": 1,
+                "template": "gaiwan"
+              },
+              {
+                "item": "品茗杯",
+                "qty": 2,
+                "template": "pinming_cup"
+              }
+            ],
+            "hero_shape": {
+              "template": "gaiwan",
+              "params": {
+                "H": 54,
+                "D_rim": 94,
+                "D_foot": 40,
+                "h_foot": 5,
+                "t_wall": 2,
+                "t_bottom": 3,
+                "roundness": 0.55,
+                "bulge": 0,
+                "belly_z": 0.42,
+                "flare": 2
+              },
+              "points": null
+            },
+            "material": "bone_china",
+            "forming": "slip_casting",
+            "glaze": "bone_white",
+            "decoration": "logo_inglaze",
+            "decoration_detail": "盖碗侧面与杯身中下部印制企业Logo，采用釉中彩工艺，避开20mm口沿，烧制后颜色稳定，抗磨损。",
+            "packaging": "硬质瓦楞纸盒内部定制EVA/EPS吸塑内托，填充缓冲材料，确保运输防碎。",
+            "target_retail_price": {
+              "min": 280,
+              "max": 300,
+              "currency": "CNY"
+            },
+            "selling_points_draft": [
+              "高淳骨瓷材质，杯壁厚度仅2.0mm，透光轻薄",
+              "釉中彩Logo烧制牢固，不褪色",
+              "加厚防碎包装，降低年会分发破损率"
+            ],
+            "design_rationale": "基于'轻薄透光'需求，选用骨质瓷并严格控制壁厚（t_wall=2.0mm，接近骨瓷常规下限，保证轻透同时维持强度）。采用'稳妥量产型'路线，使用模板默认尺寸，工艺简单，模具成本低。",
+            "evidence_needed": [
+              "GB 4806.4-2016 食品接触安全检测合格证明"
+            ]
+          },
+          {
+            "id": "c2",
+            "name": "东方雅致·影青定制",
+            "one_liner": "影青釉色搭配浮雕装饰，高端东方礼品",
+            "positioning_angle": "东方雅致的数字化视觉定制",
+            "style": "新中式",
+            "set_composition": [
+              {
+                "item": "盖碗",
+                "qty": 1,
+                "template": "gaiwan"
+              },
+              {
+                "item": "品茗杯",
+                "qty": 2,
+                "template": "pinming_cup"
+              }
+            ],
+            "hero_shape": {
+              "template": "gaiwan",
+              "params": {
+                "H": 58,
+                "D_rim": 98,
+                "D_foot": 42,
+                "h_foot": 5,
+                "t_wall": 2.5,
+                "t_bottom": 3.5,
+                "roundness": 0.55,
+                "bulge": 2,
+                "belly_z": 0.42,
+                "flare": 4
+              },
+              "points": null
+            },
+            "material": "bone_china",
+            "forming": "slip_casting",
+            "glaze": "qingbai",
+            "decoration": "relief",
+            "decoration_detail": "盖碗腹部增加简约莲花或山水浮雕线条，增加握持手感与视觉层次；Logo采用釉中彩，印于浮雕下方。",
+            "packaging": "特种纸精装礼盒，内衬丝绸面料吸塑，提升开箱仪式感。",
+            "target_retail_price": {
+              "min": 290,
+              "max": 300,
+              "currency": "CNY"
+            },
+            "selling_points_draft": [
+              "影青釉色温润如玉，东方雅致风格",
+              "浮雕工艺增加手感与辨识度",
+              "透光骨瓷配影青釉，层次丰富"
+            ],
+            "design_rationale": "作为'差异化溢价型'方案，通过增加浮雕模具成本与影青釉色拉开与普通白瓷的差异。影青釉色在骨瓷上呈现半透明青绿调，符合'东方雅致'且比纯白更有质感。",
+            "evidence_needed": [
+              "浮雕模具开模费用是否可分摊在300元/套预算内"
+            ]
+          },
+          {
+            "id": "c3",
+            "name": "素雅双杯商务套",
+            "one_liner": "纯色哑光釉面，极简商务，防指纹",
+            "positioning_angle": "峰会级工艺背书的高端商务礼品",
+            "style": "北欧简约",
+            "set_composition": [
+              {
+                "item": "盖碗",
+                "qty": 1,
+                "template": "gaiwan"
+              },
+              {
+                "item": "品茗杯",
+                "qty": 2,
+                "template": "pinming_cup"
+              }
+            ],
+            "hero_shape": {
+              "template": "gaiwan",
+              "params": {
+                "H": 62,
+                "D_rim": 102,
+                "D_foot": 45,
+                "h_foot": 6,
+                "t_wall": 2.2,
+                "t_bottom": 3.2,
+                "roundness": 0.65,
+                "bulge": 3,
+                "belly_z": 0.42,
+                "flare": 5
+              },
+              "points": null
+            },
+            "material": "bone_china",
+            "forming": "slip_casting",
+            "glaze": "matte_black",
+            "decoration": "logo_inglaze",
+            "decoration_detail": "哑光黑色釉面，Logo采用同色系浮雕或浅金色釉中彩（不含金银彩，确保可微波），低调奢华。",
+            "packaging": "黑色硬质礼盒，内部白色防震棉，高对比度视觉。",
+            "target_retail_price": {
+              "min": 285,
+              "max": 300,
+              "currency": "CNY"
+            },
+            "selling_points_draft": [
+              "哑光黑骨瓷，视觉冲击力强，商务感强",
+              "不沾指纹，日常办公易打理",
+              "高淳骨瓷透光材质与哑光釉的质感反差"
+            ],
+            "design_rationale": "针对科技企业审美，提供深色选项。哑光黑在骨瓷透光背景下（如杯底或透光面）可能产生特殊视觉效果，需确认釉料遮盖度。此为风格差异化，工艺上与c1类似，属于稳妥型但视觉更强烈。",
+            "evidence_needed": [
+              "哑光黑釉在骨瓷上的遮盖度与烧成变形率确认"
+            ]
+          }
+        ],
+        "assumptions": [
+          "预算300元/套为FOB或出厂含税价，未单独列明运费，故包装设计需在预算内解决防碎问题。",
+          "所有方案均不包含金银彩，以确保可微波（符合办公室场景），若客户要求金边需另行报价并提示不可微波。",
+          "骨质瓷壁厚设定在2.0-2.5mm，基于'轻薄透光'需求，但需注意骨质瓷强度与壁厚的平衡，过薄易碎。"
+        ]
+      },
+      "summary": "极简骨瓷商务套件 / 东方雅致·影青定制 / 素雅双杯商务套"
+    },
+    {
+      "key": "dfm_engine",
+      "agent": "DFM 引擎",
+      "status": "done",
+      "at": 77653,
+      "ms": 3,
+      "output": {
+        "c1": {
+          "design": {
+            "template": "gaiwan",
+            "params": {
+              "H": 54,
+              "D_rim": 94,
+              "D_foot": 40,
+              "h_foot": 5,
+              "t_wall": 2,
+              "t_bottom": 3,
+              "roundness": 0.55,
+              "bulge": 0,
+              "belly_z": 0.42,
+              "flare": 2
+            },
+            "points": null,
+            "material": "bone_china",
+            "forming": "slip_casting",
+            "decoration": "logo_inglaze",
+            "claimsMicrowave": false
+          },
+          "metrics": {
+            "capacityFull": 188,
+            "capacityUse": 159,
+            "weight": 89,
+            "D_max": 94,
+            "closed": false
+          },
+          "summary": {
+            "pass": 10,
+            "warn": 0,
+            "fail": 0
+          },
+          "failing": [],
+          "mold": 5,
+          "cost": {
+            "complexity": "medium",
+            "traditional": {
+              "rounds": [
+                2,
+                3
+              ],
+              "cost": [
+                16000,
+                60000
+              ],
+              "days": [
+                20,
+                40
+              ]
+            },
+            "onefire": {
+              "rounds": [
+                1,
+                2
+              ],
+              "cost": [
+                8200,
+                40800
+              ],
+              "days": [
+                7,
+                20
+              ]
+            },
+            "perRound": [
+              8000,
+              20000
+            ],
+            "moldPieces": 5
+          },
+          "green": {
+            "roundsSaved": 1,
+            "kwh": 150,
+            "co2": 86.7
+          },
+          "notes": []
+        },
+        "c2": {
+          "design": {
+            "template": "gaiwan",
+            "params": {
+              "H": 58,
+              "D_rim": 98,
+              "D_foot": 42,
+              "h_foot": 5,
+              "t_wall": 2.5,
+              "t_bottom": 3.5,
+              "roundness": 0.55,
+              "bulge": 2,
+              "belly_z": 0.42,
+              "flare": 4
+            },
+            "points": null,
+            "material": "bone_china",
+            "forming": "slip_casting",
+            "decoration": "relief",
+            "claimsMicrowave": false
+          },
+          "metrics": {
+            "capacityFull": 220,
+            "capacityUse": 188,
+            "weight": 121,
+            "D_max": 98,
+            "closed": false
+          },
+          "summary": {
+            "pass": 10,
+            "warn": 0,
+            "fail": 0
+          },
+          "failing": [],
+          "mold": 6,
+          "cost": {
+            "complexity": "medium",
+            "traditional": {
+              "rounds": [
+                2,
+                3
+              ],
+              "cost": [
+                16000,
+                60000
+              ],
+              "days": [
+                20,
+                40
+              ]
+            },
+            "onefire": {
+              "rounds": [
+                1,
+                2
+              ],
+              "cost": [
+                8200,
+                40800
+              ],
+              "days": [
+                7,
+                20
+              ]
+            },
+            "perRound": [
+              8000,
+              20000
+            ],
+            "moldPieces": 6
+          },
+          "green": {
+            "roundsSaved": 1,
+            "kwh": 150,
+            "co2": 86.7
+          },
+          "notes": []
+        },
+        "c3": {
+          "design": {
+            "template": "gaiwan",
+            "params": {
+              "H": 62,
+              "D_rim": 102,
+              "D_foot": 45,
+              "h_foot": 6,
+              "t_wall": 2.2,
+              "t_bottom": 3.2,
+              "roundness": 0.65,
+              "bulge": 3,
+              "belly_z": 0.42,
+              "flare": 5
+            },
+            "points": null,
+            "material": "bone_china",
+            "forming": "slip_casting",
+            "decoration": "logo_inglaze",
+            "claimsMicrowave": false
+          },
+          "metrics": {
+            "capacityFull": 249,
+            "capacityUse": 212,
+            "weight": 123,
+            "D_max": 102,
+            "closed": false
+          },
+          "summary": {
+            "pass": 9,
+            "warn": 1,
+            "fail": 0
+          },
+          "failing": [
+            {
+              "id": "lid_fit",
+              "name": "盖合间隙（公差链）",
+              "status": "warn",
+              "value": "1.5 mm",
+              "limit": "≥ 1.52 mm",
+              "message": "批次收缩波动可能导致盖合过紧",
+              "fix": "盖身同批同烧或加大间隙"
+            }
+          ],
+          "mold": 5,
+          "cost": {
+            "complexity": "medium",
+            "traditional": {
+              "rounds": [
+                2,
+                3
+              ],
+              "cost": [
+                16000,
+                60000
+              ],
+              "days": [
+                20,
+                40
+              ]
+            },
+            "onefire": {
+              "rounds": [
+                1,
+                2
+              ],
+              "cost": [
+                8200,
+                40800
+              ],
+              "days": [
+                7,
+                20
+              ]
+            },
+            "perRound": [
+              8000,
+              20000
+            ],
+            "moldPieces": 5
+          },
+          "green": {
+            "roundsSaved": 1,
+            "kwh": 150,
+            "co2": 86.7
+          },
+          "notes": []
+        }
+      },
+      "summary": "c1: ✓10 ⚠0 ✗0｜c2: ✓10 ⚠0 ✗0｜c3: ✓9 ⚠1 ✗0"
+    },
+    {
+      "key": "craft_engineer",
+      "agent": "工艺工程师",
+      "status": "done",
+      "at": 77659,
+      "ms": 41981,
+      "promptId": "concept.craft_engineer",
+      "version": "1.0.0",
+      "model": "agnes-3.0-flash",
+      "attempts": 2,
+      "repaired": false,
+      "usage": {
+        "completion_tokens": 2767,
+        "prompt_tokens": 4937,
+        "total_tokens": 7704
+      },
+      "fencedJson": false,
+      "output": {
+        "reviews": [
+          {
+            "concept_id": "c1",
+            "feasibility": "pass",
+            "key_risks": [
+              {
+                "risk": "t_wall=2.0 mm 为骨瓷注浆极限薄壁，流动性不足易导致流挂、厚度不均，且骨瓷高温强度低易变形",
+                "source": "judgement",
+                "severity": "med",
+                "mitigation": "打样阶段实测收缩率与壁厚均匀性；注浆料调整流动性（固含率 70±1%）；若流挂严重建议 t_wall 上调至 2.2 mm"
+              },
+              {
+                "risk": "釉中彩 Logo 烧制后需满足食品接触安全，口沿 20 mm 内已避开，但内壁有接触可能",
+                "source": "judgement",
+                "severity": "low",
+                "mitigation": "成品后送检 GB 4806.4-2016 及相应釉面食品接触标准；确认釉中彩颜料迁移量达标"
+              }
+            ],
+            "param_fixes": {},
+            "process_plan": {
+              "forming": "slip_casting",
+              "mold_pieces": 5,
+              "firing": "一次烧成约 1300℃（以厂内曲线为准）",
+              "glaze_notes": "骨瓷白釉，透光薄壁需确保釉层 0.3–0.5 mm，避免流挂；烧后口沿釉色均匀，足底露胎区留 1.5–2.0 mm 素烧圈",
+              "decoration_notes": "Logo 采用釉中彩，印于盖碗侧面及杯身中下部，避开口沿 20 mm 与内壁；烧成温度与素烧同窑，无二次烤花"
+            },
+            "food_safety": {
+              "microwave": true,
+              "dishwasher": true,
+              "notes": "无金银彩，釉中彩稳定；骨瓷需避开 650℃ 以上微波长时间加热，建议标注可微波但避免高功率持续加热"
+            },
+            "moq_suggestion": "50 套起，依据：模具 5 片成本 8200–40800 元（OneFire 路线），摊销 50 套内单套模具成本可控制在 160–800 元区间，不超出 280–300 元零售价结构；窑位 1 炉可装 50 套",
+            "sampling_plan": "3D 打印母模 → 翻石膏模（5 片）→ 注浆试坯 10 只 → 测量收缩率、壁厚均匀性、容量（188/159 ml）→ 1 轮试烧 1300℃ → 釉面附着力与 Logo 清晰度检查。数字打样已验证壁厚、容量、模具片数；试烧验证釉色、变形量、收缩率实测",
+            "verified_digitally": [
+              "壁厚 2.0 mm",
+              "容量 188/159 ml",
+              "模具 5 片",
+              "收缩补偿尺寸"
+            ],
+            "needs_physical_trial": [
+              "骨瓷白釉透光均匀性",
+              "烧成变形量（H 方向）",
+              "收缩率实测（参考 kb:gaochun_fact_4 均值 18.38%）"
+            ]
+          },
+          {
+            "concept_id": "c2",
+            "feasibility": "warn",
+            "key_risks": [
+              {
+                "risk": "浮雕模具增加分片至 6 片，模缝处理不当易产生合线（firing line）破坏影青釉连续感",
+                "source": "judgement",
+                "severity": "med",
+                "mitigation": "合线处设计 1.5–2.0 mm 浮雕台阶掩盖接缝；试烧后检查合线凸起高度是否 >0.3 mm，若明显则调整模片配合"
+              },
+              {
+                "risk": "影青釉在骨瓷上呈青绿色调，釉料配方敏感性高，烧成气氛波动会导致色号漂移",
+                "source": "judgement",
+                "severity": "med",
+                "mitigation": "定 1–2 个目标色号样片，试烧时与样品同炉不同层对比；建立烧成气氛记录（还原程度），批间差异 >ΔE 2.0 即追溯"
+              },
+              {
+                "risk": "浮雕+影青双装饰成本叠加，290–300 元零售价预算需重新核算毛利",
+                "source": "judgement",
+                "severity": "low",
+                "mitigation": "确认 OneFire 路线模具 40800 元/2 轮，单套 BOM+模摊 ≤120 元方可持续；若毛利不足可取消浮雕改素面影青"
+              }
+            ],
+            "param_fixes": {},
+            "process_plan": {
+              "forming": "slip_casting",
+              "mold_pieces": 6,
+              "firing": "一次烧成约 1300℃（以厂内曲线为准），影青釉需微调降温段 10–15 min 防窑变形",
+              "glaze_notes": "影青釉层 0.4–0.6 mm，透光骨瓷下可见青绿底色；足底留 2.0 mm 露胎圈",
+              "decoration_notes": "莲花/山水浮雕深 0.8–1.2 mm，合线处预留台阶；Logo 釉中彩印于浮雕下方，避开浮雕高点以免磨损"
+            },
+            "food_safety": {
+              "microwave": true,
+              "dishwasher": true,
+              "notes": "浮雕深沟若进茶渍不易清洗，建议浮雕深 ≤1.2 mm；无金银彩，可微波"
+            },
+            "moq_suggestion": "30 套起，依据：6 片模具 OneFire 路线 40800 元，30 套内单套模摊 ≤1360 元；30 套可装 1 炉窑位（体积 98 mm 直径盖碗）",
+            "sampling_plan": "3D 打印浮雕母模 → 翻石膏 6 片 → 注浆试坯 5 只 → 测壁厚、合线凸起、容量（220/188 ml）→ 试烧影青釉 2 个色号各 2 只 → 检查合线与釉色。数字验证：壁厚 2.5 mm、容量、6 片模具；试烧验证：影青色号、合线、变形量",
+            "verified_digitally": [
+              "壁厚 2.5 mm",
+              "容量 220/188 ml",
+              "模具 6 片",
+              "收缩补偿尺寸"
+            ],
+            "needs_physical_trial": [
+              "影青釉色号稳定性",
+              "浮雕合线凸起度",
+              "烧成变形量"
+            ]
+          },
+          {
+            "concept_id": "c3",
+            "feasibility": "warn",
+            "key_risks": [
+              {
+                "risk": "引擎判定 lid_fit warn：1.5 mm 盖合间隙 < 1.52 mm 下限，批次收缩波动易导致盖合过紧",
+                "source": "engine:lid_fit",
+                "severity": "high",
+                "mitigation": "param_fixes 调整：将盖身间隙增大至 1.6–1.8 mm；同时要求盖与碗同批同烧，减少批间收缩差异"
+              },
+              {
+                "risk": "哑光黑釉在骨瓷上遮盖度不足时，胎体透光会从釉面透出版面杂色，商务感打折",
+                "source": "judgement",
+                "severity": "med",
+                "mitigation": "试烧时选胎体最薄（2.2 mm）与最厚（3.2 mm）区域对比透光；若透光明显增加釉层至 0.6–0.8 mm 或改用半透黑釉"
+              },
+              {
+                "risk": "浅金色釉中彩需确认不含贵金属（金/银），否则微波受限；当前声明不含金银彩",
+                "source": "judgement",
+                "severity": "low",
+                "mitigation": "釉料供应商提供成分证书，确认无 Au/Ag；产品页仍标注'不含贵金属彩，可微波'"
+              }
+            ],
+            "param_fixes": {
+              "lid_clearance": 1.7
+            },
+            "process_plan": {
+              "forming": "slip_casting",
+              "mold_pieces": 5,
+              "firing": "一次烧成约 1300℃（以厂内曲线为准），盖与碗同炉同层同烧",
+              "glaze_notes": "哑光黑釉 0.5–0.7 mm，烧后无高光；足底露胎区 1.5 mm，黑釉不沾底",
+              "decoration_notes": "浅金色釉中彩 Logo 印于哑光黑面，印前确认无金银；Logo 区避开口沿 20 mm 与内壁"
+            },
+            "food_safety": {
+              "microwave": true,
+              "dishwasher": true,
+              "notes": "无金银彩；哑光釉面抗指纹，但深划痕易显，建议包装说明避免钢丝球"
+            },
+            "moq_suggestion": "40 套起，依据：5 片模具 OneFire 40800 元/2 轮，40 套内单套模摊 ≤1020 元；哑光黑釉色偏深，40 套可覆盖 1 炉窑位满装",
+            "sampling_plan": "3D 打印母模 → 石膏 5 片 → 注浆试坯 8 只（含盖碗 4 只验证盖合间隙）→ 测壁厚、容量（249/212 ml）、盖合间隙实测 → 试烧哑光黑釉 2 款遮盖度对比 → 检查透光与浅金 Logo。数字验证：壁厚、容量、模具 5 片、lid_clearance 1.7 mm；试烧验证：哑光黑遮盖度、盖合手感、变形量",
+            "verified_digitally": [
+              "壁厚 2.2 mm",
+              "容量 249/212 ml",
+              "模具 5 片",
+              "收缩补偿尺寸",
+              "lid_clearance 1.7 mm"
+            ],
+            "needs_physical_trial": [
+              "哑光黑釉遮盖度（透光区）",
+              "盖合间隙手感",
+              "烧成变形量"
+            ]
+          }
+        ],
+        "notes": "c1 引擎全项 pass，t_wall=2.0 mm 为工艺下限，建议保留但试烧重点监测流挂与变形。c2 无 fail，核心风险在影青釉色号稳定性与浮雕合线，需 2 轮试色。c3 有 1 项 warn（lid_fit），param_fixes 将 lid_clearance 改为 1.7 mm（原 1.5 mm，下限 1.52 mm），并要求盖碗同批同烧；引擎 fix 字段已建议，此处给具体数值。三方案均基于 OneFire 路线估算（8200–40800 元/2 轮，7–20 天），传统路线仅作对比。所有 food_safety 结论基于'无金银彩'前提，若后续增加金银彩需重新评估微波安全。"
+      },
+      "summary": "c1:pass c2:warn c3:warn（修正 lid_clearance→1.7）"
+    },
+    {
+      "key": "critic",
+      "agent": "评审官",
+      "status": "done",
+      "at": 119642,
+      "ms": 31011,
+      "promptId": "concept.critic",
+      "version": "1.0.0",
+      "model": "agnes-3.0-flash",
+      "attempts": 2,
+      "repaired": false,
+      "usage": {
+        "completion_tokens": 913,
+        "prompt_tokens": 7719,
+        "total_tokens": 8632
+      },
+      "fencedJson": false,
+      "output": {
+        "scores": [
+          {
+            "concept_id": "c1",
+            "market": 18,
+            "manufacturability": 12,
+            "cost": 13,
+            "differentiation": 5,
+            "compliance": 13,
+            "total": 61,
+            "comment": "t_wall=2.0mm被工艺工程师判定为骨瓷注浆极限，流挂与变形风险高，工程难度直接拉低可制造性分数；极简风格在200套企业礼品中辨识度低，缺乏视觉记忆点，市场吸引力一般。"
+          },
+          {
+            "concept_id": "c2",
+            "market": 24,
+            "manufacturability": 14,
+            "cost": 10,
+            "differentiation": 12,
+            "compliance": 13,
+            "total": 73,
+            "comment": "新中式风格匹配'东方雅致'需求，浮雕+影青釉色差异化强，视觉溢价空间足。但6片模具且需处理合线，影青釉烧成色号漂移风险中等，成本核算压力大，300元/套预算下毛利紧张。"
+          },
+          {
+            "concept_id": "c3",
+            "market": 22,
+            "manufacturability": 15,
+            "cost": 12,
+            "differentiation": 12,
+            "compliance": 11,
+            "total": 72,
+            "comment": "哑光黑贴合科技企业审美，视觉反差强。但'定位峰会级'属于无证据背书话术，合规减分；引擎提示盖合间隙1.5mm不足（需1.52mm以上），工艺端已给出参数修正方案，属于可解决的中等风险。"
+          }
+        ],
+        "recommended": "c2",
+        "recommend_reason": "在'东方雅致'需求下，c2的影青浮雕辨识度最高，最符合礼品开箱的仪式感；虽然成本压力最大，但通过精简浮雕深度可优化毛利，且工程端给出了具体的色号控制对策，是价值与风险平衡较好的选择。",
+        "must_fix": [
+          {
+            "concept_id": "c2",
+            "field": "decoration_detail",
+            "issue": "未明确控制影青釉烧成色号稳定性，批次间易色偏。",
+            "fix": "增加'试烧时建立还原气氛记录，批间色差控制ΔE<2.0，超标需追溯'。"
+          },
+          {
+            "concept_id": "c3",
+            "field": "positioning_angle",
+            "issue": "'峰会级工艺背书'属于无证据营销话术。",
+            "fix": "修改为'哑光黑商务质感，低调轻奢'。"
+          },
+          {
+            "concept_id": "c3",
+            "field": "hero_shape.params",
+            "issue": "引擎判定lid_fit间隙不足（1.5mm<1.52mm）。",
+            "fix": "采纳工艺工程师建议，将参数 lid_clearance 设为 1.7mm，并明确盖碗需同批同烧。"
+          },
+          {
+            "concept_id": "c1",
+            "field": "hero_shape.params.t_wall",
+            "issue": "2.0mm低于工艺安全线，注浆易流挂。",
+            "fix": "保守建议调整为 2.2mm，以换取量产稳定性。"
+          }
+        ],
+        "summary_for_user": "c2（影青浮雕）最贴合'东方雅致'定位，适合年会送礼，但需严控釉色一致性与毛利。c3（哑光黑）很科技，但'峰会级'话术违规，且盖合有间隙风险。c1（极简）太普通，2.0mm壁厚量产难度大。综合选c2，建议将浮雕做浅一点控成本。"
+      },
+      "summary": "推荐 c2｜c1:61 c2:73 c3:72"
+    }
+  ],
+  "corrections": [
+    {
+      "type": "dfm_fix",
+      "step": "craft_engineer",
+      "target": "c3",
+      "name": "素雅双杯商务套",
+      "reason": "工艺优化",
+      "paramsBefore": {},
+      "paramsAfter": {
+        "lid_clearance": 1.7
+      },
+      "summaryBefore": {
+        "pass": 9,
+        "warn": 1,
+        "fail": 0
+      },
+      "summaryAfter": {
+        "pass": 9,
+        "warn": 1,
+        "fail": 0
+      }
+    }
+  ],
+  "images": [],
+  "video": null,
+  "result": {
+    "requirement": {
+      "mode": "gift",
+      "summary": "科技企业年会定制骨瓷茶具，200套，预算300元/套，含Logo",
+      "category": "茶具",
+      "product_types": [
+        "gaiwan",
+        "pinming_cup"
+      ],
+      "quantity": {
+        "value": 200,
+        "unit": "套"
+      },
+      "price": {
+        "currency": "CNY",
+        "retail_min": null,
+        "retail_max": null,
+        "fob_target": 300
+      },
+      "target_users": [
+        "科技企业员工",
+        "年会宾客"
+      ],
+      "scenes": [
+        "企业年会伴手礼",
+        "办公室品茶",
+        "商务馈赠"
+      ],
+      "style_keywords": [
+        "东方雅致",
+        "轻薄透光",
+        "商务礼品"
+      ],
+      "functional_requirements": [
+        {
+          "item": "套装组成",
+          "value": "1个盖碗 + 2只品茗杯",
+          "source_text": "盖碗 + 2 只品茗杯"
+        },
+        {
+          "item": "材质手感/视觉",
+          "value": "轻薄、透光",
+          "source_text": "轻薄透光的骨瓷"
+        }
+      ],
+      "material_preference": "bone_china",
+      "glaze_preference": [],
+      "decoration_preference": [
+        "Logo 定制",
+        "礼盒定制"
+      ],
+      "packaging": "礼盒",
+      "markets_platforms": [
+        "jd",
+        "tmall"
+      ],
+      "certifications_required": [
+        "GB 4806.4-2016"
+      ],
+      "timeline_days": null,
+      "constraints": [
+        "单套预算 300 CNY",
+        "禁止使用‘国宴级品质’等无证据支持的营销话术"
+      ],
+      "assumptions": [
+        "按目标市场为国内电商平台推断，食品接触陶瓷需符合 GB 4806.4-2016",
+        "用户勾选的 jd/tmall 为参考渠道，但需求本质为企业定制礼品（gift），主要渠道可能为线下或企业内部分发",
+        "‘轻薄透光’通常对应骨瓷材质，故 material_preference 设为 bone_china"
+      ],
+      "questions": [
+        "‘国宴级品质’缺乏事实依据，请确认是否可改为‘高品质骨瓷’或‘优雅东方设计’等合规表述？",
+        "具体需要哪些釉色？当前可选釉色列表中无‘东方雅致’直接对应项，需确认偏好（如中国白、影青等）",
+        "Logo 印制工艺要求：是贴花、釉下彩还是浮雕？是否涉及金银彩（若含金银彩需提示不可微波）？",
+        "交期要求：年会具体时间是何时？需预留多少生产周期？",
+        "是否提供 Logo 矢量源文件（AI/EPS/SVG）？",
+        "礼盒材质偏好：是否有指定牛皮纸、特种纸或硬质盒？"
+      ]
+    },
+    "insight": {
+      "personas": [
+        {
+          "name": "科技企业行政采购负责人",
+          "profile": "负责年会伴手礼与商务馈赠选品，预算敏感但看重品牌调性，偏好高颜值、轻便且不易碎的包装",
+          "needs": [
+            "单套总价控制在300 CNY内",
+            "Logo定制工艺清晰且不掉色",
+            "礼盒防碎，降低年会现场或员工取用破损率",
+            "交期准时，避免年会临时调整"
+          ],
+          "buying_triggers": [
+            "骨瓷材质轻薄透光的质感对比",
+            "东方雅致设计语言契合科技企业“简约不单调”审美",
+            "产地官方背书（如APEC用瓷经验）增强送礼底气"
+          ],
+          "objections": [
+            "担心骨瓷易碎导致快递或年会领取环节破损率高",
+            "Logo定制工艺是否影响后续高温烧制稳定性",
+            "缺乏对“轻薄透光”具体参数的直观认知，难以在内部汇报中量化呈现"
+          ]
+        },
+        {
+          "name": "年会受邀行业嘉宾/高管",
+          "profile": "高净值人群，对商务礼品有挑剔眼光，重视礼品的可留存价值、设计感及品牌方背后的实力",
+          "needs": [
+            "礼盒具备二次包装可陈列的仪式感",
+            "产品具备实用功能（办公室品茶）而非纯摆件",
+            "品牌产地有故事可讲，具备社交谈资"
+          ],
+          "buying_triggers": [
+            "国宴级餐瓷工艺背书带来的品质信任",
+            "骨瓷杯沿厚度与透光度的实物体验",
+            "礼盒定制的开箱视觉体验"
+          ],
+          "objections": [
+            "礼品是否显得“工业化量产”而缺乏专属感",
+            "是否具备食品接触安全认证，用于日常品饮的安心度"
+          ]
+        }
+      ],
+      "scenes": [
+        "企业年会伴手礼拆箱展示",
+        "科技园区办公室午后品饮轻茶/咖啡",
+        "高端商务宴请中的定制茶具馈赠"
+      ],
+      "positioning_angles": [
+        {
+          "angle": "峰会级工艺背书的高端商务礼品",
+          "why": "利用高淳产区“曾承制北京APEC晚宴用瓷”和“中国当代官窑”的背景，将普通年会伴手礼升维为具备高规格品质信任状的商务礼品，满足科技企业对调性的追求。",
+          "evidence": "kb:gaochun_fact_1, kb:gaochun_fact_2"
+        },
+        {
+          "angle": "轻薄透光骨瓷的感官体验",
+          "why": "针对“轻薄、透光”的功能要求，主打骨瓷的物理特性（透光、轻量），区别于厚重传统陶瓷，更契合科技企业员工在办公场景的便捷需求。",
+          "evidence": "kb:gaochun_fact_4"
+        },
+        {
+          "angle": "东方雅致的数字化视觉定制",
+          "why": "结合“东方雅致”风格，通过精准的Logo定制与特种纸礼盒设计，将传统骨瓷与现代科技企业的品牌视觉（VI）深度融合，形成专属感。",
+          "evidence": "经验判断"
+        }
+      ],
+      "price_strategy": {
+        "suggested_retail": "300 CNY/套（含Logo与礼盒定制成本）",
+        "reasoning": "单套预算300 CNY需覆盖200套的总盘子。骨瓷茶具（1盖碗+2品茗杯）的裸瓷成本通常在80-120 CNY，定制Logo贴花/釉下彩及硬质防碎礼盒成本约60-100 CNY。剩余空间用于包装防碎（气泡/蜂窝纸）及运输损耗。因是高淳产区具备高端定制能力，此价格可维持“高价值感”定位。",
+        "evidence": "kb:gaochun_fact_1, kb:ecommerce_playbook"
+      },
+      "differentiation": [
+        "高淳骨瓷工艺背书（APEC晚宴用瓷同宗工艺）",
+        "轻薄透光的物理参数化呈现（如透光率、杯沿厚度实测展示）",
+        "针对易碎品定制的防碎礼盒结构（京东产地仓包装方案逻辑）",
+        "东方雅致美学与现代科技品牌VI的精准适配"
+      ],
+      "content_hooks": [
+        "透光测试：黑色背景前展示骨瓷盖碗与品茗杯的轻薄透光瞬间",
+        "防碎开箱：礼盒多层防碎结构的硬核测试（如防跌落演示）",
+        "工艺溯源：高淳“中国当代官窑”与APEC用瓷的传承故事",
+        "定制对比：普通纸质杯垫/马克杯与定制骨瓷茶具在办公室场景的质感对比"
+      ],
+      "risks": [
+        "骨瓷本身物理特性偏脆，200套在年会分发与快递环节破损率可能高于普通陶瓷，需强化包装防碎",
+        "若Logo采用含金彩/银彩工艺，需向企业客户明示不可微波，影响“办公室品茶/咖啡”场景的实用性",
+        "“轻薄透光”在批量烧制中易出现变形或釉面瑕疵，需提前打样确认烧成收缩率",
+        "客户缺乏源文件可能导致定制印刷延误，增加交期风险"
+      ],
+      "assumptions": [
+        "假设年会礼品分发主要依赖快递或线下自提，需将防碎包装作为核心竞争力",
+        "假设“轻薄透光”主要依靠骨瓷材质本身（收缩率约18.38%）实现，而非特殊釉面",
+        "假设目标企业（科技类）对“东方雅致”的理解偏向极简、新中式，而非繁复的传统纹样"
+      ]
+    },
+    "concepts": [
+      {
+        "id": "c1",
+        "name": "极简骨瓷商务套件",
+        "one_liner": "轻薄透光骨瓷，极简设计，耐用型包装",
+        "positioning_angle": "轻薄透光骨瓷的感官体验",
+        "style": "北欧简约",
+        "set_composition": [
+          {
+            "item": "盖碗",
+            "qty": 1,
+            "template": "gaiwan"
+          },
+          {
+            "item": "品茗杯",
+            "qty": 2,
+            "template": "pinming_cup"
+          }
+        ],
+        "hero_shape": {
+          "template": "gaiwan",
+          "params": {
+            "H": 54,
+            "D_rim": 94,
+            "D_foot": 40,
+            "h_foot": 5,
+            "t_wall": 2,
+            "t_bottom": 3,
+            "roundness": 0.55,
+            "bulge": 0,
+            "belly_z": 0.42,
+            "flare": 2
+          },
+          "points": null
+        },
+        "material": "bone_china",
+        "forming": "slip_casting",
+        "glaze": "bone_white",
+        "decoration": "logo_inglaze",
+        "decoration_detail": "盖碗侧面与杯身中下部印制企业Logo，采用釉中彩工艺，避开20mm口沿，烧制后颜色稳定，抗磨损。",
+        "packaging": "硬质瓦楞纸盒内部定制EVA/EPS吸塑内托，填充缓冲材料，确保运输防碎。",
+        "target_retail_price": {
+          "min": 280,
+          "max": 300,
+          "currency": "CNY"
+        },
+        "selling_points_draft": [
+          "高淳骨瓷材质，杯壁厚度仅2.0mm，透光轻薄",
+          "釉中彩Logo烧制牢固，不褪色",
+          "加厚防碎包装，降低年会分发破损率"
+        ],
+        "design_rationale": "基于'轻薄透光'需求，选用骨质瓷并严格控制壁厚（t_wall=2.0mm，接近骨瓷常规下限，保证轻透同时维持强度）。采用'稳妥量产型'路线，使用模板默认尺寸，工艺简单，模具成本低。",
+        "evidence_needed": [
+          "GB 4806.4-2016 食品接触安全检测合格证明"
+        ]
+      },
+      {
+        "id": "c2",
+        "name": "东方雅致·影青定制",
+        "one_liner": "影青釉色搭配浮雕装饰，高端东方礼品",
+        "positioning_angle": "东方雅致的数字化视觉定制",
+        "style": "新中式",
+        "set_composition": [
+          {
+            "item": "盖碗",
+            "qty": 1,
+            "template": "gaiwan"
+          },
+          {
+            "item": "品茗杯",
+            "qty": 2,
+            "template": "pinming_cup"
+          }
+        ],
+        "hero_shape": {
+          "template": "gaiwan",
+          "params": {
+            "H": 58,
+            "D_rim": 98,
+            "D_foot": 42,
+            "h_foot": 5,
+            "t_wall": 2.5,
+            "t_bottom": 3.5,
+            "roundness": 0.55,
+            "bulge": 2,
+            "belly_z": 0.42,
+            "flare": 4
+          },
+          "points": null
+        },
+        "material": "bone_china",
+        "forming": "slip_casting",
+        "glaze": "qingbai",
+        "decoration": "relief",
+        "decoration_detail": "盖碗腹部增加简约莲花或山水浮雕线条，增加握持手感与视觉层次；Logo采用釉中彩，印于浮雕下方。",
+        "packaging": "特种纸精装礼盒，内衬丝绸面料吸塑，提升开箱仪式感。",
+        "target_retail_price": {
+          "min": 290,
+          "max": 300,
+          "currency": "CNY"
+        },
+        "selling_points_draft": [
+          "影青釉色温润如玉，东方雅致风格",
+          "浮雕工艺增加手感与辨识度",
+          "透光骨瓷配影青釉，层次丰富"
+        ],
+        "design_rationale": "作为'差异化溢价型'方案，通过增加浮雕模具成本与影青釉色拉开与普通白瓷的差异。影青釉色在骨瓷上呈现半透明青绿调，符合'东方雅致'且比纯白更有质感。",
+        "evidence_needed": [
+          "浮雕模具开模费用是否可分摊在300元/套预算内"
+        ]
+      },
+      {
+        "id": "c3",
+        "name": "素雅双杯商务套",
+        "one_liner": "纯色哑光釉面，极简商务，防指纹",
+        "positioning_angle": "峰会级工艺背书的高端商务礼品",
+        "style": "北欧简约",
+        "set_composition": [
+          {
+            "item": "盖碗",
+            "qty": 1,
+            "template": "gaiwan"
+          },
+          {
+            "item": "品茗杯",
+            "qty": 2,
+            "template": "pinming_cup"
+          }
+        ],
+        "hero_shape": {
+          "template": "gaiwan",
+          "params": {
+            "H": 62,
+            "D_rim": 102,
+            "D_foot": 45,
+            "h_foot": 6,
+            "t_wall": 2.2,
+            "t_bottom": 3.2,
+            "roundness": 0.65,
+            "bulge": 3,
+            "belly_z": 0.42,
+            "flare": 5
+          },
+          "points": null
+        },
+        "material": "bone_china",
+        "forming": "slip_casting",
+        "glaze": "matte_black",
+        "decoration": "logo_inglaze",
+        "decoration_detail": "哑光黑色釉面，Logo采用同色系浮雕或浅金色釉中彩（不含金银彩，确保可微波），低调奢华。",
+        "packaging": "黑色硬质礼盒，内部白色防震棉，高对比度视觉。",
+        "target_retail_price": {
+          "min": 285,
+          "max": 300,
+          "currency": "CNY"
+        },
+        "selling_points_draft": [
+          "哑光黑骨瓷，视觉冲击力强，商务感强",
+          "不沾指纹，日常办公易打理",
+          "高淳骨瓷透光材质与哑光釉的质感反差"
+        ],
+        "design_rationale": "针对科技企业审美，提供深色选项。哑光黑在骨瓷透光背景下（如杯底或透光面）可能产生特殊视觉效果，需确认釉料遮盖度。此为风格差异化，工艺上与c1类似，属于稳妥型但视觉更强烈。",
+        "evidence_needed": [
+          "哑光黑釉在骨瓷上的遮盖度与烧成变形率确认"
+        ]
+      }
+    ],
+    "engine": {
+      "c1": {
+        "design": {
+          "template": "gaiwan",
+          "params": {
+            "H": 54,
+            "D_rim": 94,
+            "D_foot": 40,
+            "h_foot": 5,
+            "t_wall": 2,
+            "t_bottom": 3,
+            "roundness": 0.55,
+            "bulge": 0,
+            "belly_z": 0.42,
+            "flare": 2
+          },
+          "points": null,
+          "material": "bone_china",
+          "forming": "slip_casting",
+          "decoration": "logo_inglaze",
+          "claimsMicrowave": false
+        },
+        "metrics": {
+          "capacityFull": 188,
+          "capacityUse": 159,
+          "weight": 89,
+          "D_max": 94,
+          "closed": false
+        },
+        "summary": {
+          "pass": 10,
+          "warn": 0,
+          "fail": 0
+        },
+        "failing": [],
+        "mold": 5,
+        "cost": {
+          "complexity": "medium",
+          "traditional": {
+            "rounds": [
+              2,
+              3
+            ],
+            "cost": [
+              16000,
+              60000
+            ],
+            "days": [
+              20,
+              40
+            ]
+          },
+          "onefire": {
+            "rounds": [
+              1,
+              2
+            ],
+            "cost": [
+              8200,
+              40800
+            ],
+            "days": [
+              7,
+              20
+            ]
+          },
+          "perRound": [
+            8000,
+            20000
+          ],
+          "moldPieces": 5
+        },
+        "green": {
+          "roundsSaved": 1,
+          "kwh": 150,
+          "co2": 86.7
+        },
+        "notes": []
+      },
+      "c2": {
+        "design": {
+          "template": "gaiwan",
+          "params": {
+            "H": 58,
+            "D_rim": 98,
+            "D_foot": 42,
+            "h_foot": 5,
+            "t_wall": 2.5,
+            "t_bottom": 3.5,
+            "roundness": 0.55,
+            "bulge": 2,
+            "belly_z": 0.42,
+            "flare": 4
+          },
+          "points": null,
+          "material": "bone_china",
+          "forming": "slip_casting",
+          "decoration": "relief",
+          "claimsMicrowave": false
+        },
+        "metrics": {
+          "capacityFull": 220,
+          "capacityUse": 188,
+          "weight": 121,
+          "D_max": 98,
+          "closed": false
+        },
+        "summary": {
+          "pass": 10,
+          "warn": 0,
+          "fail": 0
+        },
+        "failing": [],
+        "mold": 6,
+        "cost": {
+          "complexity": "medium",
+          "traditional": {
+            "rounds": [
+              2,
+              3
+            ],
+            "cost": [
+              16000,
+              60000
+            ],
+            "days": [
+              20,
+              40
+            ]
+          },
+          "onefire": {
+            "rounds": [
+              1,
+              2
+            ],
+            "cost": [
+              8200,
+              40800
+            ],
+            "days": [
+              7,
+              20
+            ]
+          },
+          "perRound": [
+            8000,
+            20000
+          ],
+          "moldPieces": 6
+        },
+        "green": {
+          "roundsSaved": 1,
+          "kwh": 150,
+          "co2": 86.7
+        },
+        "notes": []
+      },
+      "c3": {
+        "design": {
+          "template": "gaiwan",
+          "params": {
+            "H": 62,
+            "D_rim": 102,
+            "D_foot": 45,
+            "h_foot": 6,
+            "t_wall": 2.2,
+            "t_bottom": 3.2,
+            "roundness": 0.65,
+            "bulge": 3,
+            "belly_z": 0.42,
+            "flare": 5
+          },
+          "points": null,
+          "material": "bone_china",
+          "forming": "slip_casting",
+          "decoration": "logo_inglaze",
+          "claimsMicrowave": false
+        },
+        "metrics": {
+          "capacityFull": 249,
+          "capacityUse": 212,
+          "weight": 123,
+          "D_max": 102,
+          "closed": false
+        },
+        "summary": {
+          "pass": 9,
+          "warn": 1,
+          "fail": 0
+        },
+        "failing": [
+          {
+            "id": "lid_fit",
+            "name": "盖合间隙（公差链）",
+            "status": "warn",
+            "value": "1.5 mm",
+            "limit": "≥ 1.52 mm",
+            "message": "批次收缩波动可能导致盖合过紧",
+            "fix": "盖身同批同烧或加大间隙"
+          }
+        ],
+        "mold": 5,
+        "cost": {
+          "complexity": "medium",
+          "traditional": {
+            "rounds": [
+              2,
+              3
+            ],
+            "cost": [
+              16000,
+              60000
+            ],
+            "days": [
+              20,
+              40
+            ]
+          },
+          "onefire": {
+            "rounds": [
+              1,
+              2
+            ],
+            "cost": [
+              8200,
+              40800
+            ],
+            "days": [
+              7,
+              20
+            ]
+          },
+          "perRound": [
+            8000,
+            20000
+          ],
+          "moldPieces": 5
+        },
+        "green": {
+          "roundsSaved": 1,
+          "kwh": 150,
+          "co2": 86.7
+        },
+        "notes": []
+      }
+    },
+    "engineBefore": {
+      "c1": {
+        "design": {
+          "template": "gaiwan",
+          "params": {
+            "H": 54,
+            "D_rim": 94,
+            "D_foot": 40,
+            "h_foot": 5,
+            "t_wall": 2,
+            "t_bottom": 3,
+            "roundness": 0.55,
+            "bulge": 0,
+            "belly_z": 0.42,
+            "flare": 2
+          },
+          "points": null,
+          "material": "bone_china",
+          "forming": "slip_casting",
+          "decoration": "logo_inglaze",
+          "claimsMicrowave": false
+        },
+        "metrics": {
+          "capacityFull": 188,
+          "capacityUse": 159,
+          "weight": 89,
+          "D_max": 94,
+          "closed": false
+        },
+        "summary": {
+          "pass": 10,
+          "warn": 0,
+          "fail": 0
+        },
+        "failing": [],
+        "mold": 5,
+        "cost": {
+          "complexity": "medium",
+          "traditional": {
+            "rounds": [
+              2,
+              3
+            ],
+            "cost": [
+              16000,
+              60000
+            ],
+            "days": [
+              20,
+              40
+            ]
+          },
+          "onefire": {
+            "rounds": [
+              1,
+              2
+            ],
+            "cost": [
+              8200,
+              40800
+            ],
+            "days": [
+              7,
+              20
+            ]
+          },
+          "perRound": [
+            8000,
+            20000
+          ],
+          "moldPieces": 5
+        },
+        "green": {
+          "roundsSaved": 1,
+          "kwh": 150,
+          "co2": 86.7
+        },
+        "notes": []
+      },
+      "c2": {
+        "design": {
+          "template": "gaiwan",
+          "params": {
+            "H": 58,
+            "D_rim": 98,
+            "D_foot": 42,
+            "h_foot": 5,
+            "t_wall": 2.5,
+            "t_bottom": 3.5,
+            "roundness": 0.55,
+            "bulge": 2,
+            "belly_z": 0.42,
+            "flare": 4
+          },
+          "points": null,
+          "material": "bone_china",
+          "forming": "slip_casting",
+          "decoration": "relief",
+          "claimsMicrowave": false
+        },
+        "metrics": {
+          "capacityFull": 220,
+          "capacityUse": 188,
+          "weight": 121,
+          "D_max": 98,
+          "closed": false
+        },
+        "summary": {
+          "pass": 10,
+          "warn": 0,
+          "fail": 0
+        },
+        "failing": [],
+        "mold": 6,
+        "cost": {
+          "complexity": "medium",
+          "traditional": {
+            "rounds": [
+              2,
+              3
+            ],
+            "cost": [
+              16000,
+              60000
+            ],
+            "days": [
+              20,
+              40
+            ]
+          },
+          "onefire": {
+            "rounds": [
+              1,
+              2
+            ],
+            "cost": [
+              8200,
+              40800
+            ],
+            "days": [
+              7,
+              20
+            ]
+          },
+          "perRound": [
+            8000,
+            20000
+          ],
+          "moldPieces": 6
+        },
+        "green": {
+          "roundsSaved": 1,
+          "kwh": 150,
+          "co2": 86.7
+        },
+        "notes": []
+      },
+      "c3": {
+        "design": {
+          "template": "gaiwan",
+          "params": {
+            "H": 62,
+            "D_rim": 102,
+            "D_foot": 45,
+            "h_foot": 6,
+            "t_wall": 2.2,
+            "t_bottom": 3.2,
+            "roundness": 0.65,
+            "bulge": 3,
+            "belly_z": 0.42,
+            "flare": 5
+          },
+          "points": null,
+          "material": "bone_china",
+          "forming": "slip_casting",
+          "decoration": "logo_inglaze",
+          "claimsMicrowave": false
+        },
+        "metrics": {
+          "capacityFull": 249,
+          "capacityUse": 212,
+          "weight": 123,
+          "D_max": 102,
+          "closed": false
+        },
+        "summary": {
+          "pass": 9,
+          "warn": 1,
+          "fail": 0
+        },
+        "failing": [
+          {
+            "id": "lid_fit",
+            "name": "盖合间隙（公差链）",
+            "status": "warn",
+            "value": "1.5 mm",
+            "limit": "≥ 1.52 mm",
+            "message": "批次收缩波动可能导致盖合过紧",
+            "fix": "盖身同批同烧或加大间隙"
+          }
+        ],
+        "mold": 5,
+        "cost": {
+          "complexity": "medium",
+          "traditional": {
+            "rounds": [
+              2,
+              3
+            ],
+            "cost": [
+              16000,
+              60000
+            ],
+            "days": [
+              20,
+              40
+            ]
+          },
+          "onefire": {
+            "rounds": [
+              1,
+              2
+            ],
+            "cost": [
+              8200,
+              40800
+            ],
+            "days": [
+              7,
+              20
+            ]
+          },
+          "perRound": [
+            8000,
+            20000
+          ],
+          "moldPieces": 5
+        },
+        "green": {
+          "roundsSaved": 1,
+          "kwh": 150,
+          "co2": 86.7
+        },
+        "notes": []
+      }
+    },
+    "craft": [
+      {
+        "concept_id": "c1",
+        "feasibility": "pass",
+        "key_risks": [
+          {
+            "risk": "t_wall=2.0 mm 为骨瓷注浆极限薄壁，流动性不足易导致流挂、厚度不均，且骨瓷高温强度低易变形",
+            "source": "judgement",
+            "severity": "med",
+            "mitigation": "打样阶段实测收缩率与壁厚均匀性；注浆料调整流动性（固含率 70±1%）；若流挂严重建议 t_wall 上调至 2.2 mm"
+          },
+          {
+            "risk": "釉中彩 Logo 烧制后需满足食品接触安全，口沿 20 mm 内已避开，但内壁有接触可能",
+            "source": "judgement",
+            "severity": "low",
+            "mitigation": "成品后送检 GB 4806.4-2016 及相应釉面食品接触标准；确认釉中彩颜料迁移量达标"
+          }
+        ],
+        "param_fixes": {},
+        "process_plan": {
+          "forming": "slip_casting",
+          "mold_pieces": 5,
+          "firing": "一次烧成约 1300℃（以厂内曲线为准）",
+          "glaze_notes": "骨瓷白釉，透光薄壁需确保釉层 0.3–0.5 mm，避免流挂；烧后口沿釉色均匀，足底露胎区留 1.5–2.0 mm 素烧圈",
+          "decoration_notes": "Logo 采用釉中彩，印于盖碗侧面及杯身中下部，避开口沿 20 mm 与内壁；烧成温度与素烧同窑，无二次烤花"
+        },
+        "food_safety": {
+          "microwave": true,
+          "dishwasher": true,
+          "notes": "无金银彩，釉中彩稳定；骨瓷需避开 650℃ 以上微波长时间加热，建议标注可微波但避免高功率持续加热"
+        },
+        "moq_suggestion": "50 套起，依据：模具 5 片成本 8200–40800 元（OneFire 路线），摊销 50 套内单套模具成本可控制在 160–800 元区间，不超出 280–300 元零售价结构；窑位 1 炉可装 50 套",
+        "sampling_plan": "3D 打印母模 → 翻石膏模（5 片）→ 注浆试坯 10 只 → 测量收缩率、壁厚均匀性、容量（188/159 ml）→ 1 轮试烧 1300℃ → 釉面附着力与 Logo 清晰度检查。数字打样已验证壁厚、容量、模具片数；试烧验证釉色、变形量、收缩率实测",
+        "verified_digitally": [
+          "壁厚 2.0 mm",
+          "容量 188/159 ml",
+          "模具 5 片",
+          "收缩补偿尺寸"
+        ],
+        "needs_physical_trial": [
+          "骨瓷白釉透光均匀性",
+          "烧成变形量（H 方向）",
+          "收缩率实测（参考 kb:gaochun_fact_4 均值 18.38%）"
+        ]
+      },
+      {
+        "concept_id": "c2",
+        "feasibility": "warn",
+        "key_risks": [
+          {
+            "risk": "浮雕模具增加分片至 6 片，模缝处理不当易产生合线（firing line）破坏影青釉连续感",
+            "source": "judgement",
+            "severity": "med",
+            "mitigation": "合线处设计 1.5–2.0 mm 浮雕台阶掩盖接缝；试烧后检查合线凸起高度是否 >0.3 mm，若明显则调整模片配合"
+          },
+          {
+            "risk": "影青釉在骨瓷上呈青绿色调，釉料配方敏感性高，烧成气氛波动会导致色号漂移",
+            "source": "judgement",
+            "severity": "med",
+            "mitigation": "定 1–2 个目标色号样片，试烧时与样品同炉不同层对比；建立烧成气氛记录（还原程度），批间差异 >ΔE 2.0 即追溯"
+          },
+          {
+            "risk": "浮雕+影青双装饰成本叠加，290–300 元零售价预算需重新核算毛利",
+            "source": "judgement",
+            "severity": "low",
+            "mitigation": "确认 OneFire 路线模具 40800 元/2 轮，单套 BOM+模摊 ≤120 元方可持续；若毛利不足可取消浮雕改素面影青"
+          }
+        ],
+        "param_fixes": {},
+        "process_plan": {
+          "forming": "slip_casting",
+          "mold_pieces": 6,
+          "firing": "一次烧成约 1300℃（以厂内曲线为准），影青釉需微调降温段 10–15 min 防窑变形",
+          "glaze_notes": "影青釉层 0.4–0.6 mm，透光骨瓷下可见青绿底色；足底留 2.0 mm 露胎圈",
+          "decoration_notes": "莲花/山水浮雕深 0.8–1.2 mm，合线处预留台阶；Logo 釉中彩印于浮雕下方，避开浮雕高点以免磨损"
+        },
+        "food_safety": {
+          "microwave": true,
+          "dishwasher": true,
+          "notes": "浮雕深沟若进茶渍不易清洗，建议浮雕深 ≤1.2 mm；无金银彩，可微波"
+        },
+        "moq_suggestion": "30 套起，依据：6 片模具 OneFire 路线 40800 元，30 套内单套模摊 ≤1360 元；30 套可装 1 炉窑位（体积 98 mm 直径盖碗）",
+        "sampling_plan": "3D 打印浮雕母模 → 翻石膏 6 片 → 注浆试坯 5 只 → 测壁厚、合线凸起、容量（220/188 ml）→ 试烧影青釉 2 个色号各 2 只 → 检查合线与釉色。数字验证：壁厚 2.5 mm、容量、6 片模具；试烧验证：影青色号、合线、变形量",
+        "verified_digitally": [
+          "壁厚 2.5 mm",
+          "容量 220/188 ml",
+          "模具 6 片",
+          "收缩补偿尺寸"
+        ],
+        "needs_physical_trial": [
+          "影青釉色号稳定性",
+          "浮雕合线凸起度",
+          "烧成变形量"
+        ]
+      },
+      {
+        "concept_id": "c3",
+        "feasibility": "warn",
+        "key_risks": [
+          {
+            "risk": "引擎判定 lid_fit warn：1.5 mm 盖合间隙 < 1.52 mm 下限，批次收缩波动易导致盖合过紧",
+            "source": "engine:lid_fit",
+            "severity": "high",
+            "mitigation": "param_fixes 调整：将盖身间隙增大至 1.6–1.8 mm；同时要求盖与碗同批同烧，减少批间收缩差异"
+          },
+          {
+            "risk": "哑光黑釉在骨瓷上遮盖度不足时，胎体透光会从釉面透出版面杂色，商务感打折",
+            "source": "judgement",
+            "severity": "med",
+            "mitigation": "试烧时选胎体最薄（2.2 mm）与最厚（3.2 mm）区域对比透光；若透光明显增加釉层至 0.6–0.8 mm 或改用半透黑釉"
+          },
+          {
+            "risk": "浅金色釉中彩需确认不含贵金属（金/银），否则微波受限；当前声明不含金银彩",
+            "source": "judgement",
+            "severity": "low",
+            "mitigation": "釉料供应商提供成分证书，确认无 Au/Ag；产品页仍标注'不含贵金属彩，可微波'"
+          }
+        ],
+        "param_fixes": {
+          "lid_clearance": 1.7
+        },
+        "process_plan": {
+          "forming": "slip_casting",
+          "mold_pieces": 5,
+          "firing": "一次烧成约 1300℃（以厂内曲线为准），盖与碗同炉同层同烧",
+          "glaze_notes": "哑光黑釉 0.5–0.7 mm，烧后无高光；足底露胎区 1.5 mm，黑釉不沾底",
+          "decoration_notes": "浅金色釉中彩 Logo 印于哑光黑面，印前确认无金银；Logo 区避开口沿 20 mm 与内壁"
+        },
+        "food_safety": {
+          "microwave": true,
+          "dishwasher": true,
+          "notes": "无金银彩；哑光釉面抗指纹，但深划痕易显，建议包装说明避免钢丝球"
+        },
+        "moq_suggestion": "40 套起，依据：5 片模具 OneFire 40800 元/2 轮，40 套内单套模摊 ≤1020 元；哑光黑釉色偏深，40 套可覆盖 1 炉窑位满装",
+        "sampling_plan": "3D 打印母模 → 石膏 5 片 → 注浆试坯 8 只（含盖碗 4 只验证盖合间隙）→ 测壁厚、容量（249/212 ml）、盖合间隙实测 → 试烧哑光黑釉 2 款遮盖度对比 → 检查透光与浅金 Logo。数字验证：壁厚、容量、模具 5 片、lid_clearance 1.7 mm；试烧验证：哑光黑遮盖度、盖合手感、变形量",
+        "verified_digitally": [
+          "壁厚 2.2 mm",
+          "容量 249/212 ml",
+          "模具 5 片",
+          "收缩补偿尺寸",
+          "lid_clearance 1.7 mm"
+        ],
+        "needs_physical_trial": [
+          "哑光黑釉遮盖度（透光区）",
+          "盖合间隙手感",
+          "烧成变形量"
+        ]
+      }
+    ],
+    "critic": {
+      "scores": [
+        {
+          "concept_id": "c1",
+          "market": 18,
+          "manufacturability": 12,
+          "cost": 13,
+          "differentiation": 5,
+          "compliance": 13,
+          "total": 61,
+          "comment": "t_wall=2.0mm被工艺工程师判定为骨瓷注浆极限，流挂与变形风险高，工程难度直接拉低可制造性分数；极简风格在200套企业礼品中辨识度低，缺乏视觉记忆点，市场吸引力一般。"
+        },
+        {
+          "concept_id": "c2",
+          "market": 24,
+          "manufacturability": 14,
+          "cost": 10,
+          "differentiation": 12,
+          "compliance": 13,
+          "total": 73,
+          "comment": "新中式风格匹配'东方雅致'需求，浮雕+影青釉色差异化强，视觉溢价空间足。但6片模具且需处理合线，影青釉烧成色号漂移风险中等，成本核算压力大，300元/套预算下毛利紧张。"
+        },
+        {
+          "concept_id": "c3",
+          "market": 22,
+          "manufacturability": 15,
+          "cost": 12,
+          "differentiation": 12,
+          "compliance": 11,
+          "total": 72,
+          "comment": "哑光黑贴合科技企业审美，视觉反差强。但'定位峰会级'属于无证据背书话术，合规减分；引擎提示盖合间隙1.5mm不足（需1.52mm以上），工艺端已给出参数修正方案，属于可解决的中等风险。"
+        }
+      ],
+      "recommended": "c2",
+      "recommend_reason": "在'东方雅致'需求下，c2的影青浮雕辨识度最高，最符合礼品开箱的仪式感；虽然成本压力最大，但通过精简浮雕深度可优化毛利，且工程端给出了具体的色号控制对策，是价值与风险平衡较好的选择。",
+      "must_fix": [
+        {
+          "concept_id": "c2",
+          "field": "decoration_detail",
+          "issue": "未明确控制影青釉烧成色号稳定性，批次间易色偏。",
+          "fix": "增加'试烧时建立还原气氛记录，批间色差控制ΔE<2.0，超标需追溯'。"
+        },
+        {
+          "concept_id": "c3",
+          "field": "positioning_angle",
+          "issue": "'峰会级工艺背书'属于无证据营销话术。",
+          "fix": "修改为'哑光黑商务质感，低调轻奢'。"
+        },
+        {
+          "concept_id": "c3",
+          "field": "hero_shape.params",
+          "issue": "引擎判定lid_fit间隙不足（1.5mm<1.52mm）。",
+          "fix": "采纳工艺工程师建议，将参数 lid_clearance 设为 1.7mm，并明确盖碗需同批同烧。"
+        },
+        {
+          "concept_id": "c1",
+          "field": "hero_shape.params.t_wall",
+          "issue": "2.0mm低于工艺安全线，注浆易流挂。",
+          "fix": "保守建议调整为 2.2mm，以换取量产稳定性。"
+        }
+      ],
+      "summary_for_user": "c2（影青浮雕）最贴合'东方雅致'定位，适合年会送礼，但需严控釉色一致性与毛利。c3（哑光黑）很科技，但'峰会级'话术违规，且盖合有间隙风险。c1（极简）太普通，2.0mm壁厚量产难度大。综合选c2，建议将浮雕做浅一点控成本。"
+    }
+  },
+  "status": "done",
+  "finishedAt": "2026-10-25T08:18:36.190Z"
+}
