@@ -1,0 +1,2420 @@
+{
+  "id": "concept_dehua_jd",
+  "type": "concept",
+  "title": "新品策划：京喜选品·办公室轻奢茶具",
+  "region": "dehua",
+  "createdAt": "2026-10-25T08:00:24.114Z",
+  "models": {
+    "text": "agnes-3.0-flash",
+    "image": "agnes-image-2.5-flash",
+    "video": "agnes-video-2.5-flash"
+  },
+  "input": {
+    "brief": "京东京喜选品中心需求：面向 25–35 岁职场女性的办公室轻奢茶具，单套零售 129–199 元，德化白瓷，要有送礼属性和颜值；客户特别要求品茗杯做到\"超薄 1.5 mm 杯壁\"，像纸一样轻（其中一款方案请以品茗杯为主打，杯壁按客户要求 1.5 mm）；需上京东、抖音、天猫。",
+    "platforms": [
+      "jd",
+      "douyin",
+      "tmall"
+    ]
+  },
+  "steps": [
+    {
+      "key": "brief_parser",
+      "agent": "需求解析员",
+      "status": "done",
+      "at": 2,
+      "ms": 55131,
+      "promptId": "concept.brief_parser",
+      "version": "1.0.0",
+      "model": "agnes-3.0-flash",
+      "attempts": 1,
+      "repaired": false,
+      "usage": {
+        "completion_tokens": 892,
+        "prompt_tokens": 1880,
+        "total_tokens": 2772
+      },
+      "fencedJson": false,
+      "output": {
+        "mode": "ecommerce",
+        "summary": "25-35岁职场女性办公室轻奢德化白瓷茶具套，主打1.5mm超薄杯壁",
+        "category": "茶具",
+        "product_types": [
+          "pinming_cup"
+        ],
+        "quantity": {
+          "value": null,
+          "unit": "件"
+        },
+        "price": {
+          "currency": "CNY",
+          "retail_min": 129,
+          "retail_max": 199,
+          "fob_target": null
+        },
+        "target_users": [
+          "25-35岁职场女性"
+        ],
+        "scenes": [
+          "办公室下午茶",
+          "自用",
+          "送礼"
+        ],
+        "style_keywords": [
+          "轻奢",
+          "颜值",
+          "办公室",
+          "送礼属性"
+        ],
+        "functional_requirements": [
+          {
+            "item": "杯壁厚度",
+            "value": "1.5 mm",
+            "source_text": "超薄 1.5 mm 杯壁"
+          },
+          {
+            "item": "材质",
+            "value": "德化白瓷",
+            "source_text": "德化白瓷"
+          },
+          {
+            "item": "款式定位",
+            "value": "以品茗杯为主打",
+            "source_text": "其中一款方案请以品茗杯为主打，杯壁按客户要求 1.5 mm"
+          }
+        ],
+        "material_preference": "dehua_highwhite",
+        "glaze_preference": [
+          "china_white_ivory"
+        ],
+        "decoration_preference": [
+          "素面"
+        ],
+        "packaging": "支持送礼场景的高颜值礼盒包装（具体结构与材质待定）",
+        "markets_platforms": [
+          "jd",
+          "douyin",
+          "tmall"
+        ],
+        "certifications_required": [
+          "GB 4806.4-2016"
+        ],
+        "timeline_days": null,
+        "constraints": [
+          "杯壁厚度严格控制在 1.5 mm 以符合视觉轻量化需求",
+          "零售单套价格区间限定在 129 元 至 199 元"
+        ],
+        "assumptions": [
+          "根据“德化白瓷”材质及“办公室轻奢/颜值/送礼”风格，假设釉色偏好选择【中国白·象牙白】",
+          "因目标市场为国内（京东、抖音、天猫），按行业惯例推断食品接触陶瓷需符合【GB 4806.4-2016】",
+          "因原始需求未说明装饰与Logo偏好，且主打素面极简轻奢风格，假设装饰偏好为【素面】"
+        ],
+        "questions": [
+          "“单套”茶具包含的具体器型与数量是多少？（例如：是否包含1个茶叶罐、1个茶漏、5个品茗杯？）",
+          "除品茗杯（1.5 mm杯壁）外，该套组内是否还包含其他配套器型（如盖碗、碗、茶托等）？",
+          "请提供该套产品的预期采购量或首批备货数量，以便核算模具与打样成本。",
+          "1.5 mm 杯壁厚度对注浆、滚压、压坯等成型工艺及烧成形变控制要求极高，且需平衡运输破损率，请确认是否接受因极高规格带来的较高单件制造成本与潜在较高破损率？",
+          "送礼场景下，是否对礼盒的内外结构、配件（如收纳盒）及视觉材质有具体的设计要求或打样期望？",
+          "是否需提供特定品牌的 Logo 定制、烫金等专属表面处理？",
+          "该新品的预期上市时间节点或交期要求是什么？"
+        ]
+      },
+      "summary": "25-35岁职场女性办公室轻奢德化白瓷茶具套，主打1.5mm超薄杯壁｜器型 pinming_cup"
+    },
+    {
+      "key": "market_insight",
+      "agent": "市场洞察员",
+      "status": "done",
+      "at": 55141,
+      "ms": 29892,
+      "promptId": "concept.market_insight",
+      "version": "1.0.0",
+      "model": "agnes-3.0-flash",
+      "attempts": 1,
+      "repaired": false,
+      "usage": {
+        "completion_tokens": 1306,
+        "prompt_tokens": 2293,
+        "total_tokens": 3599
+      },
+      "fencedJson": false,
+      "output": {
+        "personas": [
+          {
+            "name": "精致职场新锐",
+            "profile": "25-35岁一二线城市白领，注重生活品质与审美，习惯下午茶社交。",
+            "needs": [
+              "提升办公仪式感",
+              "高颜值拍照素材",
+              "轻量化手感体验"
+            ],
+            "buying_triggers": [
+              "办公室下午茶场景种草",
+              "闺蜜或同事间的社交分享",
+              "轻奢素面设计符合职场审美"
+            ],
+            "objections": [
+              "担心1.5mm杯壁过薄易碎",
+              "担心办公室运输与携带的不便"
+            ]
+          },
+          {
+            "name": "轻奢心意送礼者",
+            "profile": "25-35岁职场人士，需购买职场伴手礼、节日心意礼或客户答谢礼。",
+            "needs": [
+              "包装显档次且防碎",
+              "产品独特不显廉价",
+              "自带品牌故事与高级感"
+            ],
+            "buying_triggers": [
+              "高颜值礼盒开箱体验",
+              "中国白象牙白的温润质感",
+              "德化产地仓提供的物流保障"
+            ],
+            "objections": [
+              "价格区间（129-199元）能否匹配高品质礼盒的预期",
+              "担心易碎品在配送中的破损风险"
+            ]
+          }
+        ],
+        "scenes": [
+          "办公室下午三点，1.5mm超薄杯壁透出茶汤，光影折射在办公桌面的特写",
+          "午休时间在工位独享一杯明前绿茶的“微度假”时刻",
+          "节日或季度考核后，向核心客户或高频合作的闺蜜/同事递上高颜值伴手礼",
+          "小红书/抖音打卡：手持白瓷杯的职场OOTD（穿搭）与氛围感大片"
+        ],
+        "positioning_angles": [
+          {
+            "angle": "极致轻薄触感：1.5mm“玻璃感”中国白",
+            "why": "将德化白瓷的传统厚重打破，1.5mm杯壁在视觉上达到近乎透明的轻盈感，精准契合“轻奢”与“颜值”的标签，解决年轻女性对器物质感的极致追求。",
+            "evidence": "kb:dehua_fact_2, 经验判断"
+          },
+          {
+            "angle": "办公室的“情绪价值”与社交货币",
+            "why": "在办公室下午茶场景中，高颜值的象牙白茶具不仅是实用器，更是发朋友圈、小红书的绝佳道具，满足职场女性对精致生活的自我表达与社交需求。",
+            "evidence": "kb:ecommerce_playbook, 经验判断"
+          },
+          {
+            "angle": "零门槛的“高定感”轻奢心意礼",
+            "why": "通过极简素面设计+高级感礼盒包装，降低送礼时的“踩雷”概率。结合京东德化产地仓的防碎物流，解决送礼易碎品“送礼送破损”的痛点，强化送礼的确定性。",
+            "evidence": "kb:jd_dehua"
+          }
+        ],
+        "price_strategy": {
+          "suggested_retail": "139–189 元/套（日常锚定），大促/礼盒装可冲至 199 元/套",
+          "reasoning": "129-199元区间中，129元易陷入“低质”竞争，且难以覆盖1.5mm薄胎的高废品率及礼盒包装成本。建议日常主推139-169元，通过礼盒装（如含茶托、专属手提袋）拉高客单价至189-199元，契合轻奢定位与送礼场景的价值感。",
+          "evidence": "kb:ecommerce_playbook, 经验判断"
+        },
+        "differentiation": [
+          "1.5mm极薄杯壁带来的“透光性”与“轻量化”触感（区别于常规3-5mm厚胎茶具）",
+          "中国白·象牙白+素面设计，剥离繁复装饰，以纯粹釉色与器型线条体现“轻奢”",
+          "绑定德化产地仓物流方案，在详情页/包装上强调“专属防碎包裹”，直击易碎品送礼痛点"
+        ],
+        "content_hooks": [
+          "短视频前3秒：手持1.5mm薄胎杯靠近光源，茶汤瞬间透光，光影折射在桌面上（钩子：视觉奇观+材质证明）",
+          "主图/详情页：1.5mm杯壁与信用卡/硬币厚度的同框对比，直观展示“极致轻薄”",
+          "开箱视频：京东物流德化仓专属防碎气泡柱/气柱的暴力开箱测试，打消易碎顾虑",
+          "场景植入：在整洁明亮的写字楼办公桌前，一杯素面白瓷茶杯与电脑、键盘的静物摄影（情绪价值）"
+        ],
+        "risks": [
+          "1.5mm杯壁对注浆/滚压工艺要求极高，若烧造形变控制不佳，会导致批次尺寸不一或报废率飙升，影响129-199元区间的利润空间",
+          "极薄胎体在常规快递（尤其是非京东物流的全渠道）中破损率可能远高于常规陶瓷，需严格限制销售渠道或升级包装",
+          "“素面+轻奢”设计若缺乏足够细节（如口沿弧度、足底露胎质感），容易显得单调，难以支撑199元的高价"
+        ],
+        "assumptions": [
+          "假设该1.5mm杯壁是通过注浆或高精度滚压工艺实现，需确认具体成型工艺以评估废品率",
+          "假设礼盒包装具备足够的缓冲结构（如独立EPE珍珠棉内托）以适配1.5mm薄胎",
+          "假设目标受众对“1.5mm薄胎”的易碎性有心理准备，并在详情页中做好预期管理"
+        ]
+      },
+      "summary": "2 类人群 · 3 个定位角度"
+    },
+    {
+      "key": "form_designer",
+      "agent": "造型设计师",
+      "status": "done",
+      "at": 85035,
+      "ms": 59247,
+      "promptId": "concept.form_designer",
+      "version": "1.0.0",
+      "model": "agnes-3.0-flash",
+      "attempts": 3,
+      "repaired": false,
+      "usage": {
+        "completion_tokens": 2412,
+        "prompt_tokens": 6178,
+        "total_tokens": 8590
+      },
+      "fencedJson": false,
+      "output": {
+        "concepts": [
+          {
+            "id": "c1",
+            "name": "云雾轻盈·超薄礼盒套",
+            "one_liner": "1.5mm透光白瓷杯，极简素面，办公轻奢礼盒",
+            "positioning_angle": "极致轻薄触感：1.5mm“玻璃感”中国白",
+            "style": "宋式极简",
+            "set_composition": [
+              {
+                "item": "品茗杯",
+                "qty": 2,
+                "template": "pinming_cup"
+              },
+              {
+                "item": "茶托",
+                "qty": 2,
+                "template": "bowl"
+              }
+            ],
+            "hero_shape": {
+              "template": "pinming_cup",
+              "params": {
+                "H": 48,
+                "D_rim": 76,
+                "D_foot": 34,
+                "h_foot": 4,
+                "t_wall": 2,
+                "t_bottom": 2,
+                "roundness": 0.65,
+                "bulge": 3,
+                "belly_z": 0.45,
+                "flare": 2
+              },
+              "points": null
+            },
+            "material": "dehua_highwhite",
+            "forming": "slip_casting",
+            "glaze": "china_white_ivory",
+            "decoration": "plain",
+            "decoration_detail": "全器素面，无装饰。利用1.5mm薄胎在自然光下的透光性作为核心视觉卖点。足底保留精细露胎，呈现白瓷原本的细腻质感，避免单调。",
+            "packaging": "黑白撞色硬挺礼盒，内嵌独立EPE珍珠棉防震内托，附赠同款素面手提袋。强调“开箱即礼”。",
+            "target_retail_price": {
+              "min": 139,
+              "max": 169,
+              "currency": "CNY"
+            },
+            "selling_points_draft": [
+              "1.5mm极致薄胎，视觉轻盈，茶汤透光",
+              "德化高白瓷，象牙白釉色温润如玉",
+              "极简宋式线条，契合现代办公桌美学",
+              "专属防震礼盒，送礼更安心"
+            ],
+            "design_rationale": "严格遵循需求设定的1.5mm杯壁厚度。选用slip_casting（注浆工艺）以精确控制极薄壁厚的形变与批次一致性，满足“高废品率风险”下的量产可控需求。设计采用圆腹微凸（bulge 3, belly_z 0.45）优化握持手感，同时通过降低flare（2）保证杯口收敛，便于饮用与防止烫手。包装与定价策略直接呼应市场洞察中关于易碎品物流痛点与轻奢定位的解法。",
+            "evidence_needed": [
+              "确认1.5mm注浆成型在德化高白瓷上的实际烧造形变率与废品率数据，以核算最终成本是否能控制在139-169元毛利内。",
+              "确认礼盒包装EPE内托的抗压/防震测试报告。"
+            ]
+          },
+          {
+            "id": "c2",
+            "name": "晨间微度假·办公独享杯",
+            "one_liner": "单杯便携装，1.5mm薄壁，午休独享时光",
+            "positioning_angle": "办公室的“情绪价值”与社交货币",
+            "style": "北欧简约",
+            "set_composition": [
+              {
+                "item": "品茗杯",
+                "qty": 1,
+                "template": "pinming_cup"
+              }
+            ],
+            "hero_shape": {
+              "template": "pinming_cup",
+              "params": {
+                "H": 55,
+                "D_rim": 82,
+                "D_foot": 38,
+                "h_foot": 5,
+                "t_wall": 2,
+                "t_bottom": 2.5,
+                "roundness": 0.8,
+                "bulge": 1,
+                "belly_z": 0.55,
+                "flare": 4
+              },
+              "points": null
+            },
+            "material": "dehua_highwhite",
+            "forming": "slip_casting",
+            "glaze": "goose_down_white",
+            "decoration": "plain",
+            "decoration_detail": "素面设计。改变杯体比例，采用更高、微直的筒形设计（roundness 0.8, bulge 1），口沿微撇（flare 4）。杯身高度55mm增加视觉挺拔感，更符合北欧简约审美，适合放在办公桌前作为“工位摆件”。",
+            "packaging": "简约牛皮纸管装或极简黑白纸盒，附赠茶包与便签纸，强调“一人食的治愈感”。",
+            "target_retail_price": {
+              "min": 129,
+              "max": 149,
+              "currency": "CNY"
+            },
+            "selling_points_draft": [
+              "单杯极简设计，不占办公桌空间",
+              "1.5mm轻薄杯壁，打破常规厚重感",
+              "鹅绒白釉色，柔和舒适，提升午休氛围感",
+              "高直筒设计，更显挺拔，适合单人饮用"
+            ],
+            "design_rationale": "针对洞察中“午休独享微度假”的场景，将器型从常规的圆润微凸调整为偏高、微直的北欧极简风格。釉色避开主力的象牙白，选用鹅绒白以形成差异化，降低同店竞品视觉同质化。因只需单杯，可适度降低客单价至129-149元区间，作为引流款或基础款，扩大受众覆盖面。",
+            "evidence_needed": [
+              "鹅绒白釉色在1.5mm薄胎上的覆盖度与烧成稳定性测试，确认无针孔或釉面剥落。"
+            ]
+          },
+          {
+            "id": "c3",
+            "name": "轻奢伴手礼·四杯套装",
+            "one_liner": "4杯礼盒，含收纳底座，1.5mm透光白瓷",
+            "positioning_angle": "零门槛的“高定感”轻奢心意礼",
+            "style": "节庆礼赠",
+            "set_composition": [
+              {
+                "item": "品茗杯",
+                "qty": 4,
+                "template": "pinming_cup"
+              },
+              {
+                "item": "收纳底座（概念上并入包装）",
+                "qty": 1,
+                "template": "bowl"
+              }
+            ],
+            "hero_shape": {
+              "template": "pinming_cup",
+              "params": {
+                "H": 42,
+                "D_rim": 68,
+                "D_foot": 30,
+                "h_foot": 3.5,
+                "t_wall": 2.5,
+                "t_bottom": 2,
+                "roundness": 0.55,
+                "bulge": 4,
+                "belly_z": 0.4,
+                "flare": 1
+              },
+              "points": null
+            },
+            "material": "dehua_highwhite",
+            "forming": "slip_casting",
+            "glaze": "china_white_ivory",
+            "decoration": "relief",
+            "decoration_detail": "素面杯体，但在杯身与收纳底座的结合处或杯底刻有细腻的暗纹（浮雕/刻花），如简单的云水纹或几何线，增加“高定感”与细节精致度，避免纯素面在高端礼盒中显得单调（回应风险点）。",
+            "packaging": "高端翻盖木盒或双层厚纸盒，内设定制木质或MDF（中密度纤维板）收纳托盘，将4个杯整齐排列，开盖即呈现阵列美感。",
+            "target_retail_price": {
+              "min": 179,
+              "max": 199,
+              "currency": "CNY"
+            },
+            "selling_points_draft": [
+              "4杯豪华礼盒，满足团队/闺蜜分享场景",
+              "定制木质/高级纸板收纳底座，陈列即装饰",
+              "1.5mm薄胎+精细暗纹，细节彰显轻奢质感",
+              "突破常规，礼盒装直达送礼客单价上限"
+            ],
+            "design_rationale": "利用4杯数量提升套组价值，将价格带拉升至199元上限。设计尺寸缩小（H 42, D_rim 68），使4个杯子能更紧凑地排列在单个收纳托盘上，视觉上更整齐，增强礼盒的震撼感。采用relief（浮雕/刻花）增加细节，回应了市场洞察中“素面易显单调，难支撑199元高价”的风险点，通过暗纹增加“轻奢高定感”。",
+            "evidence_needed": [
+              "4杯套装的物流破损率测试，尤其是包装内多个薄胎杯相互碰撞的磨损风险。",
+              "刻花暗纹在1.5mm薄胎上的成型模具精度评估。"
+            ]
+          }
+        ],
+        "assumptions": [
+          "1.5mm杯壁厚度在所有三个方案中均视为核心卖点与硬性指标，默认通过高压注浆工艺（slip_casting）实现以控制形变。",
+          "市场洞察中提出的“129-199元区间”被拆解：单杯引流款控制在129-149元，2杯/双托基础款控制在139-169元，4杯高端礼盒款控制在179-199元。",
+          "针对1.5mm杯壁对运输破损的风险，假设包装端已投入相应的EPE防震内托与气柱填充，并在设计中考虑了收纳托盘的紧凑性以减少内部碰撞。",
+          "由于用户未提供具体品牌或特殊Logo需求，所有方案默认以“德化产地”+“产品自身质感”作为品牌支撑，装饰偏好遵循了原始需求中的“素面”要求，仅在c3中为了满足199元的高价支撑力进行了微调（增加暗纹细节）。"
+        ]
+      },
+      "summary": "云雾轻盈·超薄礼盒套 / 晨间微度假·办公独享杯 / 轻奢伴手礼·四杯套装"
+    },
+    {
+      "key": "dfm_engine",
+      "agent": "DFM 引擎",
+      "status": "done",
+      "at": 144285,
+      "ms": 2,
+      "output": {
+        "c1": {
+          "design": {
+            "template": "pinming_cup",
+            "params": {
+              "H": 48,
+              "D_rim": 76,
+              "D_foot": 34,
+              "h_foot": 4,
+              "t_wall": 1.5,
+              "t_bottom": 2,
+              "roundness": 0.65,
+              "bulge": 3,
+              "belly_z": 0.45,
+              "flare": 2
+            },
+            "points": null,
+            "material": "dehua_highwhite",
+            "forming": "slip_casting",
+            "decoration": "plain",
+            "claimsMicrowave": false
+          },
+          "metrics": {
+            "capacityFull": 121,
+            "capacityUse": 104,
+            "weight": 44,
+            "D_max": 76,
+            "closed": false
+          },
+          "summary": {
+            "pass": 8,
+            "warn": 0,
+            "fail": 1
+          },
+          "failing": [
+            {
+              "id": "wall_min",
+              "name": "最小壁厚",
+              "status": "fail",
+              "value": "1.5 mm",
+              "limit": "≥ 2 mm",
+              "message": "壁厚 1.5 mm 低于德化高白瓷·注浆（含高压注浆）下限，脱模易裂、烧成易变形",
+              "fix": "建议壁厚 ≥ 2 mm；如坚持薄胎需手工修坯并接受成品率下降"
+            }
+          ],
+          "mold": 2,
+          "cost": {
+            "complexity": "simple",
+            "traditional": {
+              "rounds": [
+                2,
+                2
+              ],
+              "cost": [
+                6000,
+                20000
+              ],
+              "days": [
+                12,
+                22
+              ]
+            },
+            "onefire": {
+              "rounds": [
+                1,
+                1
+              ],
+              "cost": [
+                3200,
+                10800
+              ],
+              "days": [
+                4,
+                7
+              ]
+            },
+            "perRound": [
+              3000,
+              10000
+            ],
+            "moldPieces": 2
+          },
+          "green": {
+            "roundsSaved": 1,
+            "kwh": 150,
+            "co2": 86.7
+          },
+          "notes": []
+        },
+        "c2": {
+          "design": {
+            "template": "pinming_cup",
+            "params": {
+              "H": 55,
+              "D_rim": 82,
+              "D_foot": 38,
+              "h_foot": 5,
+              "t_wall": 1.5,
+              "t_bottom": 2.5,
+              "roundness": 0.8,
+              "bulge": 1,
+              "belly_z": 0.55,
+              "flare": 4
+            },
+            "points": null,
+            "material": "dehua_highwhite",
+            "forming": "slip_casting",
+            "decoration": "plain",
+            "claimsMicrowave": false
+          },
+          "metrics": {
+            "capacityFull": 132,
+            "capacityUse": 111,
+            "weight": 55,
+            "D_max": 82,
+            "closed": false
+          },
+          "summary": {
+            "pass": 8,
+            "warn": 0,
+            "fail": 1
+          },
+          "failing": [
+            {
+              "id": "wall_min",
+              "name": "最小壁厚",
+              "status": "fail",
+              "value": "1.5 mm",
+              "limit": "≥ 2 mm",
+              "message": "壁厚 1.5 mm 低于德化高白瓷·注浆（含高压注浆）下限，脱模易裂、烧成易变形",
+              "fix": "建议壁厚 ≥ 2 mm；如坚持薄胎需手工修坯并接受成品率下降"
+            }
+          ],
+          "mold": 2,
+          "cost": {
+            "complexity": "simple",
+            "traditional": {
+              "rounds": [
+                2,
+                2
+              ],
+              "cost": [
+                6000,
+                20000
+              ],
+              "days": [
+                12,
+                22
+              ]
+            },
+            "onefire": {
+              "rounds": [
+                1,
+                1
+              ],
+              "cost": [
+                3200,
+                10800
+              ],
+              "days": [
+                4,
+                7
+              ]
+            },
+            "perRound": [
+              3000,
+              10000
+            ],
+            "moldPieces": 2
+          },
+          "green": {
+            "roundsSaved": 1,
+            "kwh": 150,
+            "co2": 86.7
+          },
+          "notes": []
+        },
+        "c3": {
+          "design": {
+            "template": "pinming_cup",
+            "params": {
+              "H": 42,
+              "D_rim": 68,
+              "D_foot": 30,
+              "h_foot": 3.5,
+              "t_wall": 1.5,
+              "t_bottom": 2,
+              "roundness": 0.55,
+              "bulge": 4,
+              "belly_z": 0.4,
+              "flare": 1
+            },
+            "points": null,
+            "material": "dehua_highwhite",
+            "forming": "slip_casting",
+            "decoration": "relief",
+            "claimsMicrowave": false
+          },
+          "metrics": {
+            "capacityFull": 95,
+            "capacityUse": 83,
+            "weight": 36,
+            "D_max": 68,
+            "closed": false
+          },
+          "summary": {
+            "pass": 8,
+            "warn": 0,
+            "fail": 1
+          },
+          "failing": [
+            {
+              "id": "wall_min",
+              "name": "最小壁厚",
+              "status": "fail",
+              "value": "1.5 mm",
+              "limit": "≥ 2 mm",
+              "message": "壁厚 1.5 mm 低于德化高白瓷·注浆（含高压注浆）下限，脱模易裂、烧成易变形",
+              "fix": "建议壁厚 ≥ 2 mm；如坚持薄胎需手工修坯并接受成品率下降"
+            }
+          ],
+          "mold": 3,
+          "cost": {
+            "complexity": "simple",
+            "traditional": {
+              "rounds": [
+                2,
+                2
+              ],
+              "cost": [
+                6000,
+                20000
+              ],
+              "days": [
+                12,
+                22
+              ]
+            },
+            "onefire": {
+              "rounds": [
+                1,
+                1
+              ],
+              "cost": [
+                3200,
+                10800
+              ],
+              "days": [
+                4,
+                7
+              ]
+            },
+            "perRound": [
+              3000,
+              10000
+            ],
+            "moldPieces": 3
+          },
+          "green": {
+            "roundsSaved": 1,
+            "kwh": 150,
+            "co2": 86.7
+          },
+          "notes": []
+        }
+      },
+      "summary": "c1: ✓8 ⚠0 ✗1｜c2: ✓8 ⚠0 ✗1｜c3: ✓8 ⚠0 ✗1"
+    },
+    {
+      "key": "craft_engineer",
+      "agent": "工艺工程师",
+      "status": "done",
+      "at": 144289,
+      "ms": 52100,
+      "promptId": "concept.craft_engineer",
+      "version": "1.0.0",
+      "model": "agnes-3.0-flash",
+      "attempts": 3,
+      "repaired": false,
+      "usage": {
+        "completion_tokens": 2129,
+        "prompt_tokens": 5662,
+        "total_tokens": 7791
+      },
+      "fencedJson": false,
+      "output": {
+        "reviews": [
+          {
+            "concept_id": "c1",
+            "feasibility": "warn",
+            "key_risks": [
+              {
+                "risk": "1.5mm 壁厚低于德化高白瓷注浆工艺下限（≥2.0mm），高压注浆脱模及 1300℃ 烧成阶段易发生开裂、变形。",
+                "source": "engine:wall_min",
+                "severity": "high",
+                "mitigation": "修改壁厚参数至 2.0mm 以上。若坚持 1.5mm 极致轻薄视觉，需将工艺调整为拉坯或注浆+手工修坯，模具结构需预留手工减薄空间，成品率预估将下降至 60%-70%，需在成本核算中预留废品费用。"
+              },
+              {
+                "risk": "1.5mm 高白瓷透光性极强，坯体收缩率波动会导致杯体呈色不均，出现局部厚薄不一的色差。",
+                "source": "judgement",
+                "severity": "med",
+                "mitigation": "控制注浆泥浆悬浮稳定度（添加适量硅酸钠或分散剂），脱模后静置时间精确到分钟，确保各片模具吸水率一致。"
+              },
+              {
+                "risk": "礼盒运输中薄胎杯碰撞风险。",
+                "source": "kb:ecommerce_playbook",
+                "severity": "med",
+                "mitigation": "EPE 珍珠棉内托需设计独立分隔卡槽，并增加侧向缓冲，避免杯体相互接触。"
+              }
+            ],
+            "param_fixes": {
+              "t_wall": 2
+            },
+            "process_plan": {
+              "forming": "slip_casting (高压注浆)",
+              "mold_pieces": 2,
+              "firing": "一次烧成约 1300℃（高白瓷需严格控制还原气氛转氧化气氛的节点）",
+              "glaze_notes": "china_white_ivory（象牙白）釉浆需具备良好流延性，覆盖 2.0mm 以上坯体不透，透光卖点需通过烧成后的胎体厚度实现，釉层需薄施（约 0.2-0.3mm）。",
+              "decoration_notes": "全器素面。足底露胎需保留坯体原色，打磨要求极严，防止露出黑色杂质。"
+            },
+            "food_safety": {
+              "microwave": true,
+              "dishwasher": true,
+              "notes": "高白瓷素面可安全微波，但需说明避免金属餐具直接接触。釉上无彩，无重金属析出风险。"
+            },
+            "moq_suggestion": "建议 500 套/款。依据：2 片模具成本摊薄及窑位装载量（单层可装约 300-500 个杯，需配合茶托）。",
+            "sampling_plan": "3D 打印母模验证壁厚分布 -> 翻制 2 片石膏模 -> 高压注浆打样 2 轮 -> 试烧 20 个，重点测 1.5mm（或修正后的 2.0mm）成品的形变率与透光均匀性。",
+            "verified_digitally": [
+              "壁厚分布",
+              "容量 121ml",
+              "模具片数 2"
+            ],
+            "needs_physical_trial": [
+              "烧成收缩率",
+              "成品率（废品率）",
+              "釉面覆盖均匀性",
+              "物流防震测试"
+            ]
+          },
+          {
+            "concept_id": "c2",
+            "feasibility": "warn",
+            "key_risks": [
+              {
+                "risk": "1.5mm 壁厚且杯体偏高（H=55mm）微直筒，结构刚性不足，脱模及出窑易变形弯曲。",
+                "source": "engine:wall_min",
+                "severity": "high",
+                "mitigation": "建议将 t_wall 修正为 2.0-2.5mm。若坚持 1.5mm，建议在杯底增加加强筋或采用二次注浆增厚底圈，仅杯身上部保留薄胎。"
+              },
+              {
+                "risk": "鹅绒白（goose_down_white）釉色为浅色调，对 1.5mm 薄胎的针孔、杂质极其敏感，易显脏。",
+                "source": "kb:ecommerce_playbook",
+                "severity": "med",
+                "mitigation": "注浆前需进行泥浆离心除气，釉浆需过 150 目筛，试烧时重点检查杯口 20mm 区域（饮用区）的釉面平整度。"
+              },
+              {
+                "risk": "单杯引流款定价 129-149 元，若废品率高于常规款，毛利空间将被挤压。",
+                "source": "judgement",
+                "severity": "low",
+                "mitigation": "需在打样阶段核算包含废品在内的完全成本，若废品率导致成本超标，需调整壁厚牺牲极致轻薄感，或提升单杯溢价能力（如包装升级）。"
+              }
+            ],
+            "param_fixes": {
+              "t_wall": 2
+            },
+            "process_plan": {
+              "forming": "slip_casting (高压注浆)",
+              "mold_pieces": 2,
+              "firing": "一次烧成约 1300℃",
+              "glaze_notes": "鹅绒白釉浆需调整烧成曲线，确保低温段挥发物完全排出，避免针孔。釉层施厚至 0.5mm 以保证覆盖度。",
+              "decoration_notes": "素面，无装饰。口沿 flare 4mm 微撇，需修整确保圆度，避免倾斜。"
+            },
+            "food_safety": {
+              "microwave": true,
+              "dishwasher": true,
+              "notes": "无装饰，安全。"
+            },
+            "moq_suggestion": "建议 1000 件/款。依据：单杯生产效率高，模具结构简单（2片），可大批量窑位满载降低单件能耗。",
+            "sampling_plan": "3D 打印 -> 石膏模 -> 注浆打样。需测量 55mm 高度杯体在干燥及烧成后的垂直度（挠度）。",
+            "verified_digitally": [
+              "容量 132ml",
+              "模具片数 2",
+              "垂直度"
+            ],
+            "needs_physical_trial": [
+              "鹅绒白釉面针孔检查",
+              "1.5mm/2.0mm 壁厚下的杯体挠度",
+              "废品率统计"
+            ]
+          },
+          {
+            "concept_id": "c3",
+            "feasibility": "fail",
+            "key_risks": [
+              {
+                "risk": "1.5mm 壁厚且带 relief（暗纹/刻花），模具精度无法保证，注浆后浮雕处壁厚可能薄于 1.0mm，烧成必裂。",
+                "source": "engine:wall_min",
+                "severity": "high",
+                "mitigation": "取消 relief 装饰或增大 t_wall 至 3.0mm 以上。若坚持暗纹，需将浮雕深度控制在 0.3mm 以内，并改用釉上彩替代浮雕，或仅在杯底进行刻花（非受力区）。"
+              },
+              {
+                "risk": "4 杯套装体积紧凑，杯间摩擦在包装运输中易造成釉面或坯体磨损。",
+                "source": "kb:ecommerce_playbook",
+                "severity": "med",
+                "mitigation": "木质托盘需使用 EVA 或高密度珍珠棉开槽，确保杯体之间无物理接触，且留有一定膨胀余量。"
+              },
+              {
+                "risk": "高端礼盒（木盒）成本高昂，加上薄胎杯废品率，目标价 179-199 元难以覆盖成本。",
+                "source": "judgement",
+                "severity": "high",
+                "mitigation": "建议将收纳底座从“碗”概念改为简单的“纸卡/亚克力展示架”，或取消实体底座，仅在礼盒内使用卡纸定位。"
+              }
+            ],
+            "param_fixes": {
+              "t_wall": 2.5,
+              "decoration": "plain (或釉上彩)"
+            },
+            "process_plan": {
+              "forming": "slip_casting",
+              "mold_pieces": 3,
+              "firing": "一次烧成约 1300℃",
+              "glaze_notes": "象牙白釉，需重点测试釉面韧性。",
+              "decoration_notes": "建议将 relief 改为釉上彩（如描金或浅灰色线条），避免模具减薄带来的开裂风险。釉上彩需二次低温烧（约 800℃），注意口沿处无彩。"
+            },
+            "food_safety": {
+              "microwave": true,
+              "dishwasher": true,
+              "notes": "若改用釉上彩，需声明避免金属餐具刮擦釉彩，但不建议微波（若含金/银彩则禁微波，纯黑/灰彩可微波但需确认材质）。"
+            },
+            "moq_suggestion": "建议 300 套/款。依据：套装组合复杂度高，模具 3 片（杯+底座），需控制周转以维持现金流。",
+            "sampling_plan": "先解决壁厚与浮雕矛盾，再打样 4 杯+托盘套装，进行跌落测试（1m 跌落 6 面）。",
+            "verified_digitally": [
+              "容量 95ml",
+              "套装体积"
+            ],
+            "needs_physical_trial": [
+              "浮雕处壁厚",
+              "套装抗压性",
+              "釉上彩附着力"
+            ]
+          }
+        ],
+        "notes": "核心风险提示：引擎判定 1.5mm 壁厚在德化高白瓷注浆工艺中为 fail。若强行追求 1.5mm 视觉，需切换至“拉坯+手工修坯”工艺，成本与周期将大幅增加（模具变为拉坯机头，非石膏模），且产能受限。建议：1. 接受 2.0-2.5mm 壁厚，在营销上强调“2mm 级薄胎”而非 1.5mm。2. c3 方案的浮雕装饰在薄胎上风险极高，建议改用釉上彩或取消。3. 所有薄胎产品需预留 15%-20% 的损耗率进行成本核算。"
+      },
+      "summary": "c1:warn（修正 t_wall→2） c2:warn（修正 t_wall→2） c3:fail（修正 t_wall→2.5,decoration→plain (或釉上彩)）"
+    },
+    {
+      "key": "critic",
+      "agent": "评审官",
+      "status": "done",
+      "at": 196393,
+      "ms": 16738,
+      "promptId": "concept.critic",
+      "version": "1.0.0",
+      "model": "agnes-3.0-flash",
+      "attempts": 1,
+      "repaired": false,
+      "usage": {
+        "completion_tokens": 1245,
+        "prompt_tokens": 7938,
+        "total_tokens": 9183
+      },
+      "fencedJson": false,
+      "output": {
+        "scores": [
+          {
+            "concept_id": "c1",
+            "market": 25,
+            "manufacturability": 18,
+            "cost": 13,
+            "differentiation": 12,
+            "compliance": 13,
+            "total": 81,
+            "comment": "市场切入精准，但存在核心参数冲突。需求明确要求 1.5mm 杯壁，但引擎 DFM 与工艺工程师均指出 1.5mm 低于注浆工艺下限（≥2.0mm），当前 t_wall 参数仍为 2.0mm，未完全对齐需求“严格 1.5mm”的硬性约束，也未体现“极致轻薄”的视觉差异。若坚持 1.5mm，需改用拉坯或半手工工艺，成本将显著上升。当前方案作为“轻奢套组”具备礼品属性，但壁厚参数未解决需求核心痛点。"
+          },
+          {
+            "concept_id": "c2",
+            "market": 24,
+            "manufacturability": 18,
+            "cost": 14,
+            "differentiation": 11,
+            "compliance": 14,
+            "total": 81,
+            "comment": "单杯引流款定位清晰，北欧简约风格适配办公室场景。同样存在 t_wall=2.0mm 与需求 1.5mm 的冲突。鹅绒白釉色对杂质敏感，且单杯 129-149 元定价在包含废品率后毛利可能不足。作为单品缺乏“套组”的礼品仪式感，但作为入门款易决策。"
+          },
+          {
+            "concept_id": "c3",
+            "market": 26,
+            "manufacturability": 8,
+            "cost": 10,
+            "differentiation": 13,
+            "compliance": 12,
+            "total": 69,
+            "comment": "工艺可行性为 fail。浮雕（relief）装饰与 1.5mm/2.5mm 薄胎注浆工艺存在严重冲突，模具无法保证浮雕处壁厚，烧成必裂风险极高。且 4 杯+木质底座的高端礼盒成本难以覆盖 199 元限价。需彻底重构工艺路径（如改用釉上彩或取消浮雕）并重新核算成本。"
+          }
+        ],
+        "recommended": "c1",
+        "recommend_reason": "c1 虽存在壁厚参数需修正的问题，但其“套组+礼盒”形态最符合 25-35 岁女性“送礼/下午茶”双重场景，且引擎 DFM 通过率高（无 fail），模具片数少（2 片），制造复杂度低，是三个方案中唯一能兼顾市场吸引力与基本可制造性的方案。c3 存在硬性工艺阻断，c2 礼品属性弱。推荐 c1 作为首选，但必须立即修正壁厚参数与工艺路径的矛盾。",
+        "must_fix": [
+          {
+            "concept_id": "c1",
+            "field": "hero_shape.params.t_wall",
+            "issue": "当前参数 t_wall=2.0mm，与需求“严格 1.5mm”冲突。引擎与工艺工程师指出 1.5mm 低于注浆下限，若维持注浆工艺需改为 2.0mm 并调整卖点；若坚持 1.5mm 需改为拉坯/手工减薄工艺，成本结构将改变。",
+            "fix": "方案 A（推荐）：将 t_wall 改为 2.0，卖点从“1.5mm极致”改为“2.0mm超薄玻璃感”，确保注浆工艺可量产；方案 B：将 forming 改为 throwing（拉坯），t_wall 改为 1.5，并在 evidence_needed 中补充拉坯人工成本核算。"
+          },
+          {
+            "concept_id": "c1",
+            "field": "selling_points_draft[0]",
+            "issue": "卖点直接引用“1.5mm极致薄胎”，但参数为 2.0mm，存在虚假宣传风险，且与 DFM 结果冲突。",
+            "fix": "若采用方案 A，改为“2.0mm超薄胎体，视觉轻盈，茶汤透光”；若采用方案 B，保留 1.5mm 但需补充工艺可行性证明。"
+          },
+          {
+            "concept_id": "c3",
+            "field": "hero_shape.decoration",
+            "issue": "relief（浮雕）与薄胎注浆工艺不兼容，导致 DFM fail。",
+            "fix": "改为 plain（素面）或 glaze_on（釉上彩），并移除木质底座，改用纸质内托以控制成本。"
+          },
+          {
+            "concept_id": "c2",
+            "field": "hero_shape.params.t_wall",
+            "issue": "参数 2.0mm 与需求 1.5mm 不符。",
+            "fix": "同 c1，需明确工艺路径与壁厚的匹配关系，修正卖点描述。"
+          }
+        ],
+        "summary_for_user": "选 c1 套组方案。注意：需求要 1.5mm，但注浆工艺做不到，要么改成 2.0mm 保量产，要么换拉坯工艺加成本。c3 浮雕做法会裂，别做。c1 需修正壁厚参数与卖点一致性后进入打样。"
+      },
+      "summary": "推荐 c1｜c1:81 c2:81 c3:69"
+    },
+    {
+      "key": "render",
+      "agent": "效果图师",
+      "status": "done",
+      "at": 213134,
+      "ms": 15553,
+      "promptId": "concept.render_prompt",
+      "version": "1.0.0",
+      "model": "agnes-3.0-flash",
+      "attempts": 1,
+      "repaired": false,
+      "usage": {
+        "completion_tokens": 1118,
+        "prompt_tokens": 3775,
+        "total_tokens": 4893
+      },
+      "fencedJson": false,
+      "output": {
+        "renders": [
+          {
+            "concept_id": "c1",
+            "shots": [
+              {
+                "type": "hero_white",
+                "ratio": "1:1",
+                "prompt": "A small Chinese tea cup with a gently flared rim and a short foot ring, shown with its matching saucer, height about 0.6 of rim diameter, Dehua blanc de chine porcelain, warm ivory white glaze with a subtle creamy milk tone, jade-like soft sheen, slightly translucent at thin edges, avoiding green tint, blue tint, gray tint, cold white, pure white seamless background, large soft diffused studio light, gentle gradient, subtle contact shadow, 45-degree slightly high angle, centered subject occupying 70% of frame, photorealistic product photography, high detail, no text, no logo, no watermark, no extra objects unless specified.",
+                "avoid": "green tint, blue tint, gray tint, cold white"
+              },
+              {
+                "type": "scene",
+                "ratio": "4:3",
+                "prompt": "Two small Chinese tea cups and two saucers on a minimalist wooden desk in a modern office, Dehua blanc de chine porcelain, warm ivory white glaze with a subtle creamy milk tone, jade-like soft sheen, slightly translucent at thin edges, avoiding green tint, blue tint, gray tint, cold white, soft natural window light from the side, large soft diffused studio light, gentle gradient, subtle contact shadow, eye-level perspective, clean uncluttered space with a notebook and pen, photorealistic product photography, high detail, no text, no logo, no watermark, no extra objects unless specified.",
+                "avoid": "green tint, blue tint, gray tint, cold white"
+              }
+            ]
+          },
+          {
+            "concept_id": "c2",
+            "shots": [
+              {
+                "type": "hero_white",
+                "ratio": "1:1",
+                "prompt": "A single small Chinese tea cup with a tall cylindrical shape, gently flared rim, and a short foot ring, height about 0.7 of rim diameter, soft velvety milky white porcelain glaze, gentle satin glow, warm and delicate, avoiding green, blue, gray, pure white seamless background, large soft diffused studio light, gentle gradient, subtle contact shadow, 45-degree slightly high angle, centered subject occupying 70% of frame, photorealistic product photography, high detail, no text, no logo, no watermark, no extra objects unless specified.",
+                "avoid": "green, blue, gray"
+              },
+              {
+                "type": "scene",
+                "ratio": "4:3",
+                "prompt": "A single small cylindrical tea cup on a small wooden side table next to a closed laptop in a cozy Scandinavian-style home office, soft velvety milky white porcelain glaze, gentle satin glow, warm and delicate, avoiding green, blue, gray, warm afternoon sunlight filtering through sheer curtains, large soft diffused studio light, gentle gradient, subtle contact shadow, low angle perspective, relaxed and intimate atmosphere, photorealistic product photography, high detail, no text, no logo, no watermark, no extra objects unless specified.",
+                "avoid": "green, blue, gray"
+              }
+            ]
+          },
+          {
+            "concept_id": "c3",
+            "shots": [
+              {
+                "type": "hero_white",
+                "ratio": "1:1",
+                "prompt": "Four small Chinese tea cups with rounded bodies and short foot rings arranged on a square wooden base, Dehua blanc de chine porcelain, warm ivory white glaze with a subtle creamy milk tone, jade-like soft sheen, slightly translucent at thin edges, avoiding green tint, blue tint, gray tint, cold white, pure white seamless background, large soft diffused studio light, gentle gradient, subtle contact shadow, 45-degree slightly high angle, centered subject occupying 70% of frame, photorealistic product photography, high detail, no text, no logo, no watermark, no extra objects unless specified.",
+                "avoid": "green tint, blue tint, gray tint, cold white"
+              },
+              {
+                "type": "scene",
+                "ratio": "4:3",
+                "prompt": "An open premium gift box containing four small tea cups on a wooden tray, placed on a marble tabletop with a silk ribbon and a sprig of osmanthus, Dehua blanc de chine porcelain, warm ivory white glaze with a subtle creamy milk tone, jade-like soft sheen, slightly translucent at thin edges, avoiding green tint, blue tint, gray tint, cold white, warm festive lighting with soft shadows, large soft diffused studio light, gentle gradient, subtle contact shadow, slight high angle, luxurious and celebratory mood, photorealistic product photography, high detail, no text, no logo, no watermark, no extra objects unless specified.",
+                "avoid": "green tint, blue tint, gray tint, cold white"
+              }
+            ]
+          }
+        ]
+      },
+      "summary": "3 个方案 × 2 张"
+    }
+  ],
+  "corrections": [
+    {
+      "type": "dfm_fix",
+      "step": "craft_engineer",
+      "target": "c1",
+      "name": "云雾轻盈·超薄礼盒套",
+      "reason": "壁厚 1.5 mm 低于德化高白瓷·注浆（含高压注浆）下限，脱模易裂、烧成易变形",
+      "paramsBefore": {
+        "t_wall": 1.5
+      },
+      "paramsAfter": {
+        "t_wall": 2
+      },
+      "summaryBefore": {
+        "pass": 8,
+        "warn": 0,
+        "fail": 1
+      },
+      "summaryAfter": {
+        "pass": 9,
+        "warn": 0,
+        "fail": 0
+      }
+    },
+    {
+      "type": "dfm_fix",
+      "step": "craft_engineer",
+      "target": "c2",
+      "name": "晨间微度假·办公独享杯",
+      "reason": "壁厚 1.5 mm 低于德化高白瓷·注浆（含高压注浆）下限，脱模易裂、烧成易变形",
+      "paramsBefore": {
+        "t_wall": 1.5
+      },
+      "paramsAfter": {
+        "t_wall": 2
+      },
+      "summaryBefore": {
+        "pass": 8,
+        "warn": 0,
+        "fail": 1
+      },
+      "summaryAfter": {
+        "pass": 9,
+        "warn": 0,
+        "fail": 0
+      }
+    },
+    {
+      "type": "dfm_fix",
+      "step": "craft_engineer",
+      "target": "c3",
+      "name": "轻奢伴手礼·四杯套装",
+      "reason": "壁厚 1.5 mm 低于德化高白瓷·注浆（含高压注浆）下限，脱模易裂、烧成易变形",
+      "paramsBefore": {
+        "t_wall": 1.5
+      },
+      "paramsAfter": {
+        "t_wall": 2.5,
+        "decoration": "plain (或釉上彩)"
+      },
+      "summaryBefore": {
+        "pass": 8,
+        "warn": 0,
+        "fail": 1
+      },
+      "summaryAfter": {
+        "pass": 9,
+        "warn": 0,
+        "fail": 0
+      }
+    },
+    {
+      "type": "qc_fix",
+      "step": "vision_qc",
+      "target": "concept_dehua_jd_c1_hero",
+      "reason": "Component mismatch: image shows cup and saucer, spec requires gift box set.；Green tint present; required warm ivory white with creamy tone.；Contains gradient and shadow; required pure seamless white.；Subject is off-center and underfilled; required centered placement with 85% fill.",
+      "before": {
+        "file": "img/concept_dehua_jd_c1_hero_a1.png",
+        "score": 50
+      },
+      "after": {
+        "file": "img/concept_dehua_jd_c1_hero_a2.png",
+        "score": 40
+      }
+    },
+    {
+      "type": "qc_fix",
+      "step": "vision_qc",
+      "target": "concept_dehua_jd_c2_hero",
+      "reason": "釉色严重偏离鹅绒白，呈现偏青绿/偏灰色调；背景非纯白，含有明显暖色光晕与渐变色块；主体填充面积不足且未严格居中",
+      "before": {
+        "file": "img/concept_dehua_jd_c2_hero_a1.png",
+        "score": 20
+      },
+      "after": {
+        "file": "img/concept_dehua_jd_c2_hero_a2.png",
+        "score": 85
+      }
+    }
+  ],
+  "images": [
+    {
+      "name": "concept_dehua_jd_c1_hero",
+      "label": "云雾轻盈·超薄礼盒套·白底效果图",
+      "shotType": "hero_white",
+      "ratio": "1:1",
+      "attempts": [
+        {
+          "file": "img/concept_dehua_jd_c1_hero_a1.png",
+          "url": "https://platform-outputs.agnes-ai.space/images/t2i/task_R9m7r7q00b088A6IMnfLX58QYzWtwlqa/output_95b2cef939b14a1f900cca44baf9df35.png",
+          "prompt": "A small Chinese tea cup with a gently flared rim and a short foot ring, shown with its matching saucer, height about 0.6 of rim diameter, Dehua blanc de chine porcelain, warm ivory white glaze with a subtle creamy milk tone, jade-like soft sheen, slightly translucent at thin edges, avoiding green tint, blue tint, gray tint, cold white, pure white seamless background, large soft diffused studio light, gentle gradient, subtle contact shadow, 45-degree slightly high angle, centered subject occupying 70% of frame, photorealistic product photography, high detail, no text, no logo, no watermark, no extra objects unless specified. Avoid: green tint, blue tint, gray tint, cold white.",
+          "ms": 10033,
+          "retries": 0,
+          "qc": {
+            "pass": false,
+            "score": 50,
+            "glaze_color_observed": "Cool greenish-white with a distinct green tint and gray undertone",
+            "checks": {
+              "fidelity": {
+                "pass": false,
+                "note": "The image shows a cup and saucer combination, whereas the product specification lists a 'gift box set' (礼盒套). As there is no reference image and the component count does not match the description, fidelity fails."
+              },
+              "glaze_color": {
+                "pass": false,
+                "note": "The glaze is a cool greenish-white. The specification explicitly requires a warm ivory white with a creamy milk tone, and forbids any green tint. The observed color falls into the prohibited category."
+              },
+              "background": {
+                "pass": false,
+                "note": "The background features a visible gray-to-white gradient with a noticeable shadow at the bottom. It is not a pure, seamless white background as required for a hero_white shot."
+              },
+              "text_artifacts": {
+                "pass": true,
+                "note": "No text, watermarks, logos, or gibberish characters are present in the image."
+              },
+              "plausibility": {
+                "pass": true,
+                "note": "The cup and saucer are structurally sound. The light source and shadows are consistent and physically plausible."
+              },
+              "composition": {
+                "pass": false,
+                "note": "The subject is not centered horizontally; it is placed in the left half of the frame. The subject occupies less than the required ~85% of the image area."
+              }
+            },
+            "issues": [
+              {
+                "type": "fidelity",
+                "detail": "Component mismatch: image shows cup and saucer, spec requires gift box set."
+              },
+              {
+                "type": "glaze_color",
+                "detail": "Green tint present; required warm ivory white with creamy tone."
+              },
+              {
+                "type": "background",
+                "detail": "Contains gradient and shadow; required pure seamless white."
+              },
+              {
+                "type": "composition",
+                "detail": "Subject is off-center and underfilled; required centered placement with 85% fill."
+              }
+            ],
+            "fix_prompt": "Regenerate the image. Ensure the glaze is a warm ivory white with a subtle creamy milk tone, removing all green or gray tints. Change the background to a pure, seamless, bright white with no gradients or shadows. Center the composition so the cup and saucer occupy approximately 85% of the frame. Ensure the image perfectly matches the specification for the 'Dehua Blanc de Chine' style."
+          }
+        },
+        {
+          "file": "img/concept_dehua_jd_c1_hero_a2.png",
+          "url": "https://platform-outputs.agnes-ai.space/images/i2i/task_3QRx9uPUtHksVjZEreV31rV9uy5TGiab/output.png",
+          "prompt": "A small Chinese tea cup with a gently flared rim and a short foot ring, shown with its matching saucer, height about 0.6 of rim diameter, Dehua blanc de chine porcelain, warm ivory white glaze with a subtle creamy milk tone, jade-like soft sheen, slightly translucent at thin edges, avoiding green tint, blue tint, gray tint, cold white, pure white seamless background, large soft diffused studio light, gentle gradient, subtle contact shadow, 45-degree slightly high angle, centered subject occupying 70% of frame, photorealistic product photography, high detail, no text, no logo, no watermark, no extra objects unless specified. Avoid: green tint, blue tint, gray tint, cold white. Regenerate the image. Ensure the glaze is a warm ivory white with a subtle creamy milk tone, removing all green or gray tints. Change the background to a pure, seamless, bright white with no gradients or shadows. Center the composition so the cup and saucer occupy approximately 85% of the frame. Ensure the image perfectly matches the specification for the 'Dehua Blanc de Chine' style.",
+          "ms": 18455,
+          "retries": 0,
+          "qc": {
+            "pass": false,
+            "score": 40,
+            "glaze_color_observed": "Warm ivory-cream white with a subtle beige tone, lacking the 'jade-like' translucent quality typical of Dehua porcelain",
+            "checks": {
+              "fidelity": {
+                "pass": false,
+                "note": "Spec is a 'set' (套) but the image only shows a cup and saucer. A 'Yunwu Lightweight' gift box set likely implies more components (e.g., tea strainer, lid, or an additional cup) which are missing. Additionally, the 'ultra-thin' (超薄) characteristic is not visually represented; the cup body and saucer appear to have standard thickness, not 'feather-light' thinness."
+              },
+              "glaze_color": {
+                "pass": true,
+                "note": "The color is a warm ivory/milk white. While it lacks high translucency, it does not exhibit the forbidden cool green, blue, or gray tints. It is acceptable for 'ivory white'."
+              },
+              "background": {
+                "pass": true,
+                "note": "Clean white seamless background. There is a shadow, but it is not a distinct color block or prop, which is standard for product shots."
+              },
+              "text_artifacts": {
+                "pass": true,
+                "note": "No text, watermarks, or logos visible."
+              },
+              "plausibility": {
+                "pass": true,
+                "note": "Physical form is plausible. The cup sits naturally on the saucer. Rim looks even. No floating or interpenetration errors."
+              },
+              "composition": {
+                "pass": false,
+                "note": "The subject is centered but occupies roughly 50-60% of the vertical frame. For a `hero_white` shot, the subject should be significantly larger (approx. 85%) to command the frame. There is excessive negative space at the top and bottom."
+              }
+            },
+            "issues": [
+              {
+                "type": "fidelity",
+                "detail": "Missing components for a 'set' (likely missing strainer or box context)."
+              },
+              {
+                "type": "fidelity",
+                "detail": "Does not look 'ultra-thin' as per spec; walls look standard."
+              },
+              {
+                "type": "composition",
+                "detail": "Subject is too small; too much white space. Needs to be cropped closer or the object rendered larger."
+              }
+            ],
+            "fix_prompt": "Enlarger the cup and saucer so they fill 85% of the vertical frame. Increase the visual thinness of the cup rim and body to look ultra-thin. Maintain the warm ivory white color. Keep the clean white background. Do not add text."
+          }
+        }
+      ]
+    },
+    {
+      "name": "concept_dehua_jd_c2_hero",
+      "label": "晨间微度假·办公独享杯·白底效果图",
+      "shotType": "hero_white",
+      "ratio": "1:1",
+      "attempts": [
+        {
+          "file": "img/concept_dehua_jd_c2_hero_a1.png",
+          "url": "https://platform-outputs.agnes-ai.space/images/t2i/task_fBkTPjx2xEpoOi9ujTs8Z3wM221YDetH/output_1652c838a07f41bbbf75882b75da6311.png",
+          "prompt": "A single small Chinese tea cup with a tall cylindrical shape, gently flared rim, and a short foot ring, height about 0.7 of rim diameter, soft velvety milky white porcelain glaze, gentle satin glow, warm and delicate, avoiding green, blue, gray, pure white seamless background, large soft diffused studio light, gentle gradient, subtle contact shadow, 45-degree slightly high angle, centered subject occupying 70% of frame, photorealistic product photography, high detail, no text, no logo, no watermark, no extra objects unless specified. Avoid: green, blue, gray.",
+          "ms": 10323,
+          "retries": 0,
+          "qc": {
+            "pass": false,
+            "score": 20,
+            "glaze_color_observed": "cool greenish-gray",
+            "checks": {
+              "fidelity": {
+                "pass": true,
+                "note": "器型轮廓为品茗杯，无把手，口沿及底部比例符合规格描述。"
+              },
+              "glaze_color": {
+                "pass": false,
+                "note": "严重偏差。规格要求为鹅绒白（软糯奶白、温暖细腻），当前图像釉色明显呈现偏绿、偏灰的青色调（cool greenish-gray），属于规格明令禁止的'不可出现'色域。"
+              },
+              "background": {
+                "pass": false,
+                "note": "背景非纯白。hero_white镜头要求纯白无缝背景，当前背景带有明显的暖色光晕与灰阶渐变，不符合硬性要求。"
+              },
+              "text_artifacts": {
+                "pass": true,
+                "note": "无文字、Logo、乱码或水印。"
+              },
+              "plausibility": {
+                "pass": true,
+                "note": "光影物理表现合理，物体接触面有自然投影，无穿插或悬浮现象。"
+              },
+              "composition": {
+                "pass": false,
+                "note": "构图存在瑕疵。主体仅占画面约65%，未达hero_white镜头约85%的填充度要求，且位置略偏左，非严格居中。"
+              }
+            },
+            "issues": [
+              {
+                "type": "glaze_color",
+                "detail": "釉色严重偏离鹅绒白，呈现偏青绿/偏灰色调"
+              },
+              {
+                "type": "background",
+                "detail": "背景非纯白，含有明显暖色光晕与渐变色块"
+              },
+              {
+                "type": "composition",
+                "detail": "主体填充面积不足且未严格居中"
+              }
+            ],
+            "fix_prompt": "Strictly change the glaze color from greenish-gray to warm, soft velvety milky white porcelain glaze with gentle satin glow. Make the background pure seamless white (#FFFFFF), completely removing all warm color gradients and lighting flares. Reframe the cup to be perfectly centered and enlarged to occupy approximately 85% of the frame."
+          }
+        },
+        {
+          "file": "img/concept_dehua_jd_c2_hero_a2.png",
+          "url": "https://platform-outputs.agnes-ai.space/images/i2i/task_GvKJ3f3kbLO7R1LBRZkAsnhtxMFMTfno/output.png",
+          "prompt": "A single small Chinese tea cup with a tall cylindrical shape, gently flared rim, and a short foot ring, height about 0.7 of rim diameter, soft velvety milky white porcelain glaze, gentle satin glow, warm and delicate, avoiding green, blue, gray, pure white seamless background, large soft diffused studio light, gentle gradient, subtle contact shadow, 45-degree slightly high angle, centered subject occupying 70% of frame, photorealistic product photography, high detail, no text, no logo, no watermark, no extra objects unless specified. Avoid: green, blue, gray. Strictly change the glaze color from greenish-gray to warm, soft velvety milky white porcelain glaze with gentle satin glow. Make the background pure seamless white (#FFFFFF), completely removing all warm color gradients and lighting flares. Reframe the cup to be perfectly centered and enlarged to occupy approximately 85% of the frame.",
+          "ms": 20717,
+          "retries": 0,
+          "qc": {
+            "pass": true,
+            "score": 85,
+            "glaze_color_observed": "warm milky ivory-white",
+            "checks": {
+              "fidelity": {
+                "pass": true,
+                "note": "器型轮廓清晰，口沿、杯身比例及底部圈足符合品茗杯（茶杯）的规格描述，没有多余组件。"
+              },
+              "glaze_color": {
+                "pass": true,
+                "note": "整体呈现温暖的乳白/象牙白调性，表面带有柔和的缎面光泽（satin glow），完全符合“鹅绒白”及德化白瓷的色调要求，无绿、蓝、灰调。"
+              },
+              "background": {
+                "pass": true,
+                "note": "纯白无缝背景，无杂乱道具，符合 hero_white 镜头要求。地面有轻微自然的接触阴影，符合物理规律。"
+              },
+              "text_artifacts": {
+                "pass": true,
+                "note": "画面中未见任何文字、水印、Logo 或乱码字符。"
+              },
+              "plausibility": {
+                "pass": true,
+                "note": "光影逻辑合理，无悬浮或穿插变形，口沿边缘平滑，符合陶瓷物理特征。"
+              },
+              "composition": {
+                "pass": true,
+                "note": "主体居中且完整。在 hero_white 镜头下，主体约占画面宽度 85%，符合构图规范。"
+              }
+            },
+            "issues": [],
+            "fix_prompt": "No fix required. The image meets all visual quality checks for the 'hero_white' shot."
+          }
+        }
+      ]
+    }
+  ],
+  "video": null,
+  "result": {
+    "requirement": {
+      "mode": "ecommerce",
+      "summary": "25-35岁职场女性办公室轻奢德化白瓷茶具套，主打1.5mm超薄杯壁",
+      "category": "茶具",
+      "product_types": [
+        "pinming_cup"
+      ],
+      "quantity": {
+        "value": null,
+        "unit": "件"
+      },
+      "price": {
+        "currency": "CNY",
+        "retail_min": 129,
+        "retail_max": 199,
+        "fob_target": null
+      },
+      "target_users": [
+        "25-35岁职场女性"
+      ],
+      "scenes": [
+        "办公室下午茶",
+        "自用",
+        "送礼"
+      ],
+      "style_keywords": [
+        "轻奢",
+        "颜值",
+        "办公室",
+        "送礼属性"
+      ],
+      "functional_requirements": [
+        {
+          "item": "杯壁厚度",
+          "value": "1.5 mm",
+          "source_text": "超薄 1.5 mm 杯壁"
+        },
+        {
+          "item": "材质",
+          "value": "德化白瓷",
+          "source_text": "德化白瓷"
+        },
+        {
+          "item": "款式定位",
+          "value": "以品茗杯为主打",
+          "source_text": "其中一款方案请以品茗杯为主打，杯壁按客户要求 1.5 mm"
+        }
+      ],
+      "material_preference": "dehua_highwhite",
+      "glaze_preference": [
+        "china_white_ivory"
+      ],
+      "decoration_preference": [
+        "素面"
+      ],
+      "packaging": "支持送礼场景的高颜值礼盒包装（具体结构与材质待定）",
+      "markets_platforms": [
+        "jd",
+        "douyin",
+        "tmall"
+      ],
+      "certifications_required": [
+        "GB 4806.4-2016"
+      ],
+      "timeline_days": null,
+      "constraints": [
+        "杯壁厚度严格控制在 1.5 mm 以符合视觉轻量化需求",
+        "零售单套价格区间限定在 129 元 至 199 元"
+      ],
+      "assumptions": [
+        "根据“德化白瓷”材质及“办公室轻奢/颜值/送礼”风格，假设釉色偏好选择【中国白·象牙白】",
+        "因目标市场为国内（京东、抖音、天猫），按行业惯例推断食品接触陶瓷需符合【GB 4806.4-2016】",
+        "因原始需求未说明装饰与Logo偏好，且主打素面极简轻奢风格，假设装饰偏好为【素面】"
+      ],
+      "questions": [
+        "“单套”茶具包含的具体器型与数量是多少？（例如：是否包含1个茶叶罐、1个茶漏、5个品茗杯？）",
+        "除品茗杯（1.5 mm杯壁）外，该套组内是否还包含其他配套器型（如盖碗、碗、茶托等）？",
+        "请提供该套产品的预期采购量或首批备货数量，以便核算模具与打样成本。",
+        "1.5 mm 杯壁厚度对注浆、滚压、压坯等成型工艺及烧成形变控制要求极高，且需平衡运输破损率，请确认是否接受因极高规格带来的较高单件制造成本与潜在较高破损率？",
+        "送礼场景下，是否对礼盒的内外结构、配件（如收纳盒）及视觉材质有具体的设计要求或打样期望？",
+        "是否需提供特定品牌的 Logo 定制、烫金等专属表面处理？",
+        "该新品的预期上市时间节点或交期要求是什么？"
+      ]
+    },
+    "insight": {
+      "personas": [
+        {
+          "name": "精致职场新锐",
+          "profile": "25-35岁一二线城市白领，注重生活品质与审美，习惯下午茶社交。",
+          "needs": [
+            "提升办公仪式感",
+            "高颜值拍照素材",
+            "轻量化手感体验"
+          ],
+          "buying_triggers": [
+            "办公室下午茶场景种草",
+            "闺蜜或同事间的社交分享",
+            "轻奢素面设计符合职场审美"
+          ],
+          "objections": [
+            "担心1.5mm杯壁过薄易碎",
+            "担心办公室运输与携带的不便"
+          ]
+        },
+        {
+          "name": "轻奢心意送礼者",
+          "profile": "25-35岁职场人士，需购买职场伴手礼、节日心意礼或客户答谢礼。",
+          "needs": [
+            "包装显档次且防碎",
+            "产品独特不显廉价",
+            "自带品牌故事与高级感"
+          ],
+          "buying_triggers": [
+            "高颜值礼盒开箱体验",
+            "中国白象牙白的温润质感",
+            "德化产地仓提供的物流保障"
+          ],
+          "objections": [
+            "价格区间（129-199元）能否匹配高品质礼盒的预期",
+            "担心易碎品在配送中的破损风险"
+          ]
+        }
+      ],
+      "scenes": [
+        "办公室下午三点，1.5mm超薄杯壁透出茶汤，光影折射在办公桌面的特写",
+        "午休时间在工位独享一杯明前绿茶的“微度假”时刻",
+        "节日或季度考核后，向核心客户或高频合作的闺蜜/同事递上高颜值伴手礼",
+        "小红书/抖音打卡：手持白瓷杯的职场OOTD（穿搭）与氛围感大片"
+      ],
+      "positioning_angles": [
+        {
+          "angle": "极致轻薄触感：1.5mm“玻璃感”中国白",
+          "why": "将德化白瓷的传统厚重打破，1.5mm杯壁在视觉上达到近乎透明的轻盈感，精准契合“轻奢”与“颜值”的标签，解决年轻女性对器物质感的极致追求。",
+          "evidence": "kb:dehua_fact_2, 经验判断"
+        },
+        {
+          "angle": "办公室的“情绪价值”与社交货币",
+          "why": "在办公室下午茶场景中，高颜值的象牙白茶具不仅是实用器，更是发朋友圈、小红书的绝佳道具，满足职场女性对精致生活的自我表达与社交需求。",
+          "evidence": "kb:ecommerce_playbook, 经验判断"
+        },
+        {
+          "angle": "零门槛的“高定感”轻奢心意礼",
+          "why": "通过极简素面设计+高级感礼盒包装，降低送礼时的“踩雷”概率。结合京东德化产地仓的防碎物流，解决送礼易碎品“送礼送破损”的痛点，强化送礼的确定性。",
+          "evidence": "kb:jd_dehua"
+        }
+      ],
+      "price_strategy": {
+        "suggested_retail": "139–189 元/套（日常锚定），大促/礼盒装可冲至 199 元/套",
+        "reasoning": "129-199元区间中，129元易陷入“低质”竞争，且难以覆盖1.5mm薄胎的高废品率及礼盒包装成本。建议日常主推139-169元，通过礼盒装（如含茶托、专属手提袋）拉高客单价至189-199元，契合轻奢定位与送礼场景的价值感。",
+        "evidence": "kb:ecommerce_playbook, 经验判断"
+      },
+      "differentiation": [
+        "1.5mm极薄杯壁带来的“透光性”与“轻量化”触感（区别于常规3-5mm厚胎茶具）",
+        "中国白·象牙白+素面设计，剥离繁复装饰，以纯粹釉色与器型线条体现“轻奢”",
+        "绑定德化产地仓物流方案，在详情页/包装上强调“专属防碎包裹”，直击易碎品送礼痛点"
+      ],
+      "content_hooks": [
+        "短视频前3秒：手持1.5mm薄胎杯靠近光源，茶汤瞬间透光，光影折射在桌面上（钩子：视觉奇观+材质证明）",
+        "主图/详情页：1.5mm杯壁与信用卡/硬币厚度的同框对比，直观展示“极致轻薄”",
+        "开箱视频：京东物流德化仓专属防碎气泡柱/气柱的暴力开箱测试，打消易碎顾虑",
+        "场景植入：在整洁明亮的写字楼办公桌前，一杯素面白瓷茶杯与电脑、键盘的静物摄影（情绪价值）"
+      ],
+      "risks": [
+        "1.5mm杯壁对注浆/滚压工艺要求极高，若烧造形变控制不佳，会导致批次尺寸不一或报废率飙升，影响129-199元区间的利润空间",
+        "极薄胎体在常规快递（尤其是非京东物流的全渠道）中破损率可能远高于常规陶瓷，需严格限制销售渠道或升级包装",
+        "“素面+轻奢”设计若缺乏足够细节（如口沿弧度、足底露胎质感），容易显得单调，难以支撑199元的高价"
+      ],
+      "assumptions": [
+        "假设该1.5mm杯壁是通过注浆或高精度滚压工艺实现，需确认具体成型工艺以评估废品率",
+        "假设礼盒包装具备足够的缓冲结构（如独立EPE珍珠棉内托）以适配1.5mm薄胎",
+        "假设目标受众对“1.5mm薄胎”的易碎性有心理准备，并在详情页中做好预期管理"
+      ]
+    },
+    "concepts": [
+      {
+        "id": "c1",
+        "name": "云雾轻盈·超薄礼盒套",
+        "one_liner": "1.5mm透光白瓷杯，极简素面，办公轻奢礼盒",
+        "positioning_angle": "极致轻薄触感：1.5mm“玻璃感”中国白",
+        "style": "宋式极简",
+        "set_composition": [
+          {
+            "item": "品茗杯",
+            "qty": 2,
+            "template": "pinming_cup"
+          },
+          {
+            "item": "茶托",
+            "qty": 2,
+            "template": "bowl"
+          }
+        ],
+        "hero_shape": {
+          "template": "pinming_cup",
+          "params": {
+            "H": 48,
+            "D_rim": 76,
+            "D_foot": 34,
+            "h_foot": 4,
+            "t_wall": 2,
+            "t_bottom": 2,
+            "roundness": 0.65,
+            "bulge": 3,
+            "belly_z": 0.45,
+            "flare": 2
+          },
+          "points": null
+        },
+        "material": "dehua_highwhite",
+        "forming": "slip_casting",
+        "glaze": "china_white_ivory",
+        "decoration": "plain",
+        "decoration_detail": "全器素面，无装饰。利用1.5mm薄胎在自然光下的透光性作为核心视觉卖点。足底保留精细露胎，呈现白瓷原本的细腻质感，避免单调。",
+        "packaging": "黑白撞色硬挺礼盒，内嵌独立EPE珍珠棉防震内托，附赠同款素面手提袋。强调“开箱即礼”。",
+        "target_retail_price": {
+          "min": 139,
+          "max": 169,
+          "currency": "CNY"
+        },
+        "selling_points_draft": [
+          "1.5mm极致薄胎，视觉轻盈，茶汤透光",
+          "德化高白瓷，象牙白釉色温润如玉",
+          "极简宋式线条，契合现代办公桌美学",
+          "专属防震礼盒，送礼更安心"
+        ],
+        "design_rationale": "严格遵循需求设定的1.5mm杯壁厚度。选用slip_casting（注浆工艺）以精确控制极薄壁厚的形变与批次一致性，满足“高废品率风险”下的量产可控需求。设计采用圆腹微凸（bulge 3, belly_z 0.45）优化握持手感，同时通过降低flare（2）保证杯口收敛，便于饮用与防止烫手。包装与定价策略直接呼应市场洞察中关于易碎品物流痛点与轻奢定位的解法。",
+        "evidence_needed": [
+          "确认1.5mm注浆成型在德化高白瓷上的实际烧造形变率与废品率数据，以核算最终成本是否能控制在139-169元毛利内。",
+          "确认礼盒包装EPE内托的抗压/防震测试报告。"
+        ]
+      },
+      {
+        "id": "c2",
+        "name": "晨间微度假·办公独享杯",
+        "one_liner": "单杯便携装，1.5mm薄壁，午休独享时光",
+        "positioning_angle": "办公室的“情绪价值”与社交货币",
+        "style": "北欧简约",
+        "set_composition": [
+          {
+            "item": "品茗杯",
+            "qty": 1,
+            "template": "pinming_cup"
+          }
+        ],
+        "hero_shape": {
+          "template": "pinming_cup",
+          "params": {
+            "H": 55,
+            "D_rim": 82,
+            "D_foot": 38,
+            "h_foot": 5,
+            "t_wall": 2,
+            "t_bottom": 2.5,
+            "roundness": 0.8,
+            "bulge": 1,
+            "belly_z": 0.55,
+            "flare": 4
+          },
+          "points": null
+        },
+        "material": "dehua_highwhite",
+        "forming": "slip_casting",
+        "glaze": "goose_down_white",
+        "decoration": "plain",
+        "decoration_detail": "素面设计。改变杯体比例，采用更高、微直的筒形设计（roundness 0.8, bulge 1），口沿微撇（flare 4）。杯身高度55mm增加视觉挺拔感，更符合北欧简约审美，适合放在办公桌前作为“工位摆件”。",
+        "packaging": "简约牛皮纸管装或极简黑白纸盒，附赠茶包与便签纸，强调“一人食的治愈感”。",
+        "target_retail_price": {
+          "min": 129,
+          "max": 149,
+          "currency": "CNY"
+        },
+        "selling_points_draft": [
+          "单杯极简设计，不占办公桌空间",
+          "1.5mm轻薄杯壁，打破常规厚重感",
+          "鹅绒白釉色，柔和舒适，提升午休氛围感",
+          "高直筒设计，更显挺拔，适合单人饮用"
+        ],
+        "design_rationale": "针对洞察中“午休独享微度假”的场景，将器型从常规的圆润微凸调整为偏高、微直的北欧极简风格。釉色避开主力的象牙白，选用鹅绒白以形成差异化，降低同店竞品视觉同质化。因只需单杯，可适度降低客单价至129-149元区间，作为引流款或基础款，扩大受众覆盖面。",
+        "evidence_needed": [
+          "鹅绒白釉色在1.5mm薄胎上的覆盖度与烧成稳定性测试，确认无针孔或釉面剥落。"
+        ]
+      },
+      {
+        "id": "c3",
+        "name": "轻奢伴手礼·四杯套装",
+        "one_liner": "4杯礼盒，含收纳底座，1.5mm透光白瓷",
+        "positioning_angle": "零门槛的“高定感”轻奢心意礼",
+        "style": "节庆礼赠",
+        "set_composition": [
+          {
+            "item": "品茗杯",
+            "qty": 4,
+            "template": "pinming_cup"
+          },
+          {
+            "item": "收纳底座（概念上并入包装）",
+            "qty": 1,
+            "template": "bowl"
+          }
+        ],
+        "hero_shape": {
+          "template": "pinming_cup",
+          "params": {
+            "H": 42,
+            "D_rim": 68,
+            "D_foot": 30,
+            "h_foot": 3.5,
+            "t_wall": 2.5,
+            "t_bottom": 2,
+            "roundness": 0.55,
+            "bulge": 4,
+            "belly_z": 0.4,
+            "flare": 1
+          },
+          "points": null
+        },
+        "material": "dehua_highwhite",
+        "forming": "slip_casting",
+        "glaze": "china_white_ivory",
+        "decoration": "relief",
+        "decoration_detail": "素面杯体，但在杯身与收纳底座的结合处或杯底刻有细腻的暗纹（浮雕/刻花），如简单的云水纹或几何线，增加“高定感”与细节精致度，避免纯素面在高端礼盒中显得单调（回应风险点）。",
+        "packaging": "高端翻盖木盒或双层厚纸盒，内设定制木质或MDF（中密度纤维板）收纳托盘，将4个杯整齐排列，开盖即呈现阵列美感。",
+        "target_retail_price": {
+          "min": 179,
+          "max": 199,
+          "currency": "CNY"
+        },
+        "selling_points_draft": [
+          "4杯豪华礼盒，满足团队/闺蜜分享场景",
+          "定制木质/高级纸板收纳底座，陈列即装饰",
+          "1.5mm薄胎+精细暗纹，细节彰显轻奢质感",
+          "突破常规，礼盒装直达送礼客单价上限"
+        ],
+        "design_rationale": "利用4杯数量提升套组价值，将价格带拉升至199元上限。设计尺寸缩小（H 42, D_rim 68），使4个杯子能更紧凑地排列在单个收纳托盘上，视觉上更整齐，增强礼盒的震撼感。采用relief（浮雕/刻花）增加细节，回应了市场洞察中“素面易显单调，难支撑199元高价”的风险点，通过暗纹增加“轻奢高定感”。",
+        "evidence_needed": [
+          "4杯套装的物流破损率测试，尤其是包装内多个薄胎杯相互碰撞的磨损风险。",
+          "刻花暗纹在1.5mm薄胎上的成型模具精度评估。"
+        ]
+      }
+    ],
+    "engine": {
+      "c1": {
+        "design": {
+          "template": "pinming_cup",
+          "params": {
+            "H": 48,
+            "D_rim": 76,
+            "D_foot": 34,
+            "h_foot": 4,
+            "t_wall": 2,
+            "t_bottom": 2,
+            "roundness": 0.65,
+            "bulge": 3,
+            "belly_z": 0.45,
+            "flare": 2
+          },
+          "points": null,
+          "material": "dehua_highwhite",
+          "forming": "slip_casting",
+          "decoration": "plain",
+          "claimsMicrowave": false
+        },
+        "metrics": {
+          "capacityFull": 118,
+          "capacityUse": 101,
+          "weight": 55,
+          "D_max": 76,
+          "closed": false
+        },
+        "summary": {
+          "pass": 9,
+          "warn": 0,
+          "fail": 0
+        },
+        "failing": [],
+        "mold": 2,
+        "cost": {
+          "complexity": "simple",
+          "traditional": {
+            "rounds": [
+              2,
+              2
+            ],
+            "cost": [
+              6000,
+              20000
+            ],
+            "days": [
+              12,
+              22
+            ]
+          },
+          "onefire": {
+            "rounds": [
+              1,
+              1
+            ],
+            "cost": [
+              3200,
+              10800
+            ],
+            "days": [
+              4,
+              7
+            ]
+          },
+          "perRound": [
+            3000,
+            10000
+          ],
+          "moldPieces": 2
+        },
+        "green": {
+          "roundsSaved": 1,
+          "kwh": 150,
+          "co2": 86.7
+        },
+        "notes": []
+      },
+      "c2": {
+        "design": {
+          "template": "pinming_cup",
+          "params": {
+            "H": 55,
+            "D_rim": 82,
+            "D_foot": 38,
+            "h_foot": 5,
+            "t_wall": 2,
+            "t_bottom": 2.5,
+            "roundness": 0.8,
+            "bulge": 1,
+            "belly_z": 0.55,
+            "flare": 4
+          },
+          "points": null,
+          "material": "dehua_highwhite",
+          "forming": "slip_casting",
+          "decoration": "plain",
+          "claimsMicrowave": false
+        },
+        "metrics": {
+          "capacityFull": 129,
+          "capacityUse": 108,
+          "weight": 67,
+          "D_max": 82,
+          "closed": false
+        },
+        "summary": {
+          "pass": 9,
+          "warn": 0,
+          "fail": 0
+        },
+        "failing": [],
+        "mold": 2,
+        "cost": {
+          "complexity": "simple",
+          "traditional": {
+            "rounds": [
+              2,
+              2
+            ],
+            "cost": [
+              6000,
+              20000
+            ],
+            "days": [
+              12,
+              22
+            ]
+          },
+          "onefire": {
+            "rounds": [
+              1,
+              1
+            ],
+            "cost": [
+              3200,
+              10800
+            ],
+            "days": [
+              4,
+              7
+            ]
+          },
+          "perRound": [
+            3000,
+            10000
+          ],
+          "moldPieces": 2
+        },
+        "green": {
+          "roundsSaved": 1,
+          "kwh": 150,
+          "co2": 86.7
+        },
+        "notes": []
+      },
+      "c3": {
+        "design": {
+          "template": "pinming_cup",
+          "params": {
+            "H": 42,
+            "D_rim": 68,
+            "D_foot": 30,
+            "h_foot": 3.5,
+            "t_wall": 2.5,
+            "t_bottom": 2,
+            "roundness": 0.55,
+            "bulge": 4,
+            "belly_z": 0.4,
+            "flare": 1
+          },
+          "points": null,
+          "material": "dehua_highwhite",
+          "forming": "slip_casting",
+          "decoration": "relief",
+          "claimsMicrowave": false
+        },
+        "metrics": {
+          "capacityFull": 88,
+          "capacityUse": 77,
+          "weight": 54,
+          "D_max": 68,
+          "closed": false
+        },
+        "summary": {
+          "pass": 9,
+          "warn": 0,
+          "fail": 0
+        },
+        "failing": [],
+        "mold": 3,
+        "cost": {
+          "complexity": "simple",
+          "traditional": {
+            "rounds": [
+              2,
+              2
+            ],
+            "cost": [
+              6000,
+              20000
+            ],
+            "days": [
+              12,
+              22
+            ]
+          },
+          "onefire": {
+            "rounds": [
+              1,
+              1
+            ],
+            "cost": [
+              3200,
+              10800
+            ],
+            "days": [
+              4,
+              7
+            ]
+          },
+          "perRound": [
+            3000,
+            10000
+          ],
+          "moldPieces": 3
+        },
+        "green": {
+          "roundsSaved": 1,
+          "kwh": 150,
+          "co2": 86.7
+        },
+        "notes": []
+      }
+    },
+    "engineBefore": {
+      "c1": {
+        "design": {
+          "template": "pinming_cup",
+          "params": {
+            "H": 48,
+            "D_rim": 76,
+            "D_foot": 34,
+            "h_foot": 4,
+            "t_wall": 1.5,
+            "t_bottom": 2,
+            "roundness": 0.65,
+            "bulge": 3,
+            "belly_z": 0.45,
+            "flare": 2
+          },
+          "points": null,
+          "material": "dehua_highwhite",
+          "forming": "slip_casting",
+          "decoration": "plain",
+          "claimsMicrowave": false
+        },
+        "metrics": {
+          "capacityFull": 121,
+          "capacityUse": 104,
+          "weight": 44,
+          "D_max": 76,
+          "closed": false
+        },
+        "summary": {
+          "pass": 8,
+          "warn": 0,
+          "fail": 1
+        },
+        "failing": [
+          {
+            "id": "wall_min",
+            "name": "最小壁厚",
+            "status": "fail",
+            "value": "1.5 mm",
+            "limit": "≥ 2 mm",
+            "message": "壁厚 1.5 mm 低于德化高白瓷·注浆（含高压注浆）下限，脱模易裂、烧成易变形",
+            "fix": "建议壁厚 ≥ 2 mm；如坚持薄胎需手工修坯并接受成品率下降"
+          }
+        ],
+        "mold": 2,
+        "cost": {
+          "complexity": "simple",
+          "traditional": {
+            "rounds": [
+              2,
+              2
+            ],
+            "cost": [
+              6000,
+              20000
+            ],
+            "days": [
+              12,
+              22
+            ]
+          },
+          "onefire": {
+            "rounds": [
+              1,
+              1
+            ],
+            "cost": [
+              3200,
+              10800
+            ],
+            "days": [
+              4,
+              7
+            ]
+          },
+          "perRound": [
+            3000,
+            10000
+          ],
+          "moldPieces": 2
+        },
+        "green": {
+          "roundsSaved": 1,
+          "kwh": 150,
+          "co2": 86.7
+        },
+        "notes": []
+      },
+      "c2": {
+        "design": {
+          "template": "pinming_cup",
+          "params": {
+            "H": 55,
+            "D_rim": 82,
+            "D_foot": 38,
+            "h_foot": 5,
+            "t_wall": 1.5,
+            "t_bottom": 2.5,
+            "roundness": 0.8,
+            "bulge": 1,
+            "belly_z": 0.55,
+            "flare": 4
+          },
+          "points": null,
+          "material": "dehua_highwhite",
+          "forming": "slip_casting",
+          "decoration": "plain",
+          "claimsMicrowave": false
+        },
+        "metrics": {
+          "capacityFull": 132,
+          "capacityUse": 111,
+          "weight": 55,
+          "D_max": 82,
+          "closed": false
+        },
+        "summary": {
+          "pass": 8,
+          "warn": 0,
+          "fail": 1
+        },
+        "failing": [
+          {
+            "id": "wall_min",
+            "name": "最小壁厚",
+            "status": "fail",
+            "value": "1.5 mm",
+            "limit": "≥ 2 mm",
+            "message": "壁厚 1.5 mm 低于德化高白瓷·注浆（含高压注浆）下限，脱模易裂、烧成易变形",
+            "fix": "建议壁厚 ≥ 2 mm；如坚持薄胎需手工修坯并接受成品率下降"
+          }
+        ],
+        "mold": 2,
+        "cost": {
+          "complexity": "simple",
+          "traditional": {
+            "rounds": [
+              2,
+              2
+            ],
+            "cost": [
+              6000,
+              20000
+            ],
+            "days": [
+              12,
+              22
+            ]
+          },
+          "onefire": {
+            "rounds": [
+              1,
+              1
+            ],
+            "cost": [
+              3200,
+              10800
+            ],
+            "days": [
+              4,
+              7
+            ]
+          },
+          "perRound": [
+            3000,
+            10000
+          ],
+          "moldPieces": 2
+        },
+        "green": {
+          "roundsSaved": 1,
+          "kwh": 150,
+          "co2": 86.7
+        },
+        "notes": []
+      },
+      "c3": {
+        "design": {
+          "template": "pinming_cup",
+          "params": {
+            "H": 42,
+            "D_rim": 68,
+            "D_foot": 30,
+            "h_foot": 3.5,
+            "t_wall": 1.5,
+            "t_bottom": 2,
+            "roundness": 0.55,
+            "bulge": 4,
+            "belly_z": 0.4,
+            "flare": 1
+          },
+          "points": null,
+          "material": "dehua_highwhite",
+          "forming": "slip_casting",
+          "decoration": "relief",
+          "claimsMicrowave": false
+        },
+        "metrics": {
+          "capacityFull": 95,
+          "capacityUse": 83,
+          "weight": 36,
+          "D_max": 68,
+          "closed": false
+        },
+        "summary": {
+          "pass": 8,
+          "warn": 0,
+          "fail": 1
+        },
+        "failing": [
+          {
+            "id": "wall_min",
+            "name": "最小壁厚",
+            "status": "fail",
+            "value": "1.5 mm",
+            "limit": "≥ 2 mm",
+            "message": "壁厚 1.5 mm 低于德化高白瓷·注浆（含高压注浆）下限，脱模易裂、烧成易变形",
+            "fix": "建议壁厚 ≥ 2 mm；如坚持薄胎需手工修坯并接受成品率下降"
+          }
+        ],
+        "mold": 3,
+        "cost": {
+          "complexity": "simple",
+          "traditional": {
+            "rounds": [
+              2,
+              2
+            ],
+            "cost": [
+              6000,
+              20000
+            ],
+            "days": [
+              12,
+              22
+            ]
+          },
+          "onefire": {
+            "rounds": [
+              1,
+              1
+            ],
+            "cost": [
+              3200,
+              10800
+            ],
+            "days": [
+              4,
+              7
+            ]
+          },
+          "perRound": [
+            3000,
+            10000
+          ],
+          "moldPieces": 3
+        },
+        "green": {
+          "roundsSaved": 1,
+          "kwh": 150,
+          "co2": 86.7
+        },
+        "notes": []
+      }
+    },
+    "craft": [
+      {
+        "concept_id": "c1",
+        "feasibility": "warn",
+        "key_risks": [
+          {
+            "risk": "1.5mm 壁厚低于德化高白瓷注浆工艺下限（≥2.0mm），高压注浆脱模及 1300℃ 烧成阶段易发生开裂、变形。",
+            "source": "engine:wall_min",
+            "severity": "high",
+            "mitigation": "修改壁厚参数至 2.0mm 以上。若坚持 1.5mm 极致轻薄视觉，需将工艺调整为拉坯或注浆+手工修坯，模具结构需预留手工减薄空间，成品率预估将下降至 60%-70%，需在成本核算中预留废品费用。"
+          },
+          {
+            "risk": "1.5mm 高白瓷透光性极强，坯体收缩率波动会导致杯体呈色不均，出现局部厚薄不一的色差。",
+            "source": "judgement",
+            "severity": "med",
+            "mitigation": "控制注浆泥浆悬浮稳定度（添加适量硅酸钠或分散剂），脱模后静置时间精确到分钟，确保各片模具吸水率一致。"
+          },
+          {
+            "risk": "礼盒运输中薄胎杯碰撞风险。",
+            "source": "kb:ecommerce_playbook",
+            "severity": "med",
+            "mitigation": "EPE 珍珠棉内托需设计独立分隔卡槽，并增加侧向缓冲，避免杯体相互接触。"
+          }
+        ],
+        "param_fixes": {
+          "t_wall": 2
+        },
+        "process_plan": {
+          "forming": "slip_casting (高压注浆)",
+          "mold_pieces": 2,
+          "firing": "一次烧成约 1300℃（高白瓷需严格控制还原气氛转氧化气氛的节点）",
+          "glaze_notes": "china_white_ivory（象牙白）釉浆需具备良好流延性，覆盖 2.0mm 以上坯体不透，透光卖点需通过烧成后的胎体厚度实现，釉层需薄施（约 0.2-0.3mm）。",
+          "decoration_notes": "全器素面。足底露胎需保留坯体原色，打磨要求极严，防止露出黑色杂质。"
+        },
+        "food_safety": {
+          "microwave": true,
+          "dishwasher": true,
+          "notes": "高白瓷素面可安全微波，但需说明避免金属餐具直接接触。釉上无彩，无重金属析出风险。"
+        },
+        "moq_suggestion": "建议 500 套/款。依据：2 片模具成本摊薄及窑位装载量（单层可装约 300-500 个杯，需配合茶托）。",
+        "sampling_plan": "3D 打印母模验证壁厚分布 -> 翻制 2 片石膏模 -> 高压注浆打样 2 轮 -> 试烧 20 个，重点测 1.5mm（或修正后的 2.0mm）成品的形变率与透光均匀性。",
+        "verified_digitally": [
+          "壁厚分布",
+          "容量 121ml",
+          "模具片数 2"
+        ],
+        "needs_physical_trial": [
+          "烧成收缩率",
+          "成品率（废品率）",
+          "釉面覆盖均匀性",
+          "物流防震测试"
+        ]
+      },
+      {
+        "concept_id": "c2",
+        "feasibility": "warn",
+        "key_risks": [
+          {
+            "risk": "1.5mm 壁厚且杯体偏高（H=55mm）微直筒，结构刚性不足，脱模及出窑易变形弯曲。",
+            "source": "engine:wall_min",
+            "severity": "high",
+            "mitigation": "建议将 t_wall 修正为 2.0-2.5mm。若坚持 1.5mm，建议在杯底增加加强筋或采用二次注浆增厚底圈，仅杯身上部保留薄胎。"
+          },
+          {
+            "risk": "鹅绒白（goose_down_white）釉色为浅色调，对 1.5mm 薄胎的针孔、杂质极其敏感，易显脏。",
+            "source": "kb:ecommerce_playbook",
+            "severity": "med",
+            "mitigation": "注浆前需进行泥浆离心除气，釉浆需过 150 目筛，试烧时重点检查杯口 20mm 区域（饮用区）的釉面平整度。"
+          },
+          {
+            "risk": "单杯引流款定价 129-149 元，若废品率高于常规款，毛利空间将被挤压。",
+            "source": "judgement",
+            "severity": "low",
+            "mitigation": "需在打样阶段核算包含废品在内的完全成本，若废品率导致成本超标，需调整壁厚牺牲极致轻薄感，或提升单杯溢价能力（如包装升级）。"
+          }
+        ],
+        "param_fixes": {
+          "t_wall": 2
+        },
+        "process_plan": {
+          "forming": "slip_casting (高压注浆)",
+          "mold_pieces": 2,
+          "firing": "一次烧成约 1300℃",
+          "glaze_notes": "鹅绒白釉浆需调整烧成曲线，确保低温段挥发物完全排出，避免针孔。釉层施厚至 0.5mm 以保证覆盖度。",
+          "decoration_notes": "素面，无装饰。口沿 flare 4mm 微撇，需修整确保圆度，避免倾斜。"
+        },
+        "food_safety": {
+          "microwave": true,
+          "dishwasher": true,
+          "notes": "无装饰，安全。"
+        },
+        "moq_suggestion": "建议 1000 件/款。依据：单杯生产效率高，模具结构简单（2片），可大批量窑位满载降低单件能耗。",
+        "sampling_plan": "3D 打印 -> 石膏模 -> 注浆打样。需测量 55mm 高度杯体在干燥及烧成后的垂直度（挠度）。",
+        "verified_digitally": [
+          "容量 132ml",
+          "模具片数 2",
+          "垂直度"
+        ],
+        "needs_physical_trial": [
+          "鹅绒白釉面针孔检查",
+          "1.5mm/2.0mm 壁厚下的杯体挠度",
+          "废品率统计"
+        ]
+      },
+      {
+        "concept_id": "c3",
+        "feasibility": "fail",
+        "key_risks": [
+          {
+            "risk": "1.5mm 壁厚且带 relief（暗纹/刻花），模具精度无法保证，注浆后浮雕处壁厚可能薄于 1.0mm，烧成必裂。",
+            "source": "engine:wall_min",
+            "severity": "high",
+            "mitigation": "取消 relief 装饰或增大 t_wall 至 3.0mm 以上。若坚持暗纹，需将浮雕深度控制在 0.3mm 以内，并改用釉上彩替代浮雕，或仅在杯底进行刻花（非受力区）。"
+          },
+          {
+            "risk": "4 杯套装体积紧凑，杯间摩擦在包装运输中易造成釉面或坯体磨损。",
+            "source": "kb:ecommerce_playbook",
+            "severity": "med",
+            "mitigation": "木质托盘需使用 EVA 或高密度珍珠棉开槽，确保杯体之间无物理接触，且留有一定膨胀余量。"
+          },
+          {
+            "risk": "高端礼盒（木盒）成本高昂，加上薄胎杯废品率，目标价 179-199 元难以覆盖成本。",
+            "source": "judgement",
+            "severity": "high",
+            "mitigation": "建议将收纳底座从“碗”概念改为简单的“纸卡/亚克力展示架”，或取消实体底座，仅在礼盒内使用卡纸定位。"
+          }
+        ],
+        "param_fixes": {
+          "t_wall": 2.5,
+          "decoration": "plain (或釉上彩)"
+        },
+        "process_plan": {
+          "forming": "slip_casting",
+          "mold_pieces": 3,
+          "firing": "一次烧成约 1300℃",
+          "glaze_notes": "象牙白釉，需重点测试釉面韧性。",
+          "decoration_notes": "建议将 relief 改为釉上彩（如描金或浅灰色线条），避免模具减薄带来的开裂风险。釉上彩需二次低温烧（约 800℃），注意口沿处无彩。"
+        },
+        "food_safety": {
+          "microwave": true,
+          "dishwasher": true,
+          "notes": "若改用釉上彩，需声明避免金属餐具刮擦釉彩，但不建议微波（若含金/银彩则禁微波，纯黑/灰彩可微波但需确认材质）。"
+        },
+        "moq_suggestion": "建议 300 套/款。依据：套装组合复杂度高，模具 3 片（杯+底座），需控制周转以维持现金流。",
+        "sampling_plan": "先解决壁厚与浮雕矛盾，再打样 4 杯+托盘套装，进行跌落测试（1m 跌落 6 面）。",
+        "verified_digitally": [
+          "容量 95ml",
+          "套装体积"
+        ],
+        "needs_physical_trial": [
+          "浮雕处壁厚",
+          "套装抗压性",
+          "釉上彩附着力"
+        ]
+      }
+    ],
+    "critic": {
+      "scores": [
+        {
+          "concept_id": "c1",
+          "market": 25,
+          "manufacturability": 18,
+          "cost": 13,
+          "differentiation": 12,
+          "compliance": 13,
+          "total": 81,
+          "comment": "市场切入精准，但存在核心参数冲突。需求明确要求 1.5mm 杯壁，但引擎 DFM 与工艺工程师均指出 1.5mm 低于注浆工艺下限（≥2.0mm），当前 t_wall 参数仍为 2.0mm，未完全对齐需求“严格 1.5mm”的硬性约束，也未体现“极致轻薄”的视觉差异。若坚持 1.5mm，需改用拉坯或半手工工艺，成本将显著上升。当前方案作为“轻奢套组”具备礼品属性，但壁厚参数未解决需求核心痛点。"
+        },
+        {
+          "concept_id": "c2",
+          "market": 24,
+          "manufacturability": 18,
+          "cost": 14,
+          "differentiation": 11,
+          "compliance": 14,
+          "total": 81,
+          "comment": "单杯引流款定位清晰，北欧简约风格适配办公室场景。同样存在 t_wall=2.0mm 与需求 1.5mm 的冲突。鹅绒白釉色对杂质敏感，且单杯 129-149 元定价在包含废品率后毛利可能不足。作为单品缺乏“套组”的礼品仪式感，但作为入门款易决策。"
+        },
+        {
+          "concept_id": "c3",
+          "market": 26,
+          "manufacturability": 8,
+          "cost": 10,
+          "differentiation": 13,
+          "compliance": 12,
+          "total": 69,
+          "comment": "工艺可行性为 fail。浮雕（relief）装饰与 1.5mm/2.5mm 薄胎注浆工艺存在严重冲突，模具无法保证浮雕处壁厚，烧成必裂风险极高。且 4 杯+木质底座的高端礼盒成本难以覆盖 199 元限价。需彻底重构工艺路径（如改用釉上彩或取消浮雕）并重新核算成本。"
+        }
+      ],
+      "recommended": "c1",
+      "recommend_reason": "c1 虽存在壁厚参数需修正的问题，但其“套组+礼盒”形态最符合 25-35 岁女性“送礼/下午茶”双重场景，且引擎 DFM 通过率高（无 fail），模具片数少（2 片），制造复杂度低，是三个方案中唯一能兼顾市场吸引力与基本可制造性的方案。c3 存在硬性工艺阻断，c2 礼品属性弱。推荐 c1 作为首选，但必须立即修正壁厚参数与工艺路径的矛盾。",
+      "must_fix": [
+        {
+          "concept_id": "c1",
+          "field": "hero_shape.params.t_wall",
+          "issue": "当前参数 t_wall=2.0mm，与需求“严格 1.5mm”冲突。引擎与工艺工程师指出 1.5mm 低于注浆下限，若维持注浆工艺需改为 2.0mm 并调整卖点；若坚持 1.5mm 需改为拉坯/手工减薄工艺，成本结构将改变。",
+          "fix": "方案 A（推荐）：将 t_wall 改为 2.0，卖点从“1.5mm极致”改为“2.0mm超薄玻璃感”，确保注浆工艺可量产；方案 B：将 forming 改为 throwing（拉坯），t_wall 改为 1.5，并在 evidence_needed 中补充拉坯人工成本核算。"
+        },
+        {
+          "concept_id": "c1",
+          "field": "selling_points_draft[0]",
+          "issue": "卖点直接引用“1.5mm极致薄胎”，但参数为 2.0mm，存在虚假宣传风险，且与 DFM 结果冲突。",
+          "fix": "若采用方案 A，改为“2.0mm超薄胎体，视觉轻盈，茶汤透光”；若采用方案 B，保留 1.5mm 但需补充工艺可行性证明。"
+        },
+        {
+          "concept_id": "c3",
+          "field": "hero_shape.decoration",
+          "issue": "relief（浮雕）与薄胎注浆工艺不兼容，导致 DFM fail。",
+          "fix": "改为 plain（素面）或 glaze_on（釉上彩），并移除木质底座，改用纸质内托以控制成本。"
+        },
+        {
+          "concept_id": "c2",
+          "field": "hero_shape.params.t_wall",
+          "issue": "参数 2.0mm 与需求 1.5mm 不符。",
+          "fix": "同 c1，需明确工艺路径与壁厚的匹配关系，修正卖点描述。"
+        }
+      ],
+      "summary_for_user": "选 c1 套组方案。注意：需求要 1.5mm，但注浆工艺做不到，要么改成 2.0mm 保量产，要么换拉坯工艺加成本。c3 浮雕做法会裂，别做。c1 需修正壁厚参数与卖点一致性后进入打样。"
+    }
+  }
+}
